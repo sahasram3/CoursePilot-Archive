@@ -307,7 +307,7 @@ function downloadCsv(response: PlanResponse, plan: Plan) {
   const url = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
   const a = document.createElement("a");
   a.href = url;
-  a.download = "prereqpath-plan.csv";
+  a.download = "coursepilot-plan.csv";
   a.click();
   URL.revokeObjectURL(url);
 }

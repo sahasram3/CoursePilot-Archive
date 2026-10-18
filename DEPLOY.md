@@ -1,6 +1,6 @@
-# Deploying PreReqPath
+# Deploying CoursePilot
 
-PreReqPath ships as **one container**: FastAPI serves both the API (`/api/*`) and the built React app. There's no
+CoursePilot ships as **one container**: FastAPI serves both the API (`/api/*`) and the built React app. There's no
 database, and the catalog is read-only JSON baked into the image. Any host that runs a Docker image works.
 
 The image was built and verified locally: `docker build` succeeded (543 MB). The container passed the full
@@ -32,8 +32,8 @@ fly deploy
 ## Option C: any Docker host (Railway, Cloud Run, a VM)
 
 ```bash
-docker build -t prereqpath .
-docker run -d -p 80:8000 --restart unless-stopped prereqpath
+docker build -t coursepilot .
+docker run -d -p 80:8000 --restart unless-stopped coursepilot
 ```
 
 The image honors `$PORT`, which Cloud Run and Railway set automatically. It runs as a non-root user and includes a

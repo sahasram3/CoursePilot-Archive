@@ -1,6 +1,6 @@
 {
  "catalog_year": "2026-2027",
- "verified_by": "PreReqPath review (AI-assisted, Claude) against catalog course descriptions",
+ "verified_by": "CoursePilot review (AI-assisted, Claude) against catalog course descriptions",
  "verified_on": "2026-10-17",
  "scope": "Courses the Mathematics B.A. and Economics B.A. planners can reach; each entry stores the reviewed tree. Other courses keep their parser status.",
  "courses": {

@@ -6,7 +6,7 @@
   "catalog_year": "2026-2027",
   "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
   "total_hours": 31,
-  "verified_by": "PreReqPath review (AI-assisted, Claude) against the live catalog page; not an official UNC review",
+  "verified_by": "CoursePilot review (AI-assisted, Claude) against the live catalog page; not an official UNC review",
   "verified_on": "2026-10-17",
   "verified_requirements_sha256": "68af82a9fda16c698a2043986511b865e89a11922a70122f4aa9e617abbefc20",
   "notes": [

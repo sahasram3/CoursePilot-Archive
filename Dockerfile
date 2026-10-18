@@ -1,6 +1,6 @@
-# PreReqPath: one container serving the FastAPI API and the built React app.
-#   docker build -t prereqpath .
-#   docker run -p 8000:8000 prereqpath        -> http://localhost:8000
+# CoursePilot: one container serving the FastAPI API and the built React app.
+#   docker build -t coursepilot .
+#   docker run -p 8000:8000 coursepilot        -> http://localhost:8000
 
 # ---- 1. build the frontend --------------------------------------------------
 FROM node:20-alpine AS web

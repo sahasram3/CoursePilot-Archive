@@ -1,4 +1,4 @@
-# PreReqPath — Product Requirements
+# CoursePilot — Product Requirements
 
 ## Promise
 A UNC-Chapel Hill undergraduate selects 1–2 majors and 0–2 minors (at most three programs), enters completed,

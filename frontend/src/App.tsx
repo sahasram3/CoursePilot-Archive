@@ -119,7 +119,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="top">
-        <div className="brand"><span className="logo" aria-hidden>P</span> PreReqPath <span className="ai">AI</span></div>
+        <div className="brand"><span className="logo" aria-hidden>C</span> CoursePilot</div>
         <nav className="top-meta">
           <span className="catalog-tag">UNC-Chapel Hill · {YEAR} catalog</span>
         </nav>
@@ -186,7 +186,7 @@ export default function App() {
         </main>
       )}
       <footer>
-        PreReqPath is an independent student project, not affiliated with or endorsed by UNC-Chapel Hill. Plans are
+        CoursePilot is an independent student project, not affiliated with or endorsed by UNC-Chapel Hill. Plans are
         provisional and never graduation-certified; confirm with your academic advisor and Tar Heel Tracker.
       </footer>
       {drawer && <CourseDrawer code={drawer} year={YEAR} planned={planned.get(drawer)} onClose={() => setDrawer(null)} />}
@@ -200,7 +200,7 @@ function Hero() {
       <span className="eyebrow">Semester-by-semester degree planning</span>
       <h1>Your path to graduation, solved.</h1>
       <p className="lede">
-        Tell PreReqPath where you are: courses taken, AP/IB scores, transfer hours. It builds a full plan to
+        Tell CoursePilot where you are: courses taken, AP/IB scores, transfer hours. It builds a full plan to
         graduation that respects every prerequisite chain, credit limit, and degree rule it models, and explains
         exactly why when a goal isn't possible.
       </p>

@@ -45,7 +45,7 @@ async def lifespan(_: FastAPI):
     yield
 
 
-app = FastAPI(title="PreReqPath", version="1.0.0", lifespan=lifespan,
+app = FastAPI(title="CoursePilot", version="1.0.0", lifespan=lifespan,
               description="Provisional semester-by-semester planning from the UNC-Chapel Hill catalog. "
                           "Not an official degree audit.")
 app.add_middleware(GZipMiddleware, minimum_size=1024)

@@ -22,7 +22,7 @@ import httpx
 from .. import DATA_DIR
 
 BASE = "https://catalog.unc.edu"
-USER_AGENT = "PreReqPathAI/0.10 (student degree-planning project; polite, cached, robots-aware)"
+USER_AGENT = "CoursePilot/1.0 (student degree-planning project; polite, cached, robots-aware)"
 FORBIDDEN_PREFIXES = ("/archives/",)
 MIN_DELAY_SECONDS = 1.5
 

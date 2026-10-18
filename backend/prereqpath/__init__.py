@@ -1,4 +1,4 @@
-﻿"""PreReqPath: semester-by-semester degree planning for UNC Chapel Hill."""
+"""CoursePilot: semester-by-semester degree planning for UNC Chapel Hill."""
 import os
 from pathlib import Path
 

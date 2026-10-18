@@ -1,15 +1,15 @@
-# PreReqPath AI
+# CoursePilot
 
 **Semester-by-semester degree planning for UNC-Chapel Hill, built on the real catalog and a constraint solver.**
 
 A student picks a major (or a double major), enters the credit they already have (UNC courses, AP/IB scores,
-transfer hours) and a graduation term. PreReqPath returns a complete plan to graduation that respects every
+transfer hours) and a graduation term. CoursePilot returns a complete plan to graduation that respects every
 prerequisite chain, credit limit and modeled degree rule. When a goal is impossible, it explains *why* and offers
 fixes it has already verified.
 
 ![Semester plan](docs/screenshots/02-plan.png)
 
-> **Provisional by design.** PreReqPath is an independent student project, not an official UNC degree audit.
+> **Provisional by design.** CoursePilot is an independent student project, not an official UNC degree audit.
 > Every plan is labeled provisional and never "graduation-certified". Verified catalog facts and uncertain
 > interpretations are always shown separately.
 
@@ -120,7 +120,7 @@ cd backend && ../.venv/Scripts/python -m uvicorn prereqpath.api:app --port 8000
 Open <http://127.0.0.1:8000>. For UI development, keep the API running and use `npm run dev` in `frontend/`
 (Vite on :5173, proxying `/api`).
 
-**Docker:** `docker build -t prereqpath . && docker run -p 8000:8000 prereqpath`
+**Docker:** `docker build -t coursepilot . && docker run -p 8000:8000 coursepilot`
 **Deploying:** see [DEPLOY.md](DEPLOY.md) (Render blueprint included).
 
 ## Tests
@@ -168,5 +168,5 @@ Rebuild the data with `python -m prereqpath.catalog.build courses|programs|exams
 
 ---
 
-*PreReqPath is not affiliated with or endorsed by UNC-Chapel Hill. The pre-rebuild prototype (v0.7–v2.9) is
+*CoursePilot is not affiliated with or endorsed by UNC-Chapel Hill. The pre-rebuild prototype (v0.7–v2.9) is
 preserved on the `backup/v29-prototype` branch.*
