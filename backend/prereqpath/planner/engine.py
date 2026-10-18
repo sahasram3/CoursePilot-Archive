@@ -644,7 +644,9 @@ def _extract(pm: PlanModel, solver: cp_model.CpSolver, chosen: list[tuple[str, i
             reasons, req_ids = [], []
             for pid, node_id in used_by.get(code, []):
                 program, node = nodes[(pid, node_id)]
-                reasons.append(f"{program.name}: {node.label}")
+                # A course node's label is the course itself; name the program instead of repeating it.
+                reasons.append(f"Required for {program.name}" if node.kind == "course" and node.course == code
+                               else f"{program.name}: {node.label}")
                 req_ids.append(node_id)
             unlocks = sorted(other for other in planned_term if other != code and code in
                              {e for rc, _ in _requisite_courses(ctx.store.courses[other].prerequisites)
