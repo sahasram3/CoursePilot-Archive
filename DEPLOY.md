@@ -1,0 +1,83 @@
+# Deploying PreReqPath
+
+PreReqPath ships as **one container**: FastAPI serves both the API (`/api/*`) and the built React app. There's no
+database, and the catalog is read-only JSON baked into the image. Any host that runs a Docker image works.
+
+The image was built and verified locally: `docker build` succeeded (543 MB). The container passed the full
+browser end-to-end suite and handled six concurrent double-major plan requests without errors.
+
+## Option A: Render (blueprint included)
+
+1. Push this repository to GitHub.
+2. In Render: **New → Blueprint**, then select the repository. `render.yaml` defines a Docker web service with a
+   health check on `/api/health`.
+3. Deploy, and open the `*.onrender.com` URL.
+
+The `starter` plan is recommended. The free plan works, but it sleeps when idle, so the first request after a nap
+takes about a minute.
+
+## Option B: Fly.io
+
+```bash
+fly launch --dockerfile Dockerfile --internal-port 8000 --no-deploy
+fly scale memory 1024
+fly deploy
+```
+
+## Option C: any Docker host (Railway, Cloud Run, a VM)
+
+```bash
+docker build -t prereqpath .
+docker run -d -p 80:8000 --restart unless-stopped prereqpath
+```
+
+The image honors `$PORT`, which Cloud Run and Railway set automatically. It runs as a non-root user and includes a
+`HEALTHCHECK`.
+
+## Configuration
+
+All settings are optional; see `.env.example`.
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `PORT` | `8000` | Listening port |
+| `PREREQPATH_MAX_CONCURRENT` | `2` | Simultaneous plan solves (each uses several CPU-seconds). Excess requests wait up to 15 s, then get HTTP 503 with a retry message. Raise it on bigger machines. |
+| `PREREQPATH_DATA_DIR` | `<repo>/data` | Location of `catalog/` and `verified/` |
+| `PREREQPATH_CORS_ORIGINS` | unset | Only if the frontend is hosted on a different origin (comma-separated) |
+| `VITE_API_BASE` | unset | **Frontend build-time** API URL, used only for split hosting |
+
+### Sizing
+
+Use 1 vCPU and 1 GB RAM for a demo; the container measured about 300 MB resident after serving concurrent solves.
+CP-SAT uses up to 8 search threads per solve, so more vCPUs shorten double-major solves.
+
+## Split hosting (optional)
+
+To host the static frontend on Vercel or Netlify and the API elsewhere:
+
+```bash
+cd frontend
+VITE_API_BASE=https://your-api.example.com npm run build     # deploy frontend/dist
+```
+
+Then set `PREREQPATH_CORS_ORIGINS=https://your-frontend.example.com` on the API.
+
+## Post-deploy smoke test
+
+```bash
+curl -s https://YOUR-APP/api/health          # {"ok":true}
+cd frontend && BASE_URL=https://YOUR-APP npm run e2e
+```
+
+## Updating catalog data
+
+```bash
+cd backend
+python -m prereqpath.catalog.build courses      # ~4 min, rate-limited
+python -m prereqpath.catalog.build programs
+python -m prereqpath.catalog.build exams
+python -m pytest                                # verified overlays fail loudly if catalog text changed
+```
+
+Commit the updated `data/catalog/` and redeploy. If UNC changed a verified program's text, the app shows it as
+"Catalog changed: re-review" until the overlay in `data/verified/` is re-checked.

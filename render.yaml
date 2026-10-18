@@ -1,0 +1,12 @@
+# Render Blueprint: New > Blueprint > select this repository.
+services:
+  - type: web
+    name: prereqpath
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter            # "free" also works but sleeps when idle (first request then takes ~1 min)
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: PREREQPATH_MAX_CONCURRENT
+        value: "2"

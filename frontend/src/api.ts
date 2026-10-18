@@ -1,7 +1,11 @@
 import type { CourseDetail, CourseHit, ExamCatalog, Placement, PlanRequest, PlanResponse, ProgramListing } from "./types";
 
+// Same-origin by default (FastAPI serves the app). Set VITE_API_BASE at build time
+// only when the frontend is hosted separately from the API.
+const API_BASE = (import.meta.env.VITE_API_BASE ?? "").replace(/\/$/, "");
+
 async function getJson<T>(url: string, init?: RequestInit): Promise<T> {
-  const response = await fetch(url, init);
+  const response = await fetch(API_BASE + url, init);
   const body = await response.json().catch(() => ({}));
   if (!response.ok) {
     const detail = (body as { detail?: unknown }).detail;

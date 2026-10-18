@@ -1,13 +1,23 @@
 """HTTP API (FastAPI). Also serves the built React app from frontend/dist.
 
     uvicorn prereqpath.api:app --port 8000
+
+Environment (all optional):
+    PREREQPATH_DATA_DIR          catalog data directory (default: <repo>/data)
+    PREREQPATH_MAX_CONCURRENT    simultaneous plan solves (default 2); extra requests get HTTP 503
+    PREREQPATH_CORS_ORIGINS      comma-separated origins, only if the frontend is hosted elsewhere
 """
 from __future__ import annotations
 
+import os
+import threading
+from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -19,10 +29,37 @@ from .planner.schemas import PlanRequest, PlanResponse
 from .policy import policies
 from .store import available_catalog_years, get_store
 
-app = FastAPI(title="PreReqPath", version="0.10.0",
+DEFAULT_YEAR = "2026-2027"
+# Each solve uses several CPU-seconds; cap concurrency so a burst degrades to clear
+# "busy, retry" responses instead of a stalled server.
+SOLVE_SLOTS = threading.BoundedSemaphore(int(os.environ.get("PREREQPATH_MAX_CONCURRENT", "2")))
+
+
+@asynccontextmanager
+async def lifespan(_: FastAPI):
+    for year in available_catalog_years():
+        get_store(year)          # load the catalog once at startup, not on the first request
+    yield
+
+
+app = FastAPI(title="PreReqPath", version="1.0.0", lifespan=lifespan,
               description="Provisional semester-by-semester planning from the UNC-Chapel Hill catalog. "
                           "Not an official degree audit.")
-DEFAULT_YEAR = "2026-2027"
+app.add_middleware(GZipMiddleware, minimum_size=1024)
+if os.environ.get("PREREQPATH_CORS_ORIGINS"):
+    app.add_middleware(CORSMiddleware, allow_methods=["GET", "POST"], allow_headers=["Content-Type"],
+                       allow_origins=[o.strip() for o in os.environ["PREREQPATH_CORS_ORIGINS"].split(",") if o.strip()])
+
+
+@app.middleware("http")
+async def security_headers(request: Request, call_next):
+    response = await call_next(request)
+    response.headers.setdefault("X-Content-Type-Options", "nosniff")
+    response.headers.setdefault("Referrer-Policy", "strict-origin-when-cross-origin")
+    response.headers.setdefault("X-Frame-Options", "DENY")
+    if request.url.path.startswith("/api/"):
+        response.headers.setdefault("Cache-Control", "no-store")
+    return response
 
 
 def _store(year: str):
@@ -120,10 +157,14 @@ def policy_list(catalog_year: str = DEFAULT_YEAR):
 def make_plan(request: PlanRequest):
     if request.catalog_year not in available_catalog_years():
         raise HTTPException(422, f"Catalog year {request.catalog_year} is not available")
+    if not SOLVE_SLOTS.acquire(timeout=15):
+        raise HTTPException(503, "The planner is busy right now. Please try again in a few seconds.")
     try:
         return run_plan(request)
     except PlanningError as exc:
         raise HTTPException(422, str(exc)) from exc
+    finally:
+        SOLVE_SLOTS.release()
 
 
 # ------------------------------------------------------------- web app
