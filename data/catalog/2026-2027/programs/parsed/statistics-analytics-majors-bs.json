@@ -1,0 +1,672 @@
+{
+ "id": "statistics-analytics-majors-bs",
+ "name": "Statistics and Analytics Major, B.S.",
+ "kind": "major",
+ "degree": "BS",
+ "catalog_year": "2026-2027",
+ "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+ "total_hours": 52,
+ "requirements": [
+  {
+   "id": "section2",
+   "label": "Core Requirements",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row3",
+     "label": "One of STOR 235, MATH 233",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row3",
+       "label": "STOR 235",
+       "kind": "course",
+       "course": "STOR 235",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "MATH/STOR 235 | Mathematics for Data Science | 4 || or MATH 233 | Calculus of Functions of Several Variables",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "454139bc999db597cd062587613eb320cdf7474e497af9547d2ff58c76d70980"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row4",
+       "label": "MATH 233",
+       "kind": "course",
+       "course": "MATH 233",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or MATH 233 | Calculus of Functions of Several Variables",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "8e317b4f5f73cb38cbc2d13fe283d624a428e1b77df37a890d2c3afd195de4a5"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH/STOR 235 | Mathematics for Data Science | 4 || or MATH 233 | Calculus of Functions of Several Variables",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "454139bc999db597cd062587613eb320cdf7474e497af9547d2ff58c76d70980"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row5",
+     "label": "One of STOR 315, MATH 381, COMP 283",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row5",
+       "label": "STOR 315",
+       "kind": "course",
+       "course": "STOR 315",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "STOR 315 | Discrete Mathematics for Data Science | 3 || or MATH 381 | Discrete Mathematics || or COMP 283 | Discrete Structures",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "e7c3d4a226eddb596bfcf18d56617f767cb8a0475592451375215f03dcfb7f53"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row6",
+       "label": "MATH 381",
+       "kind": "course",
+       "course": "MATH 381",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or MATH 381 | Discrete Mathematics",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "f46ae610ff41a3e6ae05812434f320a95a45369c2c6c060c784b56d149b44de3"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row7",
+       "label": "COMP 283",
+       "kind": "course",
+       "course": "COMP 283",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or COMP 283 | Discrete Structures",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "762938d38607b2ed7b44e8cbfd4b99e5d864acf7ad0265e6af1d819bc2142d6f"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "STOR 315 | Discrete Mathematics for Data Science | 3 || or MATH 381 | Discrete Mathematics || or COMP 283 | Discrete Structures",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "e7c3d4a226eddb596bfcf18d56617f767cb8a0475592451375215f03dcfb7f53"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row8",
+     "label": "One of STOR 320, STOR 520",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row8",
+       "label": "STOR 320",
+       "kind": "course",
+       "course": "STOR 320",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "STOR 320 | Methods and Models of Data Science | 4 || or STOR 520 | Statistical Computing for Data Science",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "95b2d6bbb0d2070b19194749c6ed538506ac0a5adb86bb2503acbbeb51f5fc29"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row9",
+       "label": "STOR 520",
+       "kind": "course",
+       "course": "STOR 520",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or STOR 520 | Statistical Computing for Data Science",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "adfd5b8ea20b72951ceace4e78c2894b3ec634cb0ee2565479dc0761b9f6bf5e"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "STOR 320 | Methods and Models of Data Science | 4 || or STOR 520 | Statistical Computing for Data Science",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "95b2d6bbb0d2070b19194749c6ed538506ac0a5adb86bb2503acbbeb51f5fc29"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row10",
+     "label": "STOR 415",
+     "kind": "course",
+     "course": "STOR 415",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "STOR 415 | Introduction to Optimization 1, H | 3",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "ac9914b1317dabac7f5cd95f5bbae2babd63506ce9d4ed44307be084928d8193"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row11",
+     "label": "One of STOR 435, STOR 535",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row11",
+       "label": "STOR 435",
+       "kind": "course",
+       "course": "STOR 435",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "STOR 435 | Introduction to Probability H | 3 || or STOR 535 | Probability for Data Science",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "728ecb89dc61b1c67b84dd9be843f1c29ad8db737b915812b684582dd0511a04"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row12",
+       "label": "STOR 535",
+       "kind": "course",
+       "course": "STOR 535",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or STOR 535 | Probability for Data Science",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "1c25b52ad5a1196facea4fa949dcaf217e22e13a127bcaed7beddc0b328904d6"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "STOR 435 | Introduction to Probability H | 3 || or STOR 535 | Probability for Data Science",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "728ecb89dc61b1c67b84dd9be843f1c29ad8db737b915812b684582dd0511a04"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row13",
+     "label": "STOR 445",
+     "kind": "course",
+     "course": "STOR 445",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "STOR 445 | Stochastic Modeling | 3",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "6af9e1c6c5579ec7553d0d758e5e7689c64b5a504824785c0ee3634a4c361716"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row14",
+     "label": "STOR 455",
+     "kind": "course",
+     "course": "STOR 455",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "STOR 455 | Methods of Data Analysis H | 3",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "33b686084b819ae0141f653288821fbf73438a58f28db6c733d9c195abf9b625"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row15",
+     "label": "One STOR course at the 500 level",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "One STOR course at the 500 level | 3",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "fbe73bc7bc01424c32eb287277618aa89b5ec16f893a08a4eb3f1e515a60ec57"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Core Requirements",
+    "text": "Core Requirements",
+    "retrieved_at": "2026-10-18T02:16:31+00:00",
+    "sha256": "94d9eb31516876b4f1f61b30515aa87c075247b7357cecdb66b5bcc6455cb664"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section16",
+   "label": "Additional Requirements",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row17",
+     "label": "One of COMP 116, COMP 110",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row17",
+       "label": "COMP 116",
+       "kind": "course",
+       "course": "COMP 116",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "COMP 116 | Introduction to Scientific Programming | 3 || or COMP 110 | Introduction to Programming",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "71d42542a6f84cc389cc1fd1fe598c8093e37b0ddde64a6b365ae69c5cc59872"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row18",
+       "label": "COMP 110",
+       "kind": "course",
+       "course": "COMP 110",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or COMP 110 | Introduction to Programming",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "ae200f18e924476350bf7cf3cd98e4a48c69e09350bdf12df8c8f34de7590415"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 116 | Introduction to Scientific Programming | 3 || or COMP 110 | Introduction to Programming",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "71d42542a6f84cc389cc1fd1fe598c8093e37b0ddde64a6b365ae69c5cc59872"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row19",
+     "label": "MATH 231",
+     "kind": "course",
+     "course": "MATH 231",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 231 | Calculus of Functions of One Variable I H, F | 4",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "d1b14debb9713a234776a6dd5578870eec9ae88a19fe0859d2a9fe27a3c7c17b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row20",
+     "label": "MATH 232",
+     "kind": "course",
+     "course": "MATH 232",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 232 | Calculus of Functions of One Variable II H, F | 4",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "ef566c8015873a7c04574b35f37c2a2cd309ef64b413c336d0ce21789d5f7bf3"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row21",
+     "label": "MATH 347",
+     "kind": "course",
+     "course": "MATH 347",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 347 | Linear Algebra for Applications F | 3",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "28e7a1e4d12763924f0e8c94f7406c1bb1dc235477c03c981c2f50e31234e2ff"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row22",
+     "label": "One of STOR 155, STOR 120",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row22",
+       "label": "STOR 155",
+       "kind": "course",
+       "course": "STOR 155",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "STOR 155 | Introduction to Data Models and Inference H, F | 3-4 || or STOR 120 | Foundations of Statistics and Data Science",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "7b4846230d076d24131496c6f56a614b7ed93fbb34292594156f4c890a7b9da5"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row23",
+       "label": "STOR 120",
+       "kind": "course",
+       "course": "STOR 120",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or STOR 120 | Foundations of Statistics and Data Science",
+        "retrieved_at": "2026-10-18T02:16:31+00:00",
+        "sha256": "30cd3f319c7dcdb3b283bbfed5328331439f83a655dbe75ae9ceef40e7dd5d80"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "STOR 155 | Introduction to Data Models and Inference H, F | 3-4 || or STOR 120 | Foundations of Statistics and Data Science",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "7b4846230d076d24131496c6f56a614b7ed93fbb34292594156f4c890a7b9da5"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row24",
+     "label": "Three additional courses from either Group A or Group B (see lists below)",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "Three additional courses from either Group A or Group B (see lists below) | 9",
+      "retrieved_at": "2026-10-18T02:16:31+00:00",
+      "sha256": "74964d34beab0aebf628641b1b63ea89bf6fe27e98531a72a1689ea228b113c0"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Additional Requirements",
+    "text": "Additional Requirements",
+    "retrieved_at": "2026-10-18T02:16:31+00:00",
+    "sha256": "93ac1ed80e2c58c909f29d9e622241b721c5da818a54cb212fcb1bf8a4f1a66c"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  }
+ ],
+ "notes": [
+  "5 additional course list(s) on the requirements tab were treated as advisory, not requirements"
+ ],
+ "verification": {
+  "status": "uncertain",
+  "notes": []
+ },
+ "source": {
+  "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+  "catalog_year": "2026-2027",
+  "section": "Requirements",
+  "text": "Course List Code Title Hours Core Requirements MATH/STOR 235 Mathematics for Data Science 4 or MATH 233 Calculus of Functions of Several Variables STOR 315 Discrete Mathematics for Data Science 3 or MATH 381 Discrete Mathematics or COMP 283 Discrete Structures STOR 320 Methods and Models of Data Science 4 or STOR 520 Statistical Computing for Data Science STOR 415 Introduction to Optimization 1, H 3 STOR 435 Introduction to Probability H 3 or STOR 535 Probability for Data Science STOR 445 Stochastic Modeling 3 STOR 455 Methods of Data Analysis H 3 One STOR course at the 500 level 3 Additional Requirements COMP 116 Introduction to Scientific Programming 3 or COMP 110 Introduction to Programming MATH 231 Calculus of Functions of One Variable I H, F 4 MATH 232 Calculus of Functions of One Variable II H, F 4 MATH 347 Linear Algebra for Applications F 3 STOR 155 Introduction to Data Models and Inference H, F 3-4 or STOR 120 Foundations of Statistics and Data Science Three additional courses from either Group A or Group B (see lists below) 9 Total Hours 52 || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || F FY-Launch class sections may be available. A FY-Launch section fulfills the same requirements as a standard section of that course, but also fulfills the FY-SEMINAR/FY-LAUNCH First-Year Foundations requirement. Students can search for FY-Launch sections in ConnectCarolina using the FY-LAUNCH attribute. || 1 Students may not enroll in STOR 305 if they have already taken STOR 415 . || 1 Students can only enroll in STOR 305 before taking STOR 415 . || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply.",
+  "retrieved_at": "2026-10-18T02:16:31+00:00",
+  "sha256": "f4b7bff3d0f53a22005a56dc3364e8558c9674d630518ee7c6f2c627378bfa33"
+ }
+}

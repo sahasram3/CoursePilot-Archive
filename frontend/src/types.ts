@@ -15,6 +15,34 @@ export interface Lock {
   term: string;
 }
 
+export interface ExamScore {
+  type: "AP" | "IB";
+  exam: string;
+  score: number;
+}
+
+export interface OtherCredit {
+  label: string;
+  hours: number;
+  origin: "transfer" | "exam";
+}
+
+export interface ExamAward {
+  type: "AP" | "IB";
+  exam: string;
+  min_score: number;
+  courses: string[];
+  other_credit: string[];
+  hours: number;
+  note?: string;
+}
+
+export interface ExamCatalog {
+  source_url: string;
+  exams: { type: "AP" | "IB"; exam: string; min_scores: number[] }[];
+  awards: ExamAward[];
+}
+
 export interface PlanRequest {
   catalog_year: string;
   programs: string[];
@@ -26,6 +54,8 @@ export interface PlanRequest {
   max_credits: number;
   target_program_credits: number;
   completed: Omit<CompletedCourse, "title">[];
+  exams: ExamScore[];
+  other_credit: OtherCredit[];
   tokens: string[];
   locks: Lock[];
   exclude: string[];
@@ -74,8 +104,21 @@ export interface PlannedCourse {
   contingencies: string[];
   warnings: string[];
   requisites_status: string;
+  requisites_raw?: string | null;
+  prerequisites_text: string;
+  satisfied_by: string[];
   gen_ed: string[];
   source_url: string;
+}
+
+export interface StartingCredit {
+  code: string | null;
+  title: string;
+  credits: number;
+  grade: string | null;
+  origin: Origin;
+  in_progress: boolean;
+  source: string;
 }
 
 export interface PlannedTerm {
@@ -113,6 +156,7 @@ export interface Plan {
     subjects_over_45_hours: string[];
     unc_hours_projected: number;
     transfer_hours: number;
+    credit_by_exam_hours: number;
     regular_semesters_entry_to_graduation: number;
     graduation_term: string;
     major_core: Record<string, { core_hours: number; core_hours_at_unc_projected: number; half_at_unc_ok: boolean }>;
@@ -127,8 +171,12 @@ export interface PlanResponse {
   catalog_year: string;
   programs: { id: string; name: string; kind: string; degree?: string; url: string;
               verification: { status: string; by?: string; on?: string } }[];
+  completed_courses: StartingCredit[];
   plans: Plan[];
-  infeasibility: { summary: string; causes: string[]; suggestions: string[] } | null;
+  infeasibility: {
+    summary: string; causes: string[]; suggestions: string[];
+    actions: { label: string; changes: Partial<Record<string, unknown>> }[];
+  } | null;
   issues: Issue[];
   not_modeled: string[];
   solver: { engine: string; seconds: number; statuses: string[] };

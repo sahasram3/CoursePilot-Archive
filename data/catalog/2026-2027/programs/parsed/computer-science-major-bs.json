@@ -1,0 +1,1838 @@
+{
+ "id": "computer-science-major-bs",
+ "name": "Computer Science Major, B.S.",
+ "kind": "major",
+ "degree": "BS",
+ "catalog_year": "2026-2027",
+ "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+ "total_hours": 65,
+ "requirements": [
+  {
+   "id": "section2",
+   "label": "Gateway Course",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row3",
+     "label": "COMP 110",
+     "kind": "course",
+     "course": "COMP 110",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 110 | Introduction to Programming H | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "31d8a32d08d47a4bdf98094c385fa52a72992453e322a6a96d8d1d2290ba7d85"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Gateway Course",
+    "text": "Gateway Course",
+    "retrieved_at": "2026-10-18T02:16:26+00:00",
+    "sha256": "a65051836e4674a8e7e47824cb80f288fab33b7767d10012a0af4b14571abe40"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section4",
+   "label": "Core Requirements",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row5",
+     "label": "COMP 210",
+     "kind": "course",
+     "course": "COMP 210",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 210 | Data Structures and Analysis 1 | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "45e983827a3368da70ad29c068e3bbac2c2c26893084862677060c3f30d1a3b6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row6",
+     "label": "COMP 211",
+     "kind": "course",
+     "course": "COMP 211",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 211 | Systems Fundamentals 1 | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "d002d1d45961b2a08e60133deb7483685813229ea56e8f6bfd9b3e7413708b42"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row7",
+     "label": "COMP 301",
+     "kind": "course",
+     "course": "COMP 301",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 301 | Foundations of Programming 1 | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "500975ae3c3d8b04f25f683e90d997839851ba9d7662a862ca73a85beea04264"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row8",
+     "label": "COMP 311",
+     "kind": "course",
+     "course": "COMP 311",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 311 | Computer Organization 1 | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "07a8f6e9f4b484e1e5d87ba6a5dd191b7f9a4a9eede6b38144ae2d763f08ea66"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row9",
+     "label": "One of COMP 283, MATH 381, STOR 315",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row9",
+       "label": "COMP 283",
+       "kind": "course",
+       "course": "COMP 283",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "COMP 283 | Discrete Structures 1, H | 3 || or MATH 381 | Discrete Mathematics || or STOR 315 | Discrete Mathematics for Data Science",
+        "retrieved_at": "2026-10-18T02:16:26+00:00",
+        "sha256": "269ffbf01c68a05124d6ea9454d2f55378844b4cf0db8313c09122b42f67a57c"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row10",
+       "label": "MATH 381",
+       "kind": "course",
+       "course": "MATH 381",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or MATH 381 | Discrete Mathematics",
+        "retrieved_at": "2026-10-18T02:16:26+00:00",
+        "sha256": "f46ae610ff41a3e6ae05812434f320a95a45369c2c6c060c784b56d149b44de3"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row11",
+       "label": "STOR 315",
+       "kind": "course",
+       "course": "STOR 315",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or STOR 315 | Discrete Mathematics for Data Science",
+        "retrieved_at": "2026-10-18T02:16:26+00:00",
+        "sha256": "116c09e018e8a3aee121fbd0a01715a7fe391544961921114c33ab2918b4d915"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 283 | Discrete Structures 1, H | 3 || or MATH 381 | Discrete Mathematics || or STOR 315 | Discrete Mathematics for Data Science",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "269ffbf01c68a05124d6ea9454d2f55378844b4cf0db8313c09122b42f67a57c"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row12",
+     "label": "COMP 455",
+     "kind": "course",
+     "course": "COMP 455",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 455 | Models of Languages and Computation | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "adc2c2d273aef982f23c5b7c86194e903144396459dac7b7c84c1b3787af39ae"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row13",
+     "label": "COMP 550",
+     "kind": "course",
+     "course": "COMP 550",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 550 | Algorithms and Analysis | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "43621f21116fe08bd90eef7441780f31a54c845da290f5eb4476212d0177ad1d"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row14",
+     "label": "Five additional three-or-more credit hour COMP courses numbered 420 or higher (excluding COMP 496 and COMP 692H ). 2",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "Five additional three-or-more credit hour COMP courses numbered 420 or higher (excluding COMP 496 and COMP 692H ). 2 | 15",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "a0aa26f80cc55ae73346adfc0ee04d3cbbd578785daa941767aad71198ca749b"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Core Requirements",
+    "text": "Core Requirements",
+    "retrieved_at": "2026-10-18T02:16:26+00:00",
+    "sha256": "94d9eb31516876b4f1f61b30515aa87c075247b7357cecdb66b5bcc6455cb664"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section15",
+   "label": "Additional Requirements",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row16",
+     "label": "MATH 231",
+     "kind": "course",
+     "course": "MATH 231",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 231 | Calculus of Functions of One Variable I H, F | 4",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "d1b14debb9713a234776a6dd5578870eec9ae88a19fe0859d2a9fe27a3c7c17b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row17",
+     "label": "MATH 232",
+     "kind": "course",
+     "course": "MATH 232",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 232 | Calculus of Functions of One Variable II H, F | 4",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "ef566c8015873a7c04574b35f37c2a2cd309ef64b413c336d0ce21789d5f7bf3"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row18",
+     "label": "One of MATH 233, STOR 235",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row18",
+       "label": "MATH 233",
+       "kind": "course",
+       "course": "MATH 233",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "MATH 233 | Calculus of Functions of Several Variables 1, H | 4 || or STOR 235 | Mathematics for Data Science",
+        "retrieved_at": "2026-10-18T02:16:26+00:00",
+        "sha256": "81d0c5b2722310e383b2172b9094923ba426ba5da22d4db94314ba8dee17a874"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row19",
+       "label": "STOR 235",
+       "kind": "course",
+       "course": "STOR 235",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or STOR 235 | Mathematics for Data Science",
+        "retrieved_at": "2026-10-18T02:16:26+00:00",
+        "sha256": "228ba4d519b9c02df0df078be502810da77092989ce64b08eb6b5c07fb223fd2"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 233 | Calculus of Functions of Several Variables 1, H | 4 || or STOR 235 | Mathematics for Data Science",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "81d0c5b2722310e383b2172b9094923ba426ba5da22d4db94314ba8dee17a874"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row20",
+     "label": "One of MATH 347, MATH 577",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row20",
+       "label": "MATH 347",
+       "kind": "course",
+       "course": "MATH 347",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "MATH 347 | Linear Algebra for Applications F | 3 || or MATH 577 | Linear Algebra",
+        "retrieved_at": "2026-10-18T02:16:26+00:00",
+        "sha256": "2ac955bf2befa876fc8d064c91d2fbf58a687e5397b598cf7996c55396b77216"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row21",
+       "label": "MATH 577",
+       "kind": "course",
+       "course": "MATH 577",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or MATH 577 | Linear Algebra",
+        "retrieved_at": "2026-10-18T02:16:26+00:00",
+        "sha256": "3721c90d91dfb6011f1948c8af831847f478ec6bd74b1f9e374b99e436b309a2"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 347 | Linear Algebra for Applications F | 3 || or MATH 577 | Linear Algebra",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "2ac955bf2befa876fc8d064c91d2fbf58a687e5397b598cf7996c55396b77216"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row22",
+     "label": "One of STOR 435, STOR 535, BIOS 650",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row22",
+       "label": "STOR 435",
+       "kind": "course",
+       "course": "STOR 435",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "STOR 435 | Introduction to Probability H | 3 || or STOR 535 | Probability for Data Science || or BIOS 650 | Basic Elements of Probability and Statistical Inference I",
+        "retrieved_at": "2026-10-18T02:16:26+00:00",
+        "sha256": "8006d156054e4840ed99142250d49d0d7f9c50d68f74ef77aebe57727dadbbcc"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row23",
+       "label": "STOR 535",
+       "kind": "course",
+       "course": "STOR 535",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or STOR 535 | Probability for Data Science",
+        "retrieved_at": "2026-10-18T02:16:26+00:00",
+        "sha256": "1c25b52ad5a1196facea4fa949dcaf217e22e13a127bcaed7beddc0b328904d6"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row24",
+       "label": "BIOS 650",
+       "kind": "course",
+       "course": "BIOS 650",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or BIOS 650 | Basic Elements of Probability and Statistical Inference I",
+        "retrieved_at": "2026-10-18T02:16:26+00:00",
+        "sha256": "abba9372af5a346875ba2ec8fd10c330081e5190068237675555ae51de935b13"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "STOR 435 | Introduction to Probability H | 3 || or STOR 535 | Probability for Data Science || or BIOS 650 | Basic Elements of Probability and Statistical Inference I",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "8006d156054e4840ed99142250d49d0d7f9c50d68f74ef77aebe57727dadbbcc"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row25",
+     "label": "Two science courses chosen from: 1",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "Two science courses chosen from: 1 | 8",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "1bdd3277a079c6629ec61111ad237024593af511c387978d08ba106f8223693d"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row26",
+     "label": "ASTR 100 / 100L or ASTR 101 / 100L or ASTR 102 / 100L or ASTR 103 / 100L",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ASTR 100 / 100L or ASTR 101 / 100L or ASTR 102 / 100L or ASTR 103 / 100L",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "6374863ca1c47c7584412a340a089f022681a79ea50b1de9eaf12fc1364aa624"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row27",
+     "label": "BIOL 101",
+     "kind": "course",
+     "course": "BIOL 101",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BIOL 101 & 101L | Principles of Biology and Introductory Biology Laboratory H, F",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "29633f74851c6e8a8dc5b2ed3d627b7ac6e0188ff6ca961fec2e2586337611d3"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row28",
+     "label": "BIOL 202",
+     "kind": "course",
+     "course": "BIOL 202",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BIOL 202 | Molecular Biology and Genetics H, F",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "752f5bda7673583b15f7724bdda3c7f9987942f0fa54955be2c368c17682e062"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row29",
+     "label": "BIOL 205",
+     "kind": "course",
+     "course": "BIOL 205",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BIOL 205 | Cellular and Developmental Biology H",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "368f95c42c86e226ffc5a8ecbb984287b5f537be8a4b23504ae9154e4ebaf57d"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row30",
+     "label": "BIOL 220",
+     "kind": "course",
+     "course": "BIOL 220",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BIOL 220 | Molecular Genetics H",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "7f80d03e2f46e9d8ecdc9d035701097eb4dcefd67f72c27cabc3054445383676"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row31",
+     "label": "BIOL 240",
+     "kind": "course",
+     "course": "BIOL 240",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BIOL 240 | Cell Biology H",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "292569903f52f038654c044aaea50ce78d902f1a65c161a0d17fa40a5b27f276"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row32",
+     "label": "CHEM 101",
+     "kind": "course",
+     "course": "CHEM 101",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "CHEM 101 & 101L | General Descriptive Chemistry I and Quantitative Chemistry Laboratory I H, F",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "8f1ea977ea533db4606a75e938800011c9440f9a2ebc04f0df8fb5b0ad4dbe27"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row33",
+     "label": "CHEM 102",
+     "kind": "course",
+     "course": "CHEM 102",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "CHEM 102 & 102L | General Descriptive Chemistry II and Quantitative Chemistry Laboratory II H, F",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "b3d0d3510aea7c738373361793d4cd593cd58dcceaf36c4caca8c89b149be7d5"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row34",
+     "label": "EMES 101",
+     "kind": "course",
+     "course": "EMES 101",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EMES 101 & 101L | Planet Earth and Planet Earth Laboratory F",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "77e1dbcb0b5de47f4b91a378b962e43e6c4bfd3c30b5df8c69f5b06d305caefd"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row35",
+     "label": "EMES 103",
+     "kind": "course",
+     "course": "EMES 103",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EMES 103 & 103L | The Marine Environment and The Marine Environment Laboratory F",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "c38bf942e878ebe2af1375a3e8019503ceb0514328c2ba9acdf78626adda5384"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row36",
+     "label": "PHYS 114",
+     "kind": "course",
+     "course": "PHYS 114",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PHYS 114 | General Physics I: For Students of the Life Sciences F",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "de67e65d66f577bdfce26f9ff6be8d7c9d335ff4730051d23623225c22edd469"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row37",
+     "label": "PHYS 115",
+     "kind": "course",
+     "course": "PHYS 115",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PHYS 115 | General Physics II: For Students of the Life Sciences F",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "d98dbccd988afb8136037f380fbdedb8861f52fb1b67459ccf839b2eb0510f7e"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row38",
+     "label": "PHYS 118",
+     "kind": "course",
+     "course": "PHYS 118",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PHYS 118 | Introductory Calculus-based Mechanics and Relativity H, F",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "2442a7c35b6158df7800579caad96d71b3ac10485fc7fdb0d478c5531014a361"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row39",
+     "label": "PHYS 119",
+     "kind": "course",
+     "course": "PHYS 119",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PHYS 119 | Introductory Calculus-based Electromagnetism and Quanta H, F",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "c67b9b61c0bc74a4dc9b7ea86e5c2b9be620fb3b4ec3783144c0e9703d2afb79"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row40",
+     "label": "PHYS 451",
+     "kind": "course",
+     "course": "PHYS 451",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PHYS 451 | Electronics I",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "014a52a7c91b8cc03b975437bdbc6be5148ba9d4d6989f287d4b92b019ae4fa6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row41",
+     "label": "PHYS 452",
+     "kind": "course",
+     "course": "PHYS 452",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PHYS 452 | Electronics II",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "7130a9ff239e243960249eeed8d42da4c8dca5cd5229ed60612810db1f53d534"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row42",
+     "label": "B.S. majors in computer science must fulfill all IDEAs in Action General Education requirements.",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "B.S. majors in computer science must fulfill all IDEAs in Action General Education requirements.",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "5ae633c643e81d130a4edd4e4149ff1606893a54c22b4cda7d68c8aa565f36d4"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Additional Requirements",
+    "text": "Additional Requirements",
+    "retrieved_at": "2026-10-18T02:16:26+00:00",
+    "sha256": "93ac1ed80e2c58c909f29d9e622241b721c5da818a54cb212fcb1bf8a4f1a66c"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section44",
+   "label": "Recommended background: MATH 233 , MATH 347 , and STOR 435",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row45",
+     "label": "COMP 486",
+     "kind": "course",
+     "course": "COMP 486",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 486 | Applications of Natural Language Processing | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "8640f44b2846f7843d146aee2fdd21223f89f86cc171706676d631e989cb94c8"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row46",
+     "label": "COMP 560",
+     "kind": "course",
+     "course": "COMP 560",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 560 | Artificial Intelligence | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "fd5d2e510d7dabd695b8e638c81c845cc264f936969c5fd9a5b3b73715361da1"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row47",
+     "label": "COMP 562",
+     "kind": "course",
+     "course": "COMP 562",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 562 | Introduction to Machine Learning H | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "4b9cec28dd9da3bf26ac0f38d15e941abeebfe8fac6ace7729861480886ac900"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row48",
+     "label": "COMP 577",
+     "kind": "course",
+     "course": "COMP 577",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 577 | Introduction to Computer Vision | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "e2158f2d5c6d84cff13e79fb91c42e66a524028881932f13cf67be34183a7aa6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row49",
+     "label": "COMP 586",
+     "kind": "course",
+     "course": "COMP 586",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 586 | Natural Language Processing | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "f17fafeea180b73a73d6c87aff046b8788331d62ee57da1b0933ebc0f39f91e2"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row50",
+     "label": "COMP 581",
+     "kind": "course",
+     "course": "COMP 581",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 581 | Introduction to Robotics H | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "7c43c0e72c3e11f0120026133f9660a56573cbe9363ffb6a710a10c710ae5a34"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row51",
+     "label": "COMP 664",
+     "kind": "course",
+     "course": "COMP 664",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 664 | Deep Learning | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "906b15c5374535df4902e48103b469698daf90e4b90daaeefd6132374d3acb74"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Recommended background: MATH 233 , MATH 347 , and STOR 435",
+    "text": "Recommended background: MATH 233 , MATH 347 , and STOR 435",
+    "retrieved_at": "2026-10-18T02:16:26+00:00",
+    "sha256": "7b82efc7b696380d2ac6827471c17b24f77d67e2b388d46a3be9dcfe847be575"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section53",
+   "label": "Recommended background: MATH 347 or MATH 577",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row54",
+     "label": "COMP 475",
+     "kind": "course",
+     "course": "COMP 475",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 475 | 2D Computer Graphics | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "ca22fddb4073cdda9e825b2d5325cb57031acfd7f77ae8bd41300eb348ba8c48"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row55",
+     "label": "COMP 572",
+     "kind": "course",
+     "course": "COMP 572",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 572 | Computational Photography | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "d78658bcd34671ef5236a86b5c55b419f0c57ac03b18be1b3feb726cb7fab227"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row56",
+     "label": "COMP 575",
+     "kind": "course",
+     "course": "COMP 575",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 575 | Introduction to Computer Graphics | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "25f82e94a1a2305465ec5b2adeccd8b86a81eacb3b5457768c94ae502e6fd859"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row57",
+     "label": "COMP 577",
+     "kind": "course",
+     "course": "COMP 577",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 577 | Introduction to Computer Vision | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "e2158f2d5c6d84cff13e79fb91c42e66a524028881932f13cf67be34183a7aa6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row58",
+     "label": "COMP 651",
+     "kind": "course",
+     "course": "COMP 651",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 651 | Computational Geometry | 3",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "12ac3ebebabb98eb378c7631d96a7c626f7aaac31e2f21ce73f717c968c8426b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Recommended background: MATH 347 or MATH 577",
+    "text": "Recommended background: MATH 347 or MATH 577",
+    "retrieved_at": "2026-10-18T02:16:26+00:00",
+    "sha256": "7abf2a54a1e49666edff05fdd1cf2ffcf696ca646ce41c8bfb0f2d339303cf8f"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section60",
+   "label": "Core Courses",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row61",
+     "label": "COMP 423",
+     "kind": "course",
+     "course": "COMP 423",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 423 | Foundations of Software Engineering",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "e156646c0c3907ae91e16ef66dae690eab593d5e7a3985a4709b4dd34a047708"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row62",
+     "label": "COMP 426",
+     "kind": "course",
+     "course": "COMP 426",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 426 | Modern Web Programming",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "5d0f04cebfd765e0c02d792bdd7a1aadca1066e09ad7948bbc3a509068957997"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row63",
+     "label": "COMP 433",
+     "kind": "course",
+     "course": "COMP 433",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 433 | Mobile Computing Systems",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "ca7315dacda49f3ae8becf9a483f3379c73ef05a9414caa2b8ee95d28922321d"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row64",
+     "label": "COMP 523",
+     "kind": "course",
+     "course": "COMP 523",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 523 | Software Engineering Laboratory",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "fede2cd24f874be03338650934db5b1bca0a33832572f0586f513d90c3c31736"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Core Courses",
+    "text": "Core Courses",
+    "retrieved_at": "2026-10-18T02:16:26+00:00",
+    "sha256": "446176edc199b296ce1b8a8240c2e9ebc0697a154e2387693413c9f75b9deb67"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section65",
+   "label": "Related Courses",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row66",
+     "label": "COMP 520",
+     "kind": "course",
+     "course": "COMP 520",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 520 | Compilers",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "dcb05bd466ceb0d784f796873623beed28631e4b8ee9ee6f2325671e58d15186"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row67",
+     "label": "COMP 524",
+     "kind": "course",
+     "course": "COMP 524",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 524 | Programming Language Concepts",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "dff607c726a50bcabb07636ec9aa518c5654878d41f42f21b0c6d721c3a2e48d"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Related Courses",
+    "text": "Related Courses",
+    "retrieved_at": "2026-10-18T02:16:26+00:00",
+    "sha256": "d3dce5becc476e06924cff974bee97e64b705df27170e818d5e17321e3b1378b"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section69",
+   "label": "Software Systems",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row70",
+     "label": "COMP 421",
+     "kind": "course",
+     "course": "COMP 421",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 421 | Files and Databases",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "99956ce30c55e9dec2c7bb295ecaf70ff6d880396b0ca6111ebb426e29545511"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row71",
+     "label": "COMP 520",
+     "kind": "course",
+     "course": "COMP 520",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 520 | Compilers",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "dcb05bd466ceb0d784f796873623beed28631e4b8ee9ee6f2325671e58d15186"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row72",
+     "label": "COMP 524",
+     "kind": "course",
+     "course": "COMP 524",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 524 | Programming Language Concepts",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "dff607c726a50bcabb07636ec9aa518c5654878d41f42f21b0c6d721c3a2e48d"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Software Systems",
+    "text": "Software Systems",
+    "retrieved_at": "2026-10-18T02:16:26+00:00",
+    "sha256": "b9f1de59c987bd6870a160d6db504263e8c86bb7cbca2f861b991c42e9e18b99"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section73",
+   "label": "Hardware Systems",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row74",
+     "label": "COMP 530",
+     "kind": "course",
+     "course": "COMP 530",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 530 | Operating Systems H",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "2cde7f0887104c2a47220ae99ed75217f4e7ef6975d4d41c3f14e93f0a3d16ba"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row75",
+     "label": "COMP 541",
+     "kind": "course",
+     "course": "COMP 541",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 541 | Digital Logic and Computer Design",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "da29c1e622d44a45df211805770eb75cb624a850dc7b202eeb2e2c444f55fb90"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row76",
+     "label": "COMP 545",
+     "kind": "course",
+     "course": "COMP 545",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 545 | Programming Intelligent Physical Systems H",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "cf054ec7aa6df89b4fe693601cd06782d465c97ad1495525c2fbc2124ea0c816"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row77",
+     "label": "COMP 581",
+     "kind": "course",
+     "course": "COMP 581",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 581 | Introduction to Robotics H",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "391025af68a3f41fb82f2d733a4f85a77080874c19df948c7f65ceb96f035ef7"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row78",
+     "label": "COMP 630",
+     "kind": "course",
+     "course": "COMP 630",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 630 | Operating System Implementation",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "0875b21408c63188f51f3449873c6ed1f920429c045098eac9a6754680b34f4b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Hardware Systems",
+    "text": "Hardware Systems",
+    "retrieved_at": "2026-10-18T02:16:26+00:00",
+    "sha256": "3ef32f1a68a057d54f043907a67eff683c7702fdc2b61ff908ed775de4556703"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section79",
+   "label": "Network Systems",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row80",
+     "label": "COMP 431",
+     "kind": "course",
+     "course": "COMP 431",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 431 | Internet Services and Protocols",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "f190c955b804de1739dccb95201176806e437979b993da9aa2f0b3596d81429a"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row81",
+     "label": "COMP 533",
+     "kind": "course",
+     "course": "COMP 533",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 533 | Distributed Systems and Concurrent Programming",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "e0260fcd4b0703474431b8ca73cf1407c82f4e17b7a5455b7a718e75202206c8"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row82",
+     "label": "COMP 631",
+     "kind": "course",
+     "course": "COMP 631",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 631 | Networked and Distributed Systems",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "ef84f8aa3fc31e33fe18c19a39a69d935c8524d4c52e82443fcc777e95c5b9f9"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row83",
+     "label": "COMP 635",
+     "kind": "course",
+     "course": "COMP 635",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP 635 | Wireless and Mobile Communications",
+      "retrieved_at": "2026-10-18T02:16:26+00:00",
+      "sha256": "176f88126bdaa8cd88999da44e009b7a3f3893f0814672bdcfc777c48f7539f1"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+    "catalog_year": "2026-2027",
+    "section": "Network Systems",
+    "text": "Network Systems",
+    "retrieved_at": "2026-10-18T02:16:26+00:00",
+    "sha256": "975aa9948fab4dfb7ac1f890ba01d2bb844995b51b578b519347c64ec2bd7f97"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  }
+ ],
+ "notes": [
+  "4 additional course list(s) on the requirements tab were treated as advisory, not requirements"
+ ],
+ "verification": {
+  "status": "uncertain",
+  "notes": []
+ },
+ "source": {
+  "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+  "catalog_year": "2026-2027",
+  "section": "Requirements",
+  "text": "Course List Code Title Hours Gateway Course COMP 110 Introduction to Programming H 3 Core Requirements COMP 210 Data Structures and Analysis 1 3 COMP 211 Systems Fundamentals 1 3 COMP 301 Foundations of Programming 1 3 COMP 311 Computer Organization 1 3 COMP 283 Discrete Structures 1, H 3 or MATH 381 Discrete Mathematics or STOR 315 Discrete Mathematics for Data Science COMP 455 Models of Languages and Computation 3 COMP 550 Algorithms and Analysis 3 Five additional three-or-more credit hour COMP courses numbered 420 or higher (excluding COMP 496 and COMP 692H ). 2 15 Additional Requirements MATH 231 Calculus of Functions of One Variable I H, F 4 MATH 232 Calculus of Functions of One Variable II H, F 4 MATH 233 Calculus of Functions of Several Variables 1, H 4 or STOR 235 Mathematics for Data Science MATH 347 Linear Algebra for Applications F 3 or MATH 577 Linear Algebra STOR 435 Introduction to Probability H 3 or STOR 535 Probability for Data Science or BIOS 650 Basic Elements of Probability and Statistical Inference I Two science courses chosen from: 1 8 ASTR 100 / 100L or ASTR 101 / 100L or ASTR 102 / 100L or ASTR 103 / 100L BIOL 101 & 101L Principles of Biology and Introductory Biology Laboratory H, F BIOL 202 Molecular Biology and Genetics H, F BIOL 205 Cellular and Developmental Biology H BIOL 220 Molecular Genetics H BIOL 240 Cell Biology H CHEM 101 & 101L General Descriptive Chemistry I and Quantitative Chemistry Laboratory I H, F CHEM 102 & 102L General Descriptive Chemistry II and Quantitative Chemistry Laboratory II H, F EMES 101 & 101L Planet Earth and Planet Earth Laboratory F EMES 103 & 103L The Marine Environment and The Marine Environment Laboratory F PHYS 114 General Physics I: For Students of the Life Sciences F PHYS 115 General Physics II: For Students of the Life Sciences F PHYS 118 Introductory Calculus-based Mechanics and Relativity H, F PHYS 119 Introductory Calculus-based Electromagnetism and Quanta H, F PHYS 451 Electronics I PHYS 452 Electronics II B.S. majors in computer science must fulfill all IDEAs in Action General Education requirements. Total Hours 65 || Course List Code Title Hours Recommended background: MATH 233 , MATH 347 , and STOR 435 COMP 486 Applications of Natural Language Processing 3 COMP 560 Artificial Intelligence 3 COMP 562 Introduction to Machine Learning H 3 COMP 577 Introduction to Computer Vision 3 COMP 586 Natural Language Processing 3 COMP 581 Introduction to Robotics H 3 COMP 664 Deep Learning 3 || Course List Code Title Hours Recommended background: MATH 347 or MATH 577 COMP 475 2D Computer Graphics 3 COMP 572 Computational Photography 3 COMP 575 Introduction to Computer Graphics 3 COMP 577 Introduction to Computer Vision 3 COMP 651 Computational Geometry 3 || Course List Code Title Hours Core Courses COMP 423 Foundations of Software Engineering COMP 426 Modern Web Programming COMP 433 Mobile Computing Systems COMP 523 Software Engineering Laboratory Related Courses COMP 520 Compilers COMP 524 Programming Language Concepts || Course List Code Title Hours Software Systems COMP 421 Files and Databases COMP 520 Compilers COMP 524 Programming Language Concepts Hardware Systems COMP 530 Operating Systems H COMP 541 Digital Logic and Computer Design COMP 545 Programming Intelligent Physical Systems H COMP 581 Introduction to Robotics H COMP 630 Operating System Implementation Network Systems COMP 431 Internet Services and Protocols COMP 533 Distributed Systems and Concurrent Programming COMP 631 Networked and Distributed Systems COMP 635 Wireless and Mobile Communications || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || F FY-Launch class sections may be available. A FY-Launch section fulfills the same requirements as a standard section of that course, but also fulfills the FY-SEMINAR/FY-LAUNCH First-Year Foundations requirement. Students can search for FY-Launch sections in ConnectCarolina using the FY-LAUNCH attribute. || 1 A grade of C or better is required in each of COMP 283 (or MATH 381 or STOR 315 ), COMP 210 , COMP 211 , COMP 301 , COMP 311 , MATH 233 (or STOR 235 ), and the two science courses. 2 Graduate level courses (600 or higher) other than COMP 790 may be counted towards this requirement. COMP 790 courses are generally seminar courses that are not appropriate for this requirement and may only be counted with the approval of the director of undergraduate studies. || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply.",
+  "retrieved_at": "2026-10-18T02:16:26+00:00",
+  "sha256": "051a0da4fab855f2cb7a3088dbfd7c5c00ec101ca5385f44ca848eb1a906d40a"
+ }
+}

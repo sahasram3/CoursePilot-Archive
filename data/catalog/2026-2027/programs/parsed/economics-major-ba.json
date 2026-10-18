@@ -1,0 +1,289 @@
+{
+ "id": "economics-major-ba",
+ "name": "Economics Major, B.A.",
+ "kind": "major",
+ "degree": "BA",
+ "catalog_year": "2026-2027",
+ "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+ "requirements": [
+  {
+   "id": "section2",
+   "label": "Gateway Course",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row3",
+     "label": "ECON 101",
+     "kind": "course",
+     "course": "ECON 101",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ECON 101 | Introduction to Economics (with a grade of C or better) H, F | 4",
+      "retrieved_at": "2026-10-18T02:16:28+00:00",
+      "sha256": "45eb7672635f67dc8d52ec1be1b1a8f8b00ea0291be2e141440036a9d736aea6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Gateway Course",
+    "text": "Gateway Course",
+    "retrieved_at": "2026-10-18T02:16:28+00:00",
+    "sha256": "a65051836e4674a8e7e47824cb80f288fab33b7767d10012a0af4b14571abe40"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section4",
+   "label": "Core Requirements",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row5",
+     "label": "ECON 400",
+     "kind": "course",
+     "course": "ECON 400",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ECON 400 | Introduction to Data Science and Econometrics (with a grade of C or better) H | 4",
+      "retrieved_at": "2026-10-18T02:16:28+00:00",
+      "sha256": "5dc079eb12f7d90ac8dabcb0630f344ff405311cba1fb2a17cf44b1ae040f0ad"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row6",
+     "label": "ECON 410",
+     "kind": "course",
+     "course": "ECON 410",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ECON 410 | Intermediate Microeconomics (with a grade of C or better) H | 4",
+      "retrieved_at": "2026-10-18T02:16:28+00:00",
+      "sha256": "3beaec68f92bde780748110c86e9119ce520cef00b4ba7281e2d32b830bc37b1"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row7",
+     "label": "ECON 420",
+     "kind": "course",
+     "course": "ECON 420",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ECON 420 | Intermediate Macroeconomics H | 3",
+      "retrieved_at": "2026-10-18T02:16:28+00:00",
+      "sha256": "4ee8b8209e4f86980f478cf8795f36ce8017b4b84ca0ca1a66f95bb414d81819"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row8",
+     "label": "Four ECON courses at the 400, 500, or 600 level, with at least one course numbered ECON 500 or higher. 1,3",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "Four ECON courses at the 400, 500, or 600 level, with at least one course numbered ECON 500 or higher. 1,3 | 12",
+      "retrieved_at": "2026-10-18T02:16:28+00:00",
+      "sha256": "f6636d30532bee9f84c9c713736382b7d35efb3252408a99b32afff2a97c9c88"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Core Requirements",
+    "text": "Core Requirements",
+    "retrieved_at": "2026-10-18T02:16:28+00:00",
+    "sha256": "94d9eb31516876b4f1f61b30515aa87c075247b7357cecdb66b5bcc6455cb664"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section9",
+   "label": "Additional Requirements",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row10",
+     "label": "One calculus course chosen from: 2",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "One calculus course chosen from: 2 | 3-4",
+      "retrieved_at": "2026-10-18T02:16:28+00:00",
+      "sha256": "70bf527090a75b9569ec14118a62e73697812248923f2b55a73e9ed5f9f55455"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row11",
+     "label": "MATH 152",
+     "kind": "course",
+     "course": "MATH 152",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 152 | Calculus for Business and Social Sciences F",
+      "retrieved_at": "2026-10-18T02:16:28+00:00",
+      "sha256": "4fcaf99b63701c9dce679ed20c0c4edb19f5320978133598d87712030e0082fe"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row12",
+     "label": "MATH 231",
+     "kind": "course",
+     "course": "MATH 231",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 231 | Calculus of Functions of One Variable I H, F",
+      "retrieved_at": "2026-10-18T02:16:28+00:00",
+      "sha256": "4be1fe27d1bd62c238af51367bfdcb6908f929444964b33bfaf3f74029257723"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row13",
+     "label": "STOR 113",
+     "kind": "course",
+     "course": "STOR 113",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "STOR 113 | Decision Models for Business and Economics",
+      "retrieved_at": "2026-10-18T02:16:28+00:00",
+      "sha256": "8f64b6961de4d4b26ee4de31d9bd215413f033e7ce6d7de0103e21f9db0304a3"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Additional Requirements",
+    "text": "Additional Requirements",
+    "retrieved_at": "2026-10-18T02:16:28+00:00",
+    "sha256": "93ac1ed80e2c58c909f29d9e622241b721c5da818a54cb212fcb1bf8a4f1a66c"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  }
+ ],
+ "notes": [],
+ "verification": {
+  "status": "uncertain",
+  "notes": []
+ },
+ "source": {
+  "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+  "catalog_year": "2026-2027",
+  "section": "Requirements",
+  "text": "Course List Code Title Hours Gateway Course ECON 101 Introduction to Economics (with a grade of C or better) H, F 4 Core Requirements ECON 400 Introduction to Data Science and Econometrics (with a grade of C or better) H 4 ECON 410 Intermediate Microeconomics (with a grade of C or better) H 4 ECON 420 Intermediate Macroeconomics H 3 Four ECON courses at the 400, 500, or 600 level, with at least one course numbered ECON 500 or higher. 1,3 12 Additional Requirements One calculus course chosen from: 2 3-4 MATH 152 Calculus for Business and Social Sciences F MATH 231 Calculus of Functions of One Variable I H, F STOR 113 Decision Models for Business and Economics Total Hours 30-31 || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || F FY-Launch class sections may be available. A FY-Launch section fulfills the same requirements as a standard section of that course, but also fulfills the FY-SEMINAR/FY-LAUNCH First-Year Foundations requirement. Students can search for FY-Launch sections in ConnectCarolina using the FY-LAUNCH attribute. || 1 Note that 200- and 300-level courses do not count toward the major. ECON 493 does not count for 400-level credit. ECON 698 will count for 400-level credit only if ECON 384 has been taken; ECON 698 alone will not count toward the major in economics. 2 The calculus course is a prerequisite for both ECON 400 and ECON 410 , and ECON 400 and ECON 410 are both prerequisites for economics courses numbered above 420. 3 Students may not receive credit for both ECON 470 and ECON 570 .",
+  "retrieved_at": "2026-10-18T02:16:28+00:00",
+  "sha256": "68af82a9fda16c698a2043986511b865e89a11922a70122f4aa9e617abbefc20"
+ }
+}

@@ -181,7 +181,8 @@ def test_short_horizon_is_explained_with_chain_and_fix():
     r = plan(make(first_term="Fall 2026", graduation_term="Spring 2028"))
     assert r.status == "infeasible" and not r.plans
     text = " ".join(r.infeasibility.causes)
-    assert "MATH 110 -> MATH 130 -> MATH 231 -> MATH 232" in text
+    assert "MATH 110 → MATH 130 → MATH 231 → MATH 232" in text
+    assert r.infeasibility.causes[0].startswith("Only 72 credit hours")   # most actionable cause first
     assert "UNC requires 120" in text
     assert any("Graduating in" in s for s in r.infeasibility.suggestions)
 

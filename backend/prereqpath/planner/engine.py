@@ -991,12 +991,16 @@ def diagnose(ctx: Context) -> Infeasibility:
     solver = cp_model.CpSolver()
     solver.parameters.max_time_in_seconds = 10
     solver.parameters.num_workers = 1
+    core: list[str] = []
     if solver.Solve(pm.m) == cp_model.INFEASIBLE:
         core = [pm.assumption_lits[i] for i in solver.SufficientAssumptionsForInfeasibility()
                 if i in pm.assumption_lits]
-        causes += [f"Conflicting requirement: {c}" for c in core]
+    # Most actionable first: total-hours capacity, then prerequisite chains, then the
+    # solver's minimal conflicting set.
     causes += _capacity_analysis(ctx)
     causes += _chain_analysis(ctx)
+    if core:
+        causes.append("Requirements that cannot all be met together: " + "; ".join(core))
     summary = ("No schedule satisfies every requirement and prerequisite by "
                f"{ctx.labels[-1] if ctx.labels else 'the chosen term'} within the credit limits.")
     suggestions, actions = _relaxations(ctx)
@@ -1102,7 +1106,7 @@ def _chain_analysis(ctx: Context) -> list[str]:
                     messages.append(f"{node.label}: {code} cannot be reached with the courses available.{hint}")
                 elif e >= n:
                     messages.append(f"{node.label}: {code} needs {e + 1} terms because of its prerequisite chain "
-                                    f"({' -> '.join(chain(code))}), but the plan has only {n} term(s).")
+                                    f"({' → '.join(chain(code))}), but the plan has only {n} term(s).")
     return messages
 
 

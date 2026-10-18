@@ -1,0 +1,3697 @@
+{
+ "id": "psychology-major-ba",
+ "name": "Psychology Major, B.A.",
+ "kind": "major",
+ "degree": "BA",
+ "catalog_year": "2026-2027",
+ "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+ "requirements": [
+  {
+   "id": "section2",
+   "label": "Gateway Course",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row3",
+     "label": "PSYC 101",
+     "kind": "course",
+     "course": "PSYC 101",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PSYC 101 | General Psychology (with a grade of C or better) F | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "56dc7bcc9a39f8c14c09559306265f1b2c0499d7c3161a689c42f91982c06748"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Gateway Course",
+    "text": "Gateway Course",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "a65051836e4674a8e7e47824cb80f288fab33b7767d10012a0af4b14571abe40"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section4",
+   "label": "Core Requirements",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row5",
+     "label": "PSYC 210",
+     "kind": "course",
+     "course": "PSYC 210",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PSYC 210 | Statistical Principles of Psychological Research H | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "8eb4ec4caaec8dbc0aba22cd7adc83bc7e64d54d37403c879af74f23ad84fc0a"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row6",
+     "label": "PSYC 270",
+     "kind": "course",
+     "course": "PSYC 270",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PSYC 270 | Research Methods in Psychology 1, 2 | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "2b46f1688e00921a7bd3de24141df67dfa2a9727d16110823b2ccaad4cdcfd04"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row7",
+     "label": "One course below 400 from four of the five following psychology program areas:",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "One course below 400 from four of the five following psychology program areas: | 12",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "adc769631bc726f92945b39f9a989bd376962a68170b9800a729f0bcf3b2bcc5"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row8",
+     "label": "Behavioral and Integrative Neuroscience:",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "Behavioral and Integrative Neuroscience:",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "b9cf824713ccea48e929b0dbf36e510552ca1a652b759b762e35caa3dd8817a0"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row9",
+     "label": "NSCI 221",
+     "kind": "course",
+     "course": "NSCI 221",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "NSCI 221 | Neuropsychopharmacology",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "8664f1249dec99e9c96a8dfc5ef7f4e8f472d2a150ada98eec7c3c979a2c2a82"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row10",
+     "label": "NSCI 222",
+     "kind": "course",
+     "course": "NSCI 222",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "NSCI 222 | Learning H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "327099def57eb0c630e83a6b6cf9db4cbee2dd31501c392d909cbbf42c6d5b77"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row11",
+     "label": "NSCI 225",
+     "kind": "course",
+     "course": "NSCI 225",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "NSCI 225 | Sensation and Perception 3, H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "df1a74762e44399befc776596185402c5da46e9d228a779de56d66c5672712c6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row12",
+     "label": "PSYC 220",
+     "kind": "course",
+     "course": "PSYC 220",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PSYC 220 | Biopsychology H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "10f20bacc753327830781a7c7c247bd1bc9ab2504cc16c2e3e45f69ecc1d0b72"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row13",
+     "label": "Clinical:",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "Clinical:",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "971e6ae48f76508ddc28f1a181108134e1dd221d2f75a3b2dd8d135f95c73a92"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row14",
+     "label": "PSYC 242",
+     "kind": "course",
+     "course": "PSYC 242",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PSYC 242 | Introduction to Clinical Psychology H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "0cc2e5811e39ed826dc8a1d94b22d1a7f32a58b8ed65a1a7197bcb3fcbc692a6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row15",
+     "label": "PSYC 245",
+     "kind": "course",
+     "course": "PSYC 245",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PSYC 245 | Psychopathology H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "51208830288faa7e081bdd607e29bfd3b7fa75fe505237afa599d774c93fbd3f"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row16",
+     "label": "Cognitive:",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "Cognitive:",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "cd4aa3d94e28764b726056e1b108052a5bdc8fffe611daa939de5cfd694e0d6f"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row17",
+     "label": "NSCI 225",
+     "kind": "course",
+     "course": "NSCI 225",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "NSCI 225 | Sensation and Perception 3, H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "df1a74762e44399befc776596185402c5da46e9d228a779de56d66c5672712c6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row18",
+     "label": "PSYC 230",
+     "kind": "course",
+     "course": "PSYC 230",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PSYC 230 | Cognitive Psychology H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "b51135e55294bb0757ed52b90b2309bed5b614cf342d151a2cc4997995d3496b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row19",
+     "label": "Developmental:",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "Developmental:",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "fc9692de26032649723d635f26520077817c495897655b24e6a5966cf3c8f46c"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row20",
+     "label": "PSYC 250",
+     "kind": "course",
+     "course": "PSYC 250",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PSYC 250 | Child Development 4, H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "eab19d625401863441a59b0b81a328e974ac97749b1536f942399080fa416c61"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row21",
+     "label": "Social:",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "Social:",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "2ced3a56d1d5b4f168bb565f6bdc9c2abefff8aa630e56adaf33f497fb724b6a"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row22",
+     "label": "PSYC 260",
+     "kind": "course",
+     "course": "PSYC 260",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PSYC 260 | Social Psychology H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "992015bbc6c86162701ec1c933b81a33a745befd98d18bb01ee9bc3c6f6150fc"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row23",
+     "label": "Two additional PSYC and/or NSCI courses numbered between 395 and 699; may not include PSYC 493 or NSCI 493 5",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "Two additional PSYC and/or NSCI courses numbered between 395 and 699; may not include PSYC 493 or NSCI 493 5 | 6",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "cc35e2125a462809e774c1050d9ee1867de47ce6fbf5038b213f11c51dc3cb9d"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row24",
+     "label": "One additional PSYC and/or NSCI course above 101; may not include PSYC 190 or NSCI 190 . 5",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "One additional PSYC and/or NSCI course above 101; may not include PSYC 190 or NSCI 190 . 5 | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "54966baa2113c680f8817afe9d3c2e7e3719be97518e1cc856cc408e3276ff84"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Core Requirements",
+    "text": "Core Requirements",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "94d9eb31516876b4f1f61b30515aa87c075247b7357cecdb66b5bcc6455cb664"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section25",
+   "label": "Additional Requirements",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row26",
+     "label": "BIOL 101",
+     "kind": "course",
+     "course": "BIOL 101",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BIOL 101 & 101L | Principles of Biology and Introductory Biology Laboratory H, F | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "c3084d7ce9a986faee5676c18ad6a865469193320765090881966e362c5fa250"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row27",
+     "label": "One non-Psychology and Neuroscience Department course which comes from the Allied Science list (see below)",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "One non-Psychology and Neuroscience Department course which comes from the Allied Science list (see below) | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "edd12ff205d62fde43034bfc6d80d49176abc565e62519f1b7c7e547f8cd7f8b"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row28",
+     "label": "One additional non-Psychology and Neuroscience Department quantitative reasoning course (FC-QUANT) not used to fulfill the FC-QUANT Gen Ed requirement or any other requirement in the psychology major.",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "One additional non-Psychology and Neuroscience Department quantitative reasoning course (FC-QUANT) not used to fulfill the FC-QUANT Gen Ed requirement or any other requirement in the psychology major. | 3-4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "368099a5c898642f18ea50dc991848fe0fdb8cd37da3615500d46499215a7d0c"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Additional Requirements",
+    "text": "Additional Requirements",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "93ac1ed80e2c58c909f29d9e622241b721c5da818a54cb212fcb1bf8a4f1a66c"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section30",
+   "label": "Anthropology",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row31",
+     "label": "ANTH 143",
+     "kind": "course",
+     "course": "ANTH 143",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 143 | Human Evolution and Adaptation | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "23bea955c3508f9ebb8dcb33b37e6e98b4d35b44e640858877eb1fbebc11e79f"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row32",
+     "label": "ANTH 148",
+     "kind": "course",
+     "course": "ANTH 148",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 148 | Human Origins | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "26fac4410049038ec5f869bc0f90b8c5e9701779d098a129fc6aa855f1f86607"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row33",
+     "label": "ANTH 217",
+     "kind": "course",
+     "course": "ANTH 217",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 217 | Human Biology in Comparative Perspective | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "199c485ac68005f2f87a71d4901f9be03410f2829858649067778fc76024eaab"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row34",
+     "label": "ANTH 298",
+     "kind": "course",
+     "course": "ANTH 298",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 298 | Biological Anthropology Theory and Practice | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "9ae64de2d2d823479c3a856fa6687837109e8c51dc82714af17307dff1ea7cdf"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row35",
+     "label": "ANTH 315",
+     "kind": "course",
+     "course": "ANTH 315",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 315 | Human Genetics and Evolution | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "ab1916c9cdb030cf41c6d977967fa6131c87d5e338671ca3565a54e31103a234"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row36",
+     "label": "ANTH 318",
+     "kind": "course",
+     "course": "ANTH 318",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 318 | Human Growth and Development | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "61e3c5da60c5ebea03ec1f94066fed040f58b83bb08ee420cdbb44e50a075e39"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row37",
+     "label": "ANTH 412",
+     "kind": "course",
+     "course": "ANTH 412",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 412 | Paleoanthropology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "b9ce55501a357580fa082b807fc186eceb4b1e48fc8fd5f40230826a9479d387"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row38",
+     "label": "ANTH 413",
+     "kind": "course",
+     "course": "ANTH 413",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 413 | Laboratory Methods: Archaeobotany | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "eaf806ff2448e4869e0176c2896f4a59a322fd65af6aba0a8dcecb2c6facab05"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row39",
+     "label": "ANTH 414",
+     "kind": "course",
+     "course": "ANTH 414",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 414 | Laboratory Methods: Human Osteology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "9b1acdfab5f9acbd296d690b6b7468077eb456997e16ffeee8ff7a248ce69e94"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row40",
+     "label": "ANTH 415",
+     "kind": "course",
+     "course": "ANTH 415",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 415 | Laboratory Methods: Zooarchaeology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "cbb735510892533dca744700e323422f965d70afa4c4601039d0c3e60b13a88a"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row41",
+     "label": "ANTH 416",
+     "kind": "course",
+     "course": "ANTH 416",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 416 | Bioarchaeology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "c66baf4f1f2d812e00111651e641c4fe689780569901c78c6b8c6b5791db69fa"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row42",
+     "label": "ANTH 423",
+     "kind": "course",
+     "course": "ANTH 423",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 423 | Written in Bone: CSI and the Science of Death Investigation from Skeletal Remains | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "ffc00415e1e5fa316caea03455630ff601ed64d74038bdb653949b8e9e33cad7"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row43",
+     "label": "ANTH 437",
+     "kind": "course",
+     "course": "ANTH 437",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 437 | Evolutionary Medicine | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "e878c23f1d58d45c4d7437deb1bfef2682f6247efd3301c4d55b78761d101330"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row44",
+     "label": "ANTH 471",
+     "kind": "course",
+     "course": "ANTH 471",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ANTH 471 | Biocultural Perspectives on Maternal and Child Health | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "1d9a96206545f4ad62f2425dd6ad8ca282d3bd131deabfe488493b093e638183"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Anthropology",
+    "text": "Anthropology",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "0fa737ecd16855b5c5cc902b9b5289316c97d2e4830d964a7287f25d6f0e3262"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section45",
+   "label": "Astronomy",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row46",
+     "label": "ASTR --- | Any course above ASTR 99 except ASTR 390",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ASTR --- | Any course above ASTR 99 except ASTR 390",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "034f8c9216c7dbb937590b66c25364fdb8b209e1e05e1ba9afde541f417600ab"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Astronomy",
+    "text": "Astronomy",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "4eeb9335576b12a0c7c2a4f70e32d976f82ff8fa3a5a98bc9ca542b6f7afef7c"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section47",
+   "label": "Biochemistry",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row48",
+     "label": "BIOC 107",
+     "kind": "course",
+     "course": "BIOC 107",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BIOC 107 | Introduction to Biochemistry | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "b7ce483406e591dafc3821e8ec61652c81f5af40cfe95f88669346c4e969b2ad"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row49",
+     "label": "BIOC 108",
+     "kind": "course",
+     "course": "BIOC 108",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BIOC 108 | Introduction to Biochemistry | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "321a781c2d193ed8b77b0487fc1a9fc5e184afb071e34f7419b43313095e88e5"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Biochemistry",
+    "text": "Biochemistry",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "8928bf411c224557e2d1bd9a20e1f0e22f81cbd775de8ce1a43089f256919eb9"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section50",
+   "label": "Biology",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row51",
+     "label": "BIOL --- | Any course above BIOL 101 , except BIOL 195 , BIOL 290 , BIOL 291 , BIOL 292 , BIOL 293 , BIOL 294 , BIOL 295 , BIOL 296 , BIOL 395 , BIOL 410, BIOL 490 , and BIOL 495",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BIOL --- | Any course above BIOL 101 , except BIOL 195 , BIOL 290 , BIOL 291 , BIOL 292 , BIOL 293 , BIOL 294 , BIOL 295 , BIOL 296 , BIOL 395 , BIOL 410, BIOL 490 , and BIOL 495",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "c7bffc246393dfa619b6ba8ef3e01c144177675556f12f6f997296468b95bb60"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Biology",
+    "text": "Biology",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "aea1058d135f60dfba545402db425a0a98c99472241af4441b730f3bc86bedcd"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section52",
+   "label": "Biomedical Engineering",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row53",
+     "label": "BMME 150",
+     "kind": "course",
+     "course": "BMME 150",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 150 | Introduction to Materials Science | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "40a38f23a5e1d8afa9248374d1307ab67e6499813b30d953b690e1976943427b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row54",
+     "label": "BMME 207",
+     "kind": "course",
+     "course": "BMME 207",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 207 | Biomedical Electronics | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "5902df0858737fe363fcfd0a30abc481bef2e975228bc599a36ab46770058ea8"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row55",
+     "label": "BMME 301",
+     "kind": "course",
+     "course": "BMME 301",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 301 | Human Physiology: Electrical Analysis | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "34e548639339e7d3e1c7585b6b5892a187efada767464be32f207888152e9770"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row56",
+     "label": "BMME 315",
+     "kind": "course",
+     "course": "BMME 315",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 315 | Biotransport | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "8a16c3f556261d21e7c7fe3f0c5c6b899ff7022d756f616d6617f520db2485ec"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row57",
+     "label": "BMME 335",
+     "kind": "course",
+     "course": "BMME 335",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 335 | Biomaterials | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "2f8fc97ec69da6be45c6f36d15e2533f0d8a128671b97a03228147d81adf23ca"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row58",
+     "label": "BMME 385",
+     "kind": "course",
+     "course": "BMME 385",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 385 | Bioinstrumentation | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "e08c11e584f84a953f3d42066e41dcf0cac21f7b5e85d15acd6b60508e54b97f"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row59",
+     "label": "BMME 405",
+     "kind": "course",
+     "course": "BMME 405",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 405 | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "cfcbb36f21fc0c76404cb85e7a66535eb274345650bb8b35bb99896d99e36276"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row60",
+     "label": "BMME 420",
+     "kind": "course",
+     "course": "BMME 420",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 420 | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "7ae5ad8621e1b5b8252f0d238467e4887fad93826ff2efa2f8c3ecbec3f91951"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row61",
+     "label": "BMME 435",
+     "kind": "course",
+     "course": "BMME 435",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 435 | Biological Physics | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "88ffd5811ca4566af4ddf755e8c358da42074ee303ae656f61996b698bac9b80"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row62",
+     "label": "BMME 445",
+     "kind": "course",
+     "course": "BMME 445",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 445 | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "98dd3c619a0ad76dda70eb3b7304bc1b985bf092d329ca989791e73fcc0ed80c"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row63",
+     "label": "BMME 455",
+     "kind": "course",
+     "course": "BMME 455",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 455 | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "727ac3e352d513fa6e6f26b2be8ec3e1080934a2aa984e43207ab4db0f7b97c0"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row64",
+     "label": "BMME 470",
+     "kind": "course",
+     "course": "BMME 470",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 470 | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "895b21e95c4756bd1ced43dfc3e834f7fd006243306318593dd12d287ca75802"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row65",
+     "label": "BMME 485",
+     "kind": "course",
+     "course": "BMME 485",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 485 | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "8bbf566a75aaf3a39e5873f25c8cbbe339484d66a46c0127c4821b0b19ccbdaf"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row66",
+     "label": "BMME 505",
+     "kind": "course",
+     "course": "BMME 505",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BMME 505 | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "62bb95f7c3645fd8949d7ccbfe894c2385984ee994d722313e0184fe92d42441"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Biomedical Engineering",
+    "text": "Biomedical Engineering",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "d84768403dab367014b14463d876c526f1daa8a1de061cf524b5e2fd2220cc0f"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section67",
+   "label": "Biostatistics",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row68",
+     "label": "BIOS --- | Any course above BIOS 500H , except BIOS 540 , BIOS 543, BIOS 690 , BIOS 691 , BIOS 693H , BIOS 694H",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "BIOS --- | Any course above BIOS 500H , except BIOS 540 , BIOS 543, BIOS 690 , BIOS 691 , BIOS 693H , BIOS 694H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "89095cad370ba5c7746a212cb41d96f8de24cfff063f50cf9fe35bc17cf5d29f"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Biostatistics",
+    "text": "Biostatistics",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "326506b7a4a24fced0c3d53d0127ccb3035a33eedb2d43f047ff48c91d63f3ec"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section69",
+   "label": "Chemistry",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row70",
+     "label": "CHEM --- | Any course above CHEM 101 except CHEM 190 , CHEM 291 , CHEM 395 , CHEM 396 , CHEM 397, CHEM 410 , and CHEM 692H",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "CHEM --- | Any course above CHEM 101 except CHEM 190 , CHEM 291 , CHEM 395 , CHEM 396 , CHEM 397, CHEM 410 , and CHEM 692H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "db3ebb72b8cdec5bed69ea95b0cf489292d316b6c1cbe265d2c18cd323cb5c21"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Chemistry",
+    "text": "Chemistry",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "ab2cc833ed40c8b3c97b0617e4df0ec6097084c7e3a68c2befb0d34347bf69c2"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section71",
+   "label": "Computer Science",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row72",
+     "label": "COMP --- | Any course above COMP 116 , except COMP 185, COMP 190 , COMP 380 , COMP 390 , and COMP 393",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "COMP --- | Any course above COMP 116 , except COMP 185, COMP 190 , COMP 380 , COMP 390 , and COMP 393",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "d644f6392ba2f61553bef68f794abd99609ae447a8ec255fcaff84b3a8efddb9"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Computer Science",
+    "text": "Computer Science",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "445ddaa59df684ea81e04e1b2aad2ec113a4a8a36ce8c5e802c1542266b8921d"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section73",
+   "label": "Environment and Ecology",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row74",
+     "label": "ENEC 108",
+     "kind": "course",
+     "course": "ENEC 108",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 108 | Our Energy and Climate Crises: Challenges and Opportunities | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "ed825495f6bb49da9ea4c65e57ff91434d91f13c47705f94d01d4d907d04c3d8"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row75",
+     "label": "ENEC 202",
+     "kind": "course",
+     "course": "ENEC 202",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 202 | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "4f4ee37ec3e5109d4c836dc4551e3f5029ef55a6a89e3441920ad2a850e1680d"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row76",
+     "label": "ENEC 220",
+     "kind": "course",
+     "course": "ENEC 220",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 220 | North Carolina Estuaries: Environmental Processes and Problems | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "6fbd10f9e736973941175b632160329ec29510fef7a6ebfa6ee188ba9b2e61e7"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row77",
+     "label": "ENEC 222",
+     "kind": "course",
+     "course": "ENEC 222",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 222 | Estuarine and Coastal Marine Science | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "9b0d76268e8320d1d674c3ecba556e4efe9be106a2407046dfcf5e58e407ae2a"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row78",
+     "label": "ENEC 256",
+     "kind": "course",
+     "course": "ENEC 256",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 256 | Mountain Biodiversity | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "e9bb9c49b436caf96c1d88e22d914ab7030c67887694264a8be736f62ef6fe42"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row79",
+     "label": "ENEC 304",
+     "kind": "course",
+     "course": "ENEC 304",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 304 | Restoration Ecology | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "25997aca3f97255736d2af16740649bfe14359665c7f59ba2321a1710379a62e"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row80",
+     "label": "ENEC 324",
+     "kind": "course",
+     "course": "ENEC 324",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 324 | Water in Our World: Introduction to Hydrologic Science and Environmental Problems | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "0677937ffdd15ceea43ccd9cdd6210374ca190f44d097061c68b3e8fb749e723"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row81",
+     "label": "ENEC 352",
+     "kind": "course",
+     "course": "ENEC 352",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 352 | Marine Fisheries Ecology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "765a007d0d2dca81596b5a52de0342f640aff59ff0efd0585ebe38b3a0119cc6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row82",
+     "label": "ENEC 403",
+     "kind": "course",
+     "course": "ENEC 403",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 403 | Environmental Chemistry Processes | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "9256c3dddccc7a3c293e7972df8e25bef2bedb3ee0e2436a49e94f4b22bfaef4"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row83",
+     "label": "ENEC 406",
+     "kind": "course",
+     "course": "ENEC 406",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 406 | Atmospheric Processes II | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "4d59831600199215ea3f89a1909d36119aebf708cc4e2afdae196eff6afd056b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row84",
+     "label": "ENEC 410",
+     "kind": "course",
+     "course": "ENEC 410",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 410 | Earth Processes in Environmental Systems | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "c5e7ecc020e5597961146d897282c217aa36315732dadba95cf99bcd8e7755c3"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row85",
+     "label": "ENEC 411",
+     "kind": "course",
+     "course": "ENEC 411",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 411 | Oceanic Processes in Environmental Systems | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "dca2bc1aa6f671eb56b93d83a5122ed270b7476ae3077ea61c6937e0066ecee3"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row86",
+     "label": "ENEC 415",
+     "kind": "course",
+     "course": "ENEC 415",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 415 | Environmental Systems Modeling | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "927c6111222e7de4fc0a76edf2eb3cadf9ae8c0f6834bc95bdb0482307ece182"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row87",
+     "label": "ENEC 416",
+     "kind": "course",
+     "course": "ENEC 416",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 416 | Environmental Meteorology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "36e0dae995834e00c7fa505648a8a3c876745ab5a5bede72e12b5d1ab5f77eee"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row88",
+     "label": "ENEC 431",
+     "kind": "course",
+     "course": "ENEC 431",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 431 | Sustainable Cities: Exploring Ways of Making Cities More Sustainable | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "ad54c390c1fcbaa0ea1f2b8707c67a3ea967246b14f69cd3c45e17b73cd96777"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row89",
+     "label": "ENEC 450",
+     "kind": "course",
+     "course": "ENEC 450",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 450 | Biogeochemical Processes | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "f804cc62fcd33f399fbe697e77233d239791e9e3970d48136b00247853dce3a8"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row90",
+     "label": "ENEC 462",
+     "kind": "course",
+     "course": "ENEC 462",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 462 | Ecosystem Management | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "90e311b784a24bdb281a1e623c297c5e11824bd4e59277aa9a669aef7f44e664"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row91",
+     "label": "ENEC 471",
+     "kind": "course",
+     "course": "ENEC 471",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 471 | Human Impacts on Estuarine Ecosystems | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "044dbae87f4338a45592d08ae5aa0e41181bb6cd6cd4afaa5ebcfdd9cf17f841"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row92",
+     "label": "ENEC 479",
+     "kind": "course",
+     "course": "ENEC 479",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 479 | Landscape Analysis | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "b56186326ad6514829b9229abdf4a927edf3de9bc51752180c2473967768347c"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row93",
+     "label": "ENEC 489",
+     "kind": "course",
+     "course": "ENEC 489",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 489 | Ecological Processes in Environmental Systems | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "4d3427737bd9c7e58c207b07ad75cd3678a8915196238709a919d0791c0fe2bc"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row94",
+     "label": "ENEC 530",
+     "kind": "course",
+     "course": "ENEC 530",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 530 | Principles of Climate Modeling | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "6beb70f35d3787e15eff4c6280cc99140d3d80e903af27ad79a771e2759cbeaf"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row95",
+     "label": "ENEC 562",
+     "kind": "course",
+     "course": "ENEC 562",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 562 | Statistics for Environmental Scientists | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "cc47a4d3c7303d7b82efba9bc1e168bec6bf2d3ce26df8ef54dff7616b9b436b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row96",
+     "label": "ENEC 567",
+     "kind": "course",
+     "course": "ENEC 567",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENEC 567 | Ecological Analyses and Application | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "124ade060db088af2b94e2686ef08ded131ac6f054ea5b0dc63d071886eb348e"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Environment and Ecology",
+    "text": "Environment and Ecology",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "3f664d38b3e65e247748bc9bdb83b4f2478fd3368e92d9c5cbae8492fc4587b1"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section97",
+   "label": "Environment Sciences",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row98",
+     "label": "ENVR 205",
+     "kind": "course",
+     "course": "ENVR 205",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 205 | Engineering Tools for Environmental Problem Solving | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "96ba2df39dc35443994e49565adc7f7f51f5838503aacf1b154d8b5c84657f01"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row99",
+     "label": "ENVR 403",
+     "kind": "course",
+     "course": "ENVR 403",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 403 | Environmental Chemistry Processes | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "3f4961cd9b58ce7edf866a41d776f8a19561c95f282abb60d78dd074816c87ab"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row100",
+     "label": "ENVR 411",
+     "kind": "course",
+     "course": "ENVR 411",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 411 | Laboratory Techniques and Field Measurements | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "c9af7c079576dc2ccb900e918bb70f424a9561e72af5558b48b143c124d4cc59"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row101",
+     "label": "ENVR 412",
+     "kind": "course",
+     "course": "ENVR 412",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 412 | Ecological Microbiology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "892391e5ef083efdb321b51db6d95d0b39cd31698c299f15e283689c6d91e4af"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row102",
+     "label": "ENVR 413",
+     "kind": "course",
+     "course": "ENVR 413",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 413 | Limnology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "aaef363c233e83137f52bcd2f71cf050fdb1fc0f4ee9ab1adb721e9ccde7f384"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row103",
+     "label": "ENVR 416",
+     "kind": "course",
+     "course": "ENVR 416",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 416 | Aerosol Physics and Chemistry | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "5817352db8794c7c01048a199e8d675ce86bd80352ad8f9d31d830b8a9ff0eed"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row104",
+     "label": "ENVR 419",
+     "kind": "course",
+     "course": "ENVR 419",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 419 | Chemical Equilibria in Natural Waters | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "fec923c9effd39710a544b3fc324a0c312f69c10ee10513feb2eb31059dfb2bb"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row105",
+     "label": "ENVR 421",
+     "kind": "course",
+     "course": "ENVR 421",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 421 | Environmental Health Microbiology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "0901f1bc86f101342116fce35e104fe71128c5baa11252d83f04fdeeed3dcd8a"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row106",
+     "label": "ENVR 425",
+     "kind": "course",
+     "course": "ENVR 425",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 425 | Introduction to Health Physics: Radiation and Radiation Protection | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "5346c257dfd0b3bba77b7b0bb768a27c3b9f6b1d68203331853ea0ac7bdd3fd8"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row107",
+     "label": "ENVR 430",
+     "kind": "course",
+     "course": "ENVR 430",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 430 | Health Effects of Environmental Agents | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "f9a5c2cbadc03f74763d87a6b66863ee879de52589a6d1ba00f565be50d921b0"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row108",
+     "label": "ENVR 442",
+     "kind": "course",
+     "course": "ENVR 442",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 442 | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "8f630ff541c9da22959ac30fa04bb3ed09dfdf47205b8f4a591e0f036ac7ad9d"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row109",
+     "label": "ENVR 451",
+     "kind": "course",
+     "course": "ENVR 451",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 451 | Introduction to Environmental Modeling | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "f79ef3f943f27752a10ed7cb85bd57f1213bc0dec8f533ed63a1ead51bae3775"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row110",
+     "label": "ENVR 453",
+     "kind": "course",
+     "course": "ENVR 453",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 453 | Groundwater Hydrology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "4f6c74e95a35db39870b1a7809964367f5cc8d222a60f2fcbb0e07ff223ae86d"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row111",
+     "label": "ENVR 468",
+     "kind": "course",
+     "course": "ENVR 468",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 468 | Temporal GIS and Space/Time Geostatistics for the Environment and Public Health | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "6588149665fcc3b7110e985aa3141d2aad48881ff84495ea61dfc16e6bed32d6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row112",
+     "label": "ENVR 470",
+     "kind": "course",
+     "course": "ENVR 470",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 470 | Environmental Risk Assessment | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "b9c9d0a23bb0542cc474f27aed1efc8cc2ebc2e4889ea2aec0ba418599be1a0b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row113",
+     "label": "ENVR 472",
+     "kind": "course",
+     "course": "ENVR 472",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 472 | Quantitative Risk Assessment in Environmental Health Microbiology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "e6f9f840d309b210dcb03f8923700fb054e33ff313934b6f5e8c6a28c0256800"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row114",
+     "label": "ENVR 514",
+     "kind": "course",
+     "course": "ENVR 514",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 514 | Measurement of NOx, O3, and Volatile Organic Compounds | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "a629333950904591e350e6d0c188b2186b63b130527e6b243f7a3f8022eef56b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row115",
+     "label": "ENVR 575",
+     "kind": "course",
+     "course": "ENVR 575",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 575 | Global Climate Change: Science, Impacts, Solutions | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "2a8da9136ba78b61723d2b9a1903cf066263d5fb6c7a043a09b95ce368cf8638"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row116",
+     "label": "ENVR 630",
+     "kind": "course",
+     "course": "ENVR 630",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 630 | Systems Biology in Environmental Health | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "b4400ca62151b7feefaf0e30ff47e84e3209d06b3f69d9ab5ff35639d43c6be3"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row117",
+     "label": "ENVR 661",
+     "kind": "course",
+     "course": "ENVR 661",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 661 | Scientific Computation I | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "5b274d130b483d1f506f08f52a118657be5921c33e240a8aa16de10a7a924ff1"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row118",
+     "label": "ENVR 662",
+     "kind": "course",
+     "course": "ENVR 662",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 662 | Scientific Computation II | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "58f102fbc5102790a587711e5c510a50f3b1035c43069242b14a788238827f6d"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row119",
+     "label": "ENVR 666",
+     "kind": "course",
+     "course": "ENVR 666",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 666 | Numerical Methods | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "cc1855b6fe371ff729f0d6571c80b2f45289a369174a8e9832de59dcd3b07a3b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row120",
+     "label": "ENVR 668",
+     "kind": "course",
+     "course": "ENVR 668",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 668 | Methods of Applied Mathematics I | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "00fceaa1ac926dc6116bfbe7875e12ffed9f81cf8e2c3e6ce9b581198ef780eb"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row121",
+     "label": "ENVR 669",
+     "kind": "course",
+     "course": "ENVR 669",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 669 | Methods of Applied Mathematics II | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "f84baf2a334c0d7649e4501eec5a9f31cdbdf22b3bfec678e68bebdcdbb4b714"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row122",
+     "label": "ENVR 671",
+     "kind": "course",
+     "course": "ENVR 671",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 671 | Environmental Physics I | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "e6af855249d5f2f28da758707462cf3f368118d128ed91147bc66ffa02e63e34"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row123",
+     "label": "ENVR 672",
+     "kind": "course",
+     "course": "ENVR 672",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 672 | Environmental Physics II | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "d2d84860edef8bc108cefe537a7b036db3edda97ddde1e884a78d9c844593807"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row124",
+     "label": "ENVR 675",
+     "kind": "course",
+     "course": "ENVR 675",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "ENVR 675 | Air Pollution, Chemistry, and Physics | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "9ae33208fe5a63f22ed6616e5cfb318df50b2f4bf208e6e2c11689bacee5af3e"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Environment Sciences",
+    "text": "Environment Sciences",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "6890c2150cfe5763eb15d9bb836ccf14d1241a88ff5bc6055d8b72567415139c"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section125",
+   "label": "Exercise and Sport Science",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row126",
+     "label": "EXSS 175",
+     "kind": "course",
+     "course": "EXSS 175",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EXSS 175 | Human Anatomy F | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "b92389433e1bc46831bb72335c629ba39e4461235cfc7456c06d0d2b5a921e3a"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row127",
+     "label": "EXSS 175 & EXSS 275L",
+     "kind": "all",
+     "children": [
+      {
+       "id": "row127.0",
+       "label": "EXSS 175",
+       "kind": "course",
+       "course": "EXSS 175",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "EXSS 175 & EXSS 275L | Human Anatomy and Human Anatomy Laboratory F | 4",
+        "retrieved_at": "2026-10-18T02:16:29+00:00",
+        "sha256": "5009d8a8e95efbaedd9809b0d2c6b57d94a060f92cb3514222932b1875e5d4b6"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row127.1",
+       "label": "EXSS 275L",
+       "kind": "course",
+       "course": "EXSS 275L",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "EXSS 175 & EXSS 275L | Human Anatomy and Human Anatomy Laboratory F | 4",
+        "retrieved_at": "2026-10-18T02:16:29+00:00",
+        "sha256": "5009d8a8e95efbaedd9809b0d2c6b57d94a060f92cb3514222932b1875e5d4b6"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EXSS 175 & EXSS 275L | Human Anatomy and Human Anatomy Laboratory F | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "5009d8a8e95efbaedd9809b0d2c6b57d94a060f92cb3514222932b1875e5d4b6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row128",
+     "label": "EXSS 276",
+     "kind": "course",
+     "course": "EXSS 276",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EXSS 276 | Human Physiology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "a662d6525a89a731d19a9262dbf646b7c6b9bc1adaf4251d21ae2429a80153c9"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row129",
+     "label": "EXSS 376",
+     "kind": "course",
+     "course": "EXSS 376",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EXSS 376 | Physiological Basis of Human Performance | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "2a3ba933b9e4e986eb5eaa6344bd1d8bc8c21c66a530b22b376b81b6870d9789"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row130",
+     "label": "EXSS 380",
+     "kind": "course",
+     "course": "EXSS 380",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EXSS 380 | Neuromuscular Control and Learning H | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "fcda9682b4f1dd493eb4f8aaa8d2258fc0f1b6afb5c151ecd51e62a2d6b99244"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row131",
+     "label": "EXSS 385",
+     "kind": "course",
+     "course": "EXSS 385",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EXSS 385 | Biomechanics of Sport | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "52569b58a89ebc84bbd552a3270313068ef6c0f45c3f0bae71921510e4dfa5a8"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row132",
+     "label": "EXSS 475",
+     "kind": "course",
+     "course": "EXSS 475",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EXSS 475 | Functional Anatomy | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "a6f27508c284f37c4ec64862250cf4d40763d9c6b02b889d5ae34ac786f9c35f"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row133",
+     "label": "EXSS 576",
+     "kind": "course",
+     "course": "EXSS 576",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EXSS 576 | Exercise Endocrinology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "3ad4cb5ee434240a41a6de72da06c31ef397c41dca2d835a848061b8b4593ecc"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row134",
+     "label": "EXSS 580",
+     "kind": "course",
+     "course": "EXSS 580",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EXSS 580 | Neuromechanics of Human Movement | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "2f8fb5b54be31f03c366e7c05294b26bb8201020158eb8766e97b29896867d62"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Exercise and Sport Science",
+    "text": "Exercise and Sport Science",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "e347eaef11bf2d69596646194241c51ceee679b60b280d5065980339a6156495"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section135",
+   "label": "Geography",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row136",
+     "label": "GEOG 110",
+     "kind": "course",
+     "course": "GEOG 110",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 110 | The Blue Planet: An Introduction to Earth's Environmental Systems H | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "1f84de7a3574fe4c14032b5e7a451370b53f0a119d3637207743ba04022a00a1"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row137",
+     "label": "GEOG 111",
+     "kind": "course",
+     "course": "GEOG 111",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 111 | Weather and Climate | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "a58bdcfb1c2cdd919fb5c4641f6052512e014d7fec0e48a27a15fc5d1bd7e807"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row138",
+     "label": "GEOG 212",
+     "kind": "course",
+     "course": "GEOG 212",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 212 | Environmental Conservation and Global Change | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "d76e839f56ffa58585b09fefcb808ec2109fe27aeeb2489e7faa46f9262e92aa"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row139",
+     "label": "GEOG 253",
+     "kind": "course",
+     "course": "GEOG 253",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 253 | Introduction to Atmospheric Processes | 4",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "663936b516549adc96a833cdef8673d6375eb040d9a40d46a45ee85e608def7b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row140",
+     "label": "GEOG 391",
+     "kind": "course",
+     "course": "GEOG 391",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 391 | Quantitative Methods in Geography | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "5189c8bfe5cd01c46dacaa482ae4da689c02685dd7de1f4c604ab691855e1a42"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row141",
+     "label": "GEOG 412",
+     "kind": "course",
+     "course": "GEOG 412",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 412 | Synoptic Meteorology | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "e1c04d4c2d675c4f6d7509dc6beb8bd754b88bda835cb3cf9b07bbdda8b3183e"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row142",
+     "label": "GEOG 414",
+     "kind": "course",
+     "course": "GEOG 414",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 414 | Climate Change | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "3ffdd357a3d2f98068e493ca1421bd00dc82c704973fedc4005cbae980eb3bd7"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row143",
+     "label": "GEOG 416",
+     "kind": "course",
+     "course": "GEOG 416",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 416 | Applied Climatology: The Impacts of Climate and Weather on Environmental and Social Systems | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "dac59e6ceda3961b6b2c29482d8fb57544d9de3b5163fef16e7819fcda65fa04"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row144",
+     "label": "GEOG 440",
+     "kind": "course",
+     "course": "GEOG 440",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 440 | Earth Surface Processes | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "36019489be5251b4f9d90d6da0fb4370d5c8e685ddcde5c9422fc2da46e03d60"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row145",
+     "label": "GEOG 441",
+     "kind": "course",
+     "course": "GEOG 441",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 441 | Introduction to Watershed Systems | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "647321e5fa7ab41bdc84f576d3172726cc97d6389666dcf007e8aa6bd4d3f2f1"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row146",
+     "label": "GEOG 442",
+     "kind": "course",
+     "course": "GEOG 442",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOG 442 | River Processes | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "e6214a0d4be8a0f5ce14b45388199239df9363bdae2137e4e40e7a92cee8e005"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Geography",
+    "text": "Geography",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "f3c73803dfc63c7d51184159d333c19641b4a798aa45ca790dc5f60520e30a94"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section147",
+   "label": "Earth, Marine, and Environmental Sciences",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row148",
+     "label": "GEOL --- | Any course above GEOL 100, except GEOL 190, GEOL 390, GEOL 395, GEOL 396, GEOL 412, GEOL 480, GEOL 590, GEOL 601, GEOL 602, GEOL 691H, GEOL 692H, and GEOL 695",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "GEOL --- | Any course above GEOL 100, except GEOL 190, GEOL 390, GEOL 395, GEOL 396, GEOL 412, GEOL 480, GEOL 590, GEOL 601, GEOL 602, GEOL 691H, GEOL 692H, and GEOL 695",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "6372bc5a36bf7debf5d57ff8d1f0fd92b61059639d7657d77c6e238818cbae95"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row149",
+     "label": "MASC --- | Any course above MASC 100, except MASC 190, MASC 390, MASC 395, MASC 396, and MASC 490",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MASC --- | Any course above MASC 100, except MASC 190, MASC 390, MASC 395, MASC 396, and MASC 490",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "c8d3f71b32e63c17a4a8400633343c61dd2bd5637c13c3af0aedb9bc6a0cb4b8"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    },
+    {
+     "id": "row150",
+     "label": "EMES --- | Any course above EMES 100 , except EMES 190 , EMES 220 , EMES 390 , EMES 395 , EMES 396 , EMES 412 , EMES 490 , EMES 590 , EMES 691H , and EMES 692H",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "EMES --- | Any course above EMES 100 , except EMES 190 , EMES 220 , EMES 390 , EMES 395 , EMES 396 , EMES 412 , EMES 490 , EMES 590 , EMES 691H , and EMES 692H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "c46e53603a04dfeb997dc285fa3293a9d8397331a64ac6fcfe7a10ff1cf358a0"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Earth, Marine, and Environmental Sciences",
+    "text": "Earth, Marine, and Environmental Sciences",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "2d76031d628e98fcaa259ab3132d271c85d5aa710416f701123081a73e742994"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section151",
+   "label": "Mathematics",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row152",
+     "label": "MATH --- | Any course above MATH 230 except MATH 290 , 296 , 396 , 410 , 411, 418, 515, 691H and 692H .",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH --- | Any course above MATH 230 except MATH 290 , 296 , 396 , 410 , 411, 418, 515, 691H and 692H .",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "c0838acb29719c7ebe443ec660a4d1e1a2b24a4e85ad1a18567d0b288ae77871"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Mathematics",
+    "text": "Mathematics",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "cdba6dc33e22fb468026fce488b4a6dc484e9647345ee03901eb8fc3b0ee1693"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section153",
+   "label": "Microbiology",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row154",
+     "label": "MCRO --- | Any course above MCRO 100 except MCRO 690",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MCRO --- | Any course above MCRO 100 except MCRO 690",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "1324d149c2a8a0f3e47dc8d8629f16d93884b279b9669295e7b0f1d906ccce3f"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Microbiology",
+    "text": "Microbiology",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "80eae885256af40c714ba394a6200b1497a672bece09786562e6aff368c20cde"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section155",
+   "label": "Nutrition",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row156",
+     "label": "NUTR 240",
+     "kind": "course",
+     "course": "NUTR 240",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "NUTR 240 | Introduction to Human Nutrition | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "f48f9a7a121bc405caea9e54edce3450ab63e92be01938006509f622ce2941e6"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row157",
+     "label": "NUTR 400",
+     "kind": "course",
+     "course": "NUTR 400",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "NUTR 400 | Introduction to Nutritional Biochemistry | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "216f54406b2d89d506c1e15c5819f8648c8fde24fc9024a8bd2a3f731246d37c"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row158",
+     "label": "NUTR 600",
+     "kind": "course",
+     "course": "NUTR 600",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "NUTR 600 | Human Metabolism: Macronutrients | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "b35a35d7041e43d23de83c666247a9d3a89fa95ea7207b469e3ed3b0a8683e4c"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row159",
+     "label": "NUTR 620",
+     "kind": "course",
+     "course": "NUTR 620",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "NUTR 620 | Human Metabolism: Micronutrients | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "c842840a9a96e633dd793d15b738c97b6245a91dc73b4612e0772232315fccd9"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Nutrition",
+    "text": "Nutrition",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "7ab78b7058dd1c098c1fd7ab18b0cd29f29ac846c87ee5430514461d57511d33"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section160",
+   "label": "Philosophy",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row161",
+     "label": "PHIL 155",
+     "kind": "course",
+     "course": "PHIL 155",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PHIL 155 | Truth and Proof: Introduction to Mathematical Logic H | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "5a1e73a2255552de004560b59057a3eff0cfa7f5e1699f09d11367ecfbd29b79"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row162",
+     "label": "PHIL 455",
+     "kind": "course",
+     "course": "PHIL 455",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PHIL 455 | Symbolic Logic | 3",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "288c79170ed7bd610de235405922bc8abaaca288b608e09361663deacc9fa115"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Philosophy",
+    "text": "Philosophy",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "7f3d81eb0817c1bf0e04af5bc5888c49fc70fb1f11190b307c81a05f8ced39c2"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section163",
+   "label": "Physics",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row164",
+     "label": "PHYS --- | Any course above PHYS 99 except PHYS 132, PHYS 295 , PHYS 391 , PHYS 395 , PHYS 410 , PHYS 671L , PHYS 672L , PHYS 691H , and PHYS 692H",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "PHYS --- | Any course above PHYS 99 except PHYS 132, PHYS 295 , PHYS 391 , PHYS 395 , PHYS 410 , PHYS 671L , PHYS 672L , PHYS 691H , and PHYS 692H",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "b2931fda065c94b06286cd1250215bfe5a7725ccf9c7a21691d4eb9a9d04ddeb"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Physics",
+    "text": "Physics",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "349096910d3c474b61ec0cc741486084dbd9c8f2a57e37557b35c7ab5e6205f3"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section165",
+   "label": "Statistics and Operations Research",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row166",
+     "label": "STOR --- | Any course above STOR 100 except STOR 151 or STOR 155",
+     "kind": "unresolved",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "STOR --- | Any course above STOR 100 except STOR 151 or STOR 155",
+      "retrieved_at": "2026-10-18T02:16:29+00:00",
+      "sha256": "672ee2f342e801b0cc71933fd3ce04921cafaa4a8e674fa780ce920f349356d0"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "free-text requirement not interpreted"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Statistics and Operations Research",
+    "text": "Statistics and Operations Research",
+    "retrieved_at": "2026-10-18T02:16:29+00:00",
+    "sha256": "a4a8fe95883c355c6dc34390b609414d27ff24c084beee8d95bfa0d29ff9a3fd"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  }
+ ],
+ "notes": [],
+ "verification": {
+  "status": "uncertain",
+  "notes": []
+ },
+ "source": {
+  "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+  "catalog_year": "2026-2027",
+  "section": "Requirements",
+  "text": "Course List Code Title Hours Gateway Course PSYC 101 General Psychology (with a grade of C or better) F 3 Core Requirements PSYC 210 Statistical Principles of Psychological Research H 3 PSYC 270 Research Methods in Psychology 1, 2 3 One course below 400 from four of the five following psychology program areas: 12 Behavioral and Integrative Neuroscience: NSCI 221 Neuropsychopharmacology NSCI 222 Learning H NSCI 225 Sensation and Perception 3, H PSYC 220 Biopsychology H Clinical: PSYC 242 Introduction to Clinical Psychology H PSYC 245 Psychopathology H Cognitive: NSCI 225 Sensation and Perception 3, H PSYC 230 Cognitive Psychology H Developmental: PSYC 250 Child Development 4, H Social: PSYC 260 Social Psychology H Two additional PSYC and/or NSCI courses numbered between 395 and 699; may not include PSYC 493 or NSCI 493 5 6 One additional PSYC and/or NSCI course above 101; may not include PSYC 190 or NSCI 190 . 5 3 Additional Requirements BIOL 101 & 101L Principles of Biology and Introductory Biology Laboratory H, F 4 One non-Psychology and Neuroscience Department course which comes from the Allied Science list (see below) 3 One additional non-Psychology and Neuroscience Department quantitative reasoning course (FC-QUANT) not used to fulfill the FC-QUANT Gen Ed requirement or any other requirement in the psychology major. 3-4 Total Hours 40-41 || Course List Code Title Hours Anthropology ANTH 143 Human Evolution and Adaptation 3 ANTH 148 Human Origins 3 ANTH 217 Human Biology in Comparative Perspective 3 ANTH 298 Biological Anthropology Theory and Practice 3 ANTH 315 Human Genetics and Evolution 3 ANTH 318 Human Growth and Development 3 ANTH 412 Paleoanthropology 3 ANTH 413 Laboratory Methods: Archaeobotany 3 ANTH 414 Laboratory Methods: Human Osteology 3 ANTH 415 Laboratory Methods: Zooarchaeology 3 ANTH 416 Bioarchaeology 3 ANTH 423 Written in Bone: CSI and the Science of Death Investigation from Skeletal Remains 3 ANTH 437 Evolutionary Medicine 3 ANTH 471 Biocultural Perspectives on Maternal and Child Health 3 Astronomy ASTR --- Any course above ASTR 99 except ASTR 390 Biochemistry BIOC 107 Introduction to Biochemistry 4 BIOC 108 Introduction to Biochemistry 4 Biology BIOL --- Any course above BIOL 101 , except BIOL 195 , BIOL 290 , BIOL 291 , BIOL 292 , BIOL 293 , BIOL 294 , BIOL 295 , BIOL 296 , BIOL 395 , BIOL 410, BIOL 490 , and BIOL 495 Biomedical Engineering BMME 150 Introduction to Materials Science 3 BMME 207 Biomedical Electronics 4 BMME 301 Human Physiology: Electrical Analysis 4 BMME 315 Biotransport 3 BMME 335 Biomaterials 3 BMME 385 Bioinstrumentation 3 BMME 405 3 BMME 420 3 BMME 435 Biological Physics 3 BMME 445 3 BMME 455 3 BMME 470 3 BMME 485 3 BMME 505 3 Biostatistics BIOS --- Any course above BIOS 500H , except BIOS 540 , BIOS 543, BIOS 690 , BIOS 691 , BIOS 693H , BIOS 694H Chemistry CHEM --- Any course above CHEM 101 except CHEM 190 , CHEM 291 , CHEM 395 , CHEM 396 , CHEM 397, CHEM 410 , and CHEM 692H Computer Science COMP --- Any course above COMP 116 , except COMP 185, COMP 190 , COMP 380 , COMP 390 , and COMP 393 Environment and Ecology ENEC 108 Our Energy and Climate Crises: Challenges and Opportunities 4 ENEC 202 4 ENEC 220 North Carolina Estuaries: Environmental Processes and Problems 3 ENEC 222 Estuarine and Coastal Marine Science 4 ENEC 256 Mountain Biodiversity 4 ENEC 304 Restoration Ecology 4 ENEC 324 Water in Our World: Introduction to Hydrologic Science and Environmental Problems 3 ENEC 352 Marine Fisheries Ecology 3 ENEC 403 Environmental Chemistry Processes 3 ENEC 406 Atmospheric Processes II 4 ENEC 410 Earth Processes in Environmental Systems 4 ENEC 411 Oceanic Processes in Environmental Systems 4 ENEC 415 Environmental Systems Modeling 3 ENEC 416 Environmental Meteorology 3 ENEC 431 Sustainable Cities: Exploring Ways of Making Cities More Sustainable 3 ENEC 450 Biogeochemical Processes 4 ENEC 462 Ecosystem Management 3 ENEC 471 Human Impacts on Estuarine Ecosystems 4 ENEC 479 Landscape Analysis 3 ENEC 489 Ecological Processes in Environmental Systems 4 ENEC 530 Principles of Climate Modeling 3 ENEC 562 Statistics for Environmental Scientists 4 ENEC 567 Ecological Analyses and Application 3 Environment Sciences ENVR 205 Engineering Tools for Environmental Problem Solving 3 ENVR 403 Environmental Chemistry Processes 3 ENVR 411 Laboratory Techniques and Field Measurements 3 ENVR 412 Ecological Microbiology 3 ENVR 413 Limnology 3 ENVR 416 Aerosol Physics and Chemistry 4 ENVR 419 Chemical Equilibria in Natural Waters 3 ENVR 421 Environmental Health Microbiology 3 ENVR 425 Introduction to Health Physics: Radiation and Radiation Protection 3 ENVR 430 Health Effects of Environmental Agents 3 ENVR 442 3 ENVR 451 Introduction to Environmental Modeling 3 ENVR 453 Groundwater Hydrology 3 ENVR 468 Temporal GIS and Space/Time Geostatistics for the Environment and Public Health 3 ENVR 470 Environmental Risk Assessment 3 ENVR 472 Quantitative Risk Assessment in Environmental Health Microbiology 3 ENVR 514 Measurement of NOx, O3, and Volatile Organic Compounds 3 ENVR 575 Global Climate Change: Science, Impacts, Solutions 3 ENVR 630 Systems Biology in Environmental Health 3 ENVR 661 Scientific Computation I 3 ENVR 662 Scientific Computation II 3 ENVR 666 Numerical Methods 3 ENVR 668 Methods of Applied Mathematics I 3 ENVR 669 Methods of Applied Mathematics II 3 ENVR 671 Environmental Physics I 3 ENVR 672 Environmental Physics II 3 ENVR 675 Air Pollution, Chemistry, and Physics 3 Exercise and Sport Science EXSS 175 Human Anatomy F 3 EXSS 175 & EXSS 275L Human Anatomy and Human Anatomy Laboratory F 4 EXSS 276 Human Physiology 3 EXSS 376 Physiological Basis of Human Performance 4 EXSS 380 Neuromuscular Control and Learning H 3 EXSS 385 Biomechanics of Sport 3 EXSS 475 Functional Anatomy 3 EXSS 576 Exercise Endocrinology 3 EXSS 580 Neuromechanics of Human Movement 3 Geography GEOG 110 The Blue Planet: An Introduction to Earth's Environmental Systems H 3 GEOG 111 Weather and Climate 3 GEOG 212 Environmental Conservation and Global Change 3 GEOG 253 Introduction to Atmospheric Processes 4 GEOG 391 Quantitative Methods in Geography 3 GEOG 412 Synoptic Meteorology 3 GEOG 414 Climate Change 3 GEOG 416 Applied Climatology: The Impacts of Climate and Weather on Environmental and Social Systems 3 GEOG 440 Earth Surface Processes 3 GEOG 441 Introduction to Watershed Systems 3 GEOG 442 River Processes 3 Earth, Marine, and Environmental Sciences GEOL --- Any course above GEOL 100, except GEOL 190, GEOL 390, GEOL 395, GEOL 396, GEOL 412, GEOL 480, GEOL 590, GEOL 601, GEOL 602, GEOL 691H, GEOL 692H, and GEOL 695 MASC --- Any course above MASC 100, except MASC 190, MASC 390, MASC 395, MASC 396, and MASC 490 EMES --- Any course above EMES 100 , except EMES 190 , EMES 220 , EMES 390 , EMES 395 , EMES 396 , EMES 412 , EMES 490 , EMES 590 , EMES 691H , and EMES 692H Mathematics MATH --- Any course above MATH 230 except MATH 290 , 296 , 396 , 410 , 411, 418, 515, 691H and 692H . Microbiology MCRO --- Any course above MCRO 100 except MCRO 690 Nutrition NUTR 240 Introduction to Human Nutrition 3 NUTR 400 Introduction to Nutritional Biochemistry 3 NUTR 600 Human Metabolism: Macronutrients 3 NUTR 620 Human Metabolism: Micronutrients 3 Philosophy PHIL 155 Truth and Proof: Introduction to Mathematical Logic H 3 PHIL 455 Symbolic Logic 3 Physics PHYS --- Any course above PHYS 99 except PHYS 132, PHYS 295 , PHYS 391 , PHYS 395 , PHYS 410 , PHYS 671L , PHYS 672L , PHYS 691H , and PHYS 692H Statistics and Operations Research STOR --- Any course above STOR 100 except STOR 151 or STOR 155 || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || F FY-Launch class sections may be available. A FY-Launch section fulfills the same requirements as a standard section of that course, but also fulfills the FY-SEMINAR/FY-LAUNCH First-Year Foundations requirement. Students can search for FY-Launch sections in ConnectCarolina using the FY-LAUNCH attribute. || 1 Psychology and Neuroscience double majors may also use any NSCI 27* course to fulfill this requirement. 2 Psychology and Human Development Family Studies double majors may also use EDUC 408 to fulfill this requirement. 3 NSCI 225 can meet either the behavioral neuroscience or cognitive requirement, but not both. 4 Psychology and Human Development Family Studies double majors may also use EDUC 401 to fulfill this requirement. 5 Up to 3-credit hours of the following may be used to fulfill one core major requirement: PSYC 395 / NSCI 395 , PSYC 693H / NSCI 693H or PSYC 694H / NSCI 694H . || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || F FY-Launch class sections may be available. A FY-Launch section fulfills the same requirements as a standard section of that course, but also fulfills the FY-SEMINAR/FY-LAUNCH First-Year Foundations requirement. Students can search for FY-Launch sections in ConnectCarolina using the FY-LAUNCH attribute.",
+  "retrieved_at": "2026-10-18T02:16:29+00:00",
+  "sha256": "177a935df8db7f2115ca19d649903ae5dd0a8d1270ca3dd8142c5ba82ccd94d7"
+ }
+}

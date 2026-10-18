@@ -1,4 +1,4 @@
-import type { CourseDetail, CourseHit, Placement, PlanRequest, PlanResponse, ProgramListing } from "./types";
+import type { CourseDetail, CourseHit, ExamCatalog, Placement, PlanRequest, PlanResponse, ProgramListing } from "./types";
 
 async function getJson<T>(url: string, init?: RequestInit): Promise<T> {
   const response = await fetch(url, init);
@@ -23,6 +23,7 @@ export const api = {
   searchCourses: (q: string, year: string) =>
     getJson<{ results: CourseHit[] }>(
       `/api/courses/search?q=${encodeURIComponent(q)}&catalog_year=${encodeURIComponent(year)}`),
+  exams: (year: string) => getJson<ExamCatalog>(`/api/exams?catalog_year=${encodeURIComponent(year)}`),
   course: (code: string, year: string) =>
     getJson<CourseDetail>(`/api/courses/${encodeURIComponent(code)}?catalog_year=${encodeURIComponent(year)}`),
   plan: (request: PlanRequest) =>
