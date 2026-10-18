@@ -35,6 +35,15 @@ def test_course_search_and_detail():
     assert client.get("/api/courses/ZZZZ 999").status_code == 404
 
 
+def test_exam_table_endpoint():
+    r = client.get("/api/exams").json()
+    assert r["source_url"].endswith("/credit-evaluation/")
+    bc = [a for a in r["awards"] if a["type"] == "AP" and a["exam"] == "Calculus BC"]
+    assert any(a["min_score"] == 3 and "MATH 232" in a["courses"] for a in bc)
+    names = {e["exam"] for e in r["exams"]}
+    assert "Physics C Mechanics" in names and "Physics C Meachnics" not in names   # catalog typo merged
+
+
 def test_plan_endpoint_round_trip():
     body = {"programs": ["mathematics-major-ba"], "entry_term": "Fall 2026", "first_term": "Spring 2027",
             "graduation_term": "Spring 2030", "completed": [{"code": "MATH 231", "grade": "A"}]}

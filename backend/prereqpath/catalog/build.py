@@ -18,6 +18,7 @@ from pathlib import Path
 
 from .. import DATA_DIR
 from .courses import parse_subject_page, subject_pages
+from .exams import URL as EXAM_URL, parse_exam_credit
 from .fetch import BASE, CatalogFetcher
 from .programs import discover_programs, parse_program_page
 
@@ -83,6 +84,14 @@ def build_programs(fetcher: CatalogFetcher, year: str, only: list[str] | None) -
             "parse_status": dict(status), "skipped_non_undergraduate": skipped}
 
 
+def build_exams(fetcher: CatalogFetcher, year: str) -> dict:
+    page = fetcher.fetch(EXAM_URL)
+    rows = parse_exam_credit(page.html, year, page.retrieved_at)
+    _write(catalog_dir(year) / "exam_credit.json",
+           {"catalog_year": year, "source_url": page.url, "retrieved_at": page.retrieved_at, "awards": rows})
+    return {"rows": len(rows), "by_type": dict(collections.Counter(r["type"] for r in rows))}
+
+
 def report(year: str) -> dict:
     statuses = collections.Counter()
     total = 0
@@ -98,7 +107,7 @@ def report(year: str) -> dict:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("what", choices=["courses", "programs", "report"])
+    ap.add_argument("what", choices=["courses", "programs", "exams", "report"])
     ap.add_argument("--year", default=CURRENT_CATALOG_YEAR)
     ap.add_argument("--subjects", nargs="*")
     ap.add_argument("--only", nargs="*")
@@ -112,6 +121,8 @@ def main() -> None:
         result = build_courses(fetcher, args.year, args.subjects)
     elif args.what == "programs":
         result = build_programs(fetcher, args.year, args.only)
+    elif args.what == "exams":
+        result = build_exams(fetcher, args.year)
     else:
         result = report(args.year)
     print(json.dumps(result, indent=2))

@@ -56,9 +56,8 @@ def test_first_year_with_calculus_in_progress():
     assert r.status == "feasible"
     check_consistent(req, r)
     p = r.plans[0]
-    # prerequisite chain order
-    assert term_of(p, "MATH 232") < term_of(p, "MATH 233") if term_of(p, "MATH 233") is not None else True
-    calc3 = term_of(p, "MATH 233") if term_of(p, "MATH 233") is not None else term_of(p, "MATH 235")
+    # prerequisite chain order (MATH 235 may appear under its cross-listing STOR 235)
+    calc3 = next(term_of(p, c) for c in ("MATH 233", "MATH 235", "STOR 235") if term_of(p, c) is not None)
     assert term_of(p, "MATH 232") < calc3 < term_of(p, "MATH 383")
     assert term_of(p, "MATH 381") < term_of(p, "MATH 521")
     assert "MATH 231" not in schedule_of(p)              # already in progress
@@ -254,6 +253,69 @@ def test_performance():
     start = time.perf_counter()
     plan(make(first_term="Fall 2026", graduation_term="Spring 2030"))
     assert time.perf_counter() - start < 10
+
+
+def test_ap_calculus_bc_resolves_through_catalog_credit_table():
+    req = make(exams=[{"type": "AP", "exam": "Calculus BC", "score": 4}])
+    r = plan(req)
+    check_consistent(req, r)
+    sched = schedule_of(r.plans[0])
+    assert "MATH 231" not in sched and "MATH 232" not in sched
+    listing = {c["code"]: c for c in r.completed_courses if c["code"]}
+    assert listing["MATH 232"]["source"] == "AP Calculus BC (4)" and listing["MATH 232"]["origin"] == "exam"
+    assert "MATH 110P" in listing                     # placement credit kept for prerequisites
+    assert r.plans[0].summary["credit_by_exam_hours"] == 8
+
+
+def test_ap_score_below_threshold_gives_placement_credit_only():
+    r = plan(make(exams=[{"type": "AP", "exam": "Calculus AB", "score": 2}], first_term="Fall 2026"))
+    sched = schedule_of(r.plans[0])
+    assert "MATH 231" in sched                         # score 2 = placement credit only (MATH 110P/129P)
+    assert r.plans[0].summary["credit_by_exam_hours"] == 0
+    # 110P is not assumed to equal MATH 110 where a prerequisite doesn't list it; the student is told why
+    assert any(i.code == "placement_credit" for i in r.issues)
+    with_placement = plan(make(exams=[{"type": "AP", "exam": "Calculus AB", "score": 2}], first_term="Fall 2026",
+                               tokens=["PLACEMENT:MATH 231"]))
+    assert "MATH 110" not in schedule_of(with_placement.plans[0])
+
+
+def test_transfer_hours_count_toward_120_only():
+    req = make(completed=[{"code": "MATH 231", "grade": "A"}], other_credit=[{"label": "Community college", "hours": 30}])
+    r = plan(req)
+    s = r.plans[0].summary
+    assert s["transfer_hours"] == 30 and s["completed_hours"] == 34
+    assert s["unassigned_gen_ed_elective_hours"] == 120 - 34 - s["planned_course_hours"]
+
+
+def test_infeasible_response_offers_applicable_actions():
+    r = plan(make(first_term="Fall 2026", graduation_term="Spring 2028"))
+    assert r.infeasibility.actions
+    action = r.infeasibility.actions[0]
+    assert action["changes"] == {"graduation_term": "Fall 2029"}
+    fixed = plan(make(first_term="Fall 2026", **action["changes"]))
+    assert fixed.status == "feasible"
+
+
+def test_satisfied_by_explains_each_prerequisite():
+    r = plan(make(completed=[{"code": "MATH 231", "grade": "A"}]))
+    courses = {c.code: c for t in r.plans[0].terms for c in t.courses}
+    assert courses["MATH 232"].satisfied_by == ["MATH 231"]
+    assert "MATH 381" in courses["MATH 521"].satisfied_by
+    assert courses["MATH 521"].requisites_raw.startswith("Prerequisites, MATH 233 or MATH 235")
+
+
+def test_plans_are_reproducible():
+    req = make(completed=[{"code": "MATH 231", "grade": "A"}])
+    first, second = plan(req), plan(req)
+    assert schedule_of(first.plans[0]) == schedule_of(second.plans[0])
+
+
+def test_program_courses_are_spread_without_long_gaps():
+    r = plan(make(completed=[{"code": "MATH 231", "grade": "A"}]))
+    loads = [t.course_credits for t in r.plans[0].terms]
+    gaps = max(len(run) for run in "".join("0" if x == 0 else "1" for x in loads).split("1"))
+    assert gaps <= 1, loads
+    assert max(loads) <= 8
 
 
 def test_random_transcripts_always_yield_valid_plans_or_explanations():

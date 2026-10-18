@@ -13,10 +13,16 @@ from pathlib import Path
 from typing import Iterable, Optional
 
 from . import DATA_DIR
+from .catalog.exams import award_for
 from .catalog.programs import sha256
 from .catalog.requisites import normalize
 from .models import (Course, CourseFilter, Program, ProgramListing, Requirement, Source,
                      Verification)
+
+
+# Obvious misspellings in the catalog's exam tables, merged with their correctly
+# spelled rows (the original spelling is kept in each row's source text).
+EXAM_NAME_FIXES = {"Physics C Meachnics": "Physics C Mechanics"}
 
 
 class CatalogStore:
@@ -43,6 +49,14 @@ class CatalogStore:
             for raw in json.loads(index.read_text(encoding="utf-8"))["programs"]:
                 listing = ProgramListing.model_validate(raw)
                 self.listings[listing.id] = listing
+        self.exam_awards: list[dict] = []
+        exam_path = self.root / "exam_credit.json"
+        if exam_path.exists():
+            for row in json.loads(exam_path.read_text(encoding="utf-8"))["awards"]:
+                if row["exam"] in EXAM_NAME_FIXES:
+                    row = {**row, "exam": EXAM_NAME_FIXES[row["exam"]],
+                           "note": f"Catalog spells this exam \"{row['exam']}\"; treated as the same exam."}
+                self.exam_awards.append(row)
         self.programs: dict[str, Program] = {}
         for path in sorted((self.verified_root / "programs").glob("*.json")):
             program = self._load_verified_program(json.loads(path.read_text(encoding="utf-8")))
@@ -72,6 +86,15 @@ class CatalogStore:
                 course.prerequisites, course.corequisites = validated.prerequisites, validated.corequisites
             course.requisites_status = "verified"
             course.requisites_notes = [f"interpretation verified {on} by {by}"] + entry.get("notes", [])
+
+    def exam_award(self, kind: str, exam: str, score: int) -> Optional[dict]:
+        return award_for(self.exam_awards, kind, exam, score)
+
+    def exam_options(self) -> list[dict]:
+        options: dict[tuple[str, str], list[int]] = {}
+        for row in self.exam_awards:
+            options.setdefault((row["type"], row["exam"]), []).append(row["min_score"])
+        return [{"type": k, "exam": e, "min_scores": sorted(s)} for (k, e), s in sorted(options.items())]
 
     def course(self, code: str) -> Optional[Course]:
         return self.courses.get(self.canonical(code))

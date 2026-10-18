@@ -1,0 +1,2627 @@
+{
+ "catalog_year": "2026-2027",
+ "source_url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+ "retrieved_at": "2026-10-18T01:42:58+00:00",
+ "awards": [
+  {
+   "type": "AP",
+   "exam": "African American Studies",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "AAAD General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "African American Studies | 3 | AAAD General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "a1dc0040f2b157a6e817b2319d917f8ab1d1b95e53c89cb6551f757ae4ddcc80"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "African American Studies",
+   "min_score": 4,
+   "courses": [
+    "AAAD 231"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "African American Studies | 4 | AAAD 231 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "b03576473cdda86c18ea691925885ad91fd53c1d190664d12dae1711108e1c31"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Art 2D",
+   "min_score": 4,
+   "courses": [
+    "ARTS 102"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Art 2D | 4 | ARTS 102 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "94ef5adbd03b038339c47b2a896c85443d73b76bd87b4b906635f5b5a72ef4b6"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Art 2D",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Studio Art General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Art 2D | 3 | Studio Art General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "a943dbca4c4af86692ae31a4e4f0bbdf3a2f1d41b392c73e7248f9c65395f2f3"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Art 3D",
+   "min_score": 4,
+   "courses": [
+    "ARTS 103"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Art 3D | 4 | ARTS 103 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "7aad075ad48cf50ddddfca04a0280feb3c656fa112367d67d17bc0970992bca4"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Art 3D",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Studio Art General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Art 3D | 3 | Studio Art General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "e3e9d2aa48076573c8886073f6e133d963e366c6582b47e099de9f4ca951f371"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Art History",
+   "min_score": 3,
+   "courses": [
+    "ARTH 152"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Art History | 3 | ARTH 152 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "0553545156b5bd33d63858d2538e5da01666032b0a834c06e212f7d71c3f6630"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Art Studio Drawing",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Studio Art General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Art Studio Drawing | 3 | Studio Art General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "334302549c7c70fe50551d10c19727dfb883d085027f1dad87681f4120188c04"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Art Studio Drawing",
+   "min_score": 4,
+   "courses": [
+    "ARTS 104"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Art Studio Drawing | 4 | ARTS 104 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "de11407d89cf471aa2bdc47e026aa9108f546893fefbc605562a5c4c9b95643a"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Biology",
+   "min_score": 3,
+   "courses": [
+    "BIOL 101",
+    "BIOL 101L"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Biology | 3 | BIOL 101 , BIOL 101L | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "2bbfc8563a0877bd442ca03258bdcb8752bd28e8bf540b3d9b61456e124d2649"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Calculus AB",
+   "min_score": 2,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P"
+   ],
+   "other_credit": [],
+   "hours": 0.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Calculus AB | 2 | MATH 110P, MATH 129P | 0",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "3a7b6ada8c7b5af24b83e47d6915f12a41e9731f50e7fa5709ad95ac14931299"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Calculus AB",
+   "min_score": 3,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P",
+    "MATH 231"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Calculus AB | 3 | MATH 110P, MATH 129P , MATH 231 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "b9023d38c54f7c0d84df13831960dec1049b985d62c68fc893613f9455e22151"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Calculus AB Subscore",
+   "min_score": 2,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P"
+   ],
+   "other_credit": [],
+   "hours": 0.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Calculus AB Subscore | 2 | MATH 110P, MATH 129P | 0",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "58a413c421f263210469903fe0a030a453766426d9d59158fc484546d95ceb13"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Calculus AB Subscore",
+   "min_score": 3,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P",
+    "MATH 231"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Calculus AB Subscore | 3 | MATH 110P, MATH 129P , MATH 231 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "17b33fcd3d7b805e0e8b0313169e8805b2e64f840019b6ec20203efc032c70ef"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Calculus BC",
+   "min_score": 2,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P"
+   ],
+   "other_credit": [],
+   "hours": 0.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Calculus BC | 2 | MATH 110P, MATH 129P | 0",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "de93dd142a3aeef04249ad277b534d6ea84e42b2d1bc5e69a803fc3214f7c2cf"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Calculus BC",
+   "min_score": 3,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P",
+    "MATH 231",
+    "MATH 232"
+   ],
+   "other_credit": [],
+   "hours": 8.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Calculus BC | 3 | MATH 110P, MATH 129P , MATH 231 , MATH 232 | 8",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "0bd32bd9935362d47a5e11ab541eaf92b817c4f18c3bd527689c84097a584862"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Chemistry",
+   "min_score": 3,
+   "courses": [
+    "CHEM 101",
+    "CHEM 101L"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Chemistry | 3 | CHEM 101 , CHEM 101L | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "e6b522523f892104d568f2db37bcf1b382ced69f295525168be11b596d945776"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Chemistry",
+   "min_score": 5,
+   "courses": [
+    "CHEM 101",
+    "CHEM 101L",
+    "CHEM 102",
+    "CHEM 102L"
+   ],
+   "other_credit": [],
+   "hours": 8.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Chemistry | 5 | CHEM 101 , CHEM 101L , CHEM 102 , CHEM 102L | 8",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "1926e824a40cfcdf18a2d93a440e3a171a1ef009467bf6109e0bdc6387ecd8c8"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Chinese",
+   "min_score": 3,
+   "courses": [
+    "CHIN 203"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Chinese | 3 | CHIN 203 * | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "558f7f8fbde2c2483c854925fbc348e472beed1887d486e201cc53a6fcc9519f"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Comparative Government and Politics",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Political Science General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Comparative Government and Politics | 3 | Political Science General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "b75e1a8ab263b7a2a680ad3d0e30f28d69765b34139240a23e97234073e68db1"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Comparative Government and Politics",
+   "min_score": 4,
+   "courses": [
+    "POLI 130"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Comparative Government and Politics | 4 | POLI 130 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "4f09be73c83ddf171f56de8c5acd2ad8b71052a6dafe3f25d44f94c26e73d30a"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Computer Science A",
+   "min_score": 3,
+   "courses": [
+    "COMP 101"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Computer Science A | 3 | COMP 101 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "e712eb6397d6d43225f6bc46d2209afee5bdb50bc96bc8501cae48d146932f02"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Computer Science A",
+   "min_score": 5,
+   "courses": [
+    "COMP 110"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Computer Science A | 5 | COMP 110 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "1bad3cedf3004717bc7e7f2c6e96371a42366167099dd13e2d2f72a4c8a5df8b"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Economics - Either Micro or Macro",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Economics General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Economics - Either Micro or Macro | 3 | Economics General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "6e0126f1af609bbc9300e81a5b545999e925c1c95139264642a5e1bafe536ee8"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Economics - Either Micro or Macro",
+   "min_score": 4,
+   "courses": [
+    "ECON 100"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Economics - Either Micro or Macro | 4 | ECON 100 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "89ec728226c1ee19988d229ca2b231323ccdad98368d14d5b4f0aa0e765e345e"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Economics - Both Micro and Macro",
+   "min_score": 4,
+   "courses": [
+    "ECON 100",
+    "ECON 101"
+   ],
+   "other_credit": [],
+   "hours": 7.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Economics - Both Micro and Macro | 4 | ECON 100 , ECON 101 | 7",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "db2a8ab814e78395d2e4dbc422ce8ba51b2d5708a6855cf185dace8631a4247c"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "English Language and Composition",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "English General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "English Language and Composition | 3 | English General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "fdacf76f85991a2df56cacae97e16e96c7284931e6177efe9ca1d054d72df306"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "English Language and Composition",
+   "min_score": 4,
+   "courses": [],
+   "other_credit": [
+    "English General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "English Language and Composition | 4 | English General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "cf17024529af45f1445599475c1814b45e255b15107ddee895deb8364490db14"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "English Literature",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "English General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "English Literature | 3 | English General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "a8e558977907b4238a4976f3b075774f285d3df984b315e8a0a48d02b6b98e74"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "English Literature",
+   "min_score": 5,
+   "courses": [
+    "ENGL 190"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "English Literature | 5 | ENGL 190 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "1498b9ce2ebf80f7a65b6b442e246104e1f9a9cceb28a384bfced994c1c35ba1"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Environmental Science",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Environmental Studies General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Environmental Science | 3 | Environmental Studies General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "84dcb31f01bdc55f37d7fb1c40cb17444d622b1bea34caeb715535976e474f59"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Environmental Science",
+   "min_score": 4,
+   "courses": [
+    "ENEC 202"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Environmental Science | 4 | ENEC 202 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "c44330272184903ab5b7c08e9686e7b65e64bce1c4112ef1908a9e17f3f77d58"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "European History",
+   "min_score": 3,
+   "courses": [
+    "HIST 104"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "European History | 3 | HIST 104 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "fd95f87f6913e49583657d519b4ba19290b19aae36de5790905a243ed33580ed"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "French Language and Culture",
+   "min_score": 3,
+   "courses": [
+    "FREN 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "French Language and Culture | 3 | French General Elective and placement into FREN 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "402652c2e82764353b04360811e43c12369c0f3a1deaf8b97091871633023b72"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "French Language and Culture",
+   "min_score": 4,
+   "courses": [
+    "FREN 203",
+    "FREN 204"
+   ],
+   "other_credit": [
+    "French General Elective"
+   ],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "French Language and Culture | 4 | French General Elective, FREN 203 , and placement into FREN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "db0bb6d40044473f92a60b293afbe3353cabf34128911b60a96346eeb7dcc21b"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "French Language and Culture",
+   "min_score": 5,
+   "courses": [
+    "FREN 203",
+    "FREN 204",
+    "FREN 255",
+    "FREN 260",
+    "FREN 262"
+   ],
+   "other_credit": [
+    "French General Elective"
+   ],
+   "hours": 9.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "French Language and Culture | 5 | French General Elective, FREN 203 , FREN 204 , and placement into FREN 255 , FREN 260 , or FREN 262 | 9",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "7bef97d4c3a92171d0c35582cd20443ad64e3b532f8029ee9dd834259974baff"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Geography (Human)",
+   "min_score": 3,
+   "courses": [
+    "GEOG 120"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Geography (Human) | 3 | GEOG 120 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "5a97b95991cc0527ba48c4de4a38667b47c51ac5c6d37f5e34f20be7d2707980"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "German Language",
+   "min_score": 3,
+   "courses": [
+    "GERM 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "German Language | 3 | German General Elective and placement into GERM 203 * | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "6b5d7833b82572485c409773ff0291b6df241d3a50355e72560adda814a5bc5c"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "German Language",
+   "min_score": 4,
+   "courses": [
+    "GERM 203",
+    "GERM 204"
+   ],
+   "other_credit": [
+    "German General Elective"
+   ],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "German Language | 4 | German General Elective, GERM 203 , and placement into GERM 204 * | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "94aced6af78b3ad9225f8d6cc90f28bf9c10755d78a801a3efb40838ce21c948"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "German Language",
+   "min_score": 5,
+   "courses": [
+    "GERM 203",
+    "GERM 204",
+    "GERM 301",
+    "GERM 302"
+   ],
+   "other_credit": [
+    "German General Elective"
+   ],
+   "hours": 9.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "German Language | 5 | German General Elective, GERM 203 , GERM 204 , and placement into GERM 301 or GERM 302 * | 9",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "272ff87e633b26abe0604a33c00ebb58f73e022ddc1ffac265bb3ccdcd6524ca"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Italian Language and Culture",
+   "min_score": 3,
+   "courses": [
+    "ITAL 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Italian Language and Culture | 3 | Italian General Elective and placement into ITAL 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "0f8a6414ff26cb2a7d2067229eac3010fdd82a42c6ecc7ecc0e575a3123e4403"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Italian Language and Culture",
+   "min_score": 4,
+   "courses": [
+    "ITAL 203",
+    "ITAL 204"
+   ],
+   "other_credit": [
+    "Italian General Elective"
+   ],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Italian Language and Culture | 4 | Italian General Elective, ITAL 203 , and placement into ITAL 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "22063a84a1c48e6c71c8a5f6ede40311ffab2d4cd7744bb4d3565c89072fff6c"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Italian Language and Culture",
+   "min_score": 5,
+   "courses": [
+    "ITAL 203",
+    "ITAL 204",
+    "ITAL 300"
+   ],
+   "other_credit": [
+    "Italian General Elective"
+   ],
+   "hours": 9.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Italian Language and Culture | 5 | Italian General Elective, ITAL 203 , ITAL 204 , and placement into ITAL 300 | 9",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "e4a809f784f2f3a19f40f45c3d0461d851695e5ad296fda6f7e2a9bbb15bf55a"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Japanese",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Japanese General Elective *"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Japanese | 3 | Japanese General Elective * | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "66f75ae10bb9139434e6c35a960716a66d316facabc92aa8c1cc6cb0079a3434"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Japanese",
+   "min_score": 4,
+   "courses": [
+    "JAPN 203"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Japanese | 4 | JAPN 203 * | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "fb9fb855bb03224b1ab4069ba1be6cf192078afc25cbafc849a39ffd5f6e496b"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Latin",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Latin General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Latin | 3 | Latin General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "34f9eabd2555287ad07b35c954d08a23d2e91f52910b7970f6a461aa22fe1557"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Latin",
+   "min_score": 4,
+   "courses": [
+    "LATN 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Latin | 4 | LATN 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "018ea71ab2994ee47064d05ce3cf5674396c99e547608db8c489e0764b6a11eb"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Latin",
+   "min_score": 5,
+   "courses": [
+    "LATN 203",
+    "LATN 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Latin | 5 | LATN 203 , LATN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "daa00f9e424ac5928c945566f17baf153adaff21a89c4270de70e6bbb5a53211"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Music Theory",
+   "min_score": 3,
+   "courses": [
+    "MUSC 121"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Music Theory | 3 | MUSC 121 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "768f9a0fb33da3a063ddd0b11b063f878232c80d9d924e8132a767e8330de429"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Music Theory",
+   "min_score": 5,
+   "courses": [
+    "MUSC 121",
+    "MUSC 130",
+    "MUSC 131"
+   ],
+   "other_credit": [],
+   "hours": 7.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Music Theory | 5 | MUSC 121 , MUSC 130 , MUSC 131 | 7",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "330b053eee0514408424f6ed0e65c4371fa4f5f278d26894ff2868ce652449d2"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Physics 1",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Physics General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Physics 1 | 3 | Physics General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "23c8a57aa89ba5c2a41208a193c2c781ebff763ec7de3a7d9179c06b92016a23"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Physics 1",
+   "min_score": 4,
+   "courses": [
+    "PHYS 114"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Physics 1 | 4 | PHYS 114 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "49f025da39b4d0b17817965ca6d36f3c6cef1bba2eaec988cc6adde852f1c8bc"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Physics 2",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Physics General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Physics 2 | 3 | Physics General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "b02b9efca7a962977d4373d0c62349d383b6462ed6e10b5d95a3e09779bc44a6"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Physics 2",
+   "min_score": 4,
+   "courses": [
+    "PHYS 115"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Physics 2 | 4 | PHYS 115 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "ac376886b47618801f9354dd5393b7ce0f170c8d1c63ff682742af07fbd0f2fd"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Physics B",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Physics General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Physics B | 3 | Physics General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "0f0c753b68f832fcd9c1d97d7cdf0f2cd8cdc1669c2781692333c1c9359f7ab5"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Physics B",
+   "min_score": 5,
+   "courses": [
+    "PHYS 114",
+    "PHYS 115"
+   ],
+   "other_credit": [],
+   "hours": 8.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Physics B | 5 | PHYS 114 , PHYS 115 | 8",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "46d0494be4008dcc4020feb81d93d9a2821445f843e10a633b0b6fc1436314bf"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Physics C E&M",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Physics General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Physics C E&M | 3 | Physics General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "4235082a4f630c2df9d4b8e7c8ee1fb34f5586415793726065641b3393c31a4b"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Physics C E&M",
+   "min_score": 4,
+   "courses": [
+    "PHYS 115"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Physics C E&M | 4 | PHYS 115 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "999799303c52bc19ef14e2760344723059bf3c800b94956ab096f400d33a02aa"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Physics C Meachnics",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Physics General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Physics C Meachnics | 3 | Physics General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "4027427a59c87ffb3848e108a6779cdb7753925d08bf792f01b5ac3442d6f049"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Physics C Mechanics",
+   "min_score": 4,
+   "courses": [
+    "PHYS 114"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Physics C Mechanics | 4 | PHYS 114 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "3cbb65e32333b49d460f896308790ec94bae1fb26c37cc5019a74757520e49cd"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Pre-Calculus",
+   "min_score": 3,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P"
+   ],
+   "other_credit": [],
+   "hours": 0.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Pre-Calculus | 3 | MATH 110P, MATH 129P | 0",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "4f098e3f4098d897a5cbe3753d99e3b7812e08ffa0000bc3c7acc58aee9c951f"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Psychology",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Psychology General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Psychology | 3 | Psychology General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "eebab865b6ab47a1c9d2839cbd3a6f67834e9f2c04c78caa9d4c95054e8c6918"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Psychology",
+   "min_score": 4,
+   "courses": [
+    "PSYC 101"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Psychology | 4 | PSYC 101 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "6410e0fc30facf13bff63ea0f73179d13f6a8b385beaedc8320f6cf353e6d851"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Spanish Language and Culture",
+   "min_score": 3,
+   "courses": [
+    "SPAN 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Spanish Language and Culture | 3 | Spanish General Elective and placement into SPAN 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "e480eb1a509b17f366b28f1f62da0a5ad6f7e27c3662f7da0ed2eb8d4f2296ae"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Spanish Language and Culture",
+   "min_score": 4,
+   "courses": [
+    "SPAN 203",
+    "SPAN 204"
+   ],
+   "other_credit": [
+    "Spanish General Elective"
+   ],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Spanish Language and Culture | 4 | Spanish General Elective, SPAN 203 , and placement into SPAN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "896735f4966ff5ad4b97e4f82568e549c425d1538c544ffc54ee73be90faf939"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Spanish Language and Culture",
+   "min_score": 5,
+   "courses": [
+    "SPAN 203",
+    "SPAN 204",
+    "SPAN 261"
+   ],
+   "other_credit": [
+    "Spanish General Elective"
+   ],
+   "hours": 9.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Spanish Language and Culture | 5 | Spanish General Elective, SPAN 203 , SPAN 204 , and placement into SPAN 261 | 9",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "7c2fb1f1c1aafc01bd921ff2e8b211da42182977039b4827f7e31f46fa692a63"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Spanish Literature and Culture",
+   "min_score": 3,
+   "courses": [
+    "SPAN 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Spanish Literature and Culture | 3 | Spanish General Elective and placement into SPAN 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "95c4f847cd8592eef531a45f2e991e70214d35b78074e1d5ff77ed646aebca15"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Spanish Literature and Culture",
+   "min_score": 4,
+   "courses": [
+    "SPAN 203",
+    "SPAN 204"
+   ],
+   "other_credit": [
+    "Spanish General Elective"
+   ],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Spanish Literature and Culture | 4 | Spanish General Elective, SPAN 203 , and placement into SPAN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "9f85a7d82b9cfef727bfadd13cc689bcfed1d43266a78bc692818fbf6c1726c2"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Spanish Literature and Culture",
+   "min_score": 5,
+   "courses": [
+    "SPAN 203",
+    "SPAN 204",
+    "SPAN 261"
+   ],
+   "other_credit": [
+    "Spanish General Elective"
+   ],
+   "hours": 12.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Spanish Literature and Culture | 5 | Spanish General Elective, SPAN 203 , SPAN 204 , SPAN 261 | 12",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "998788459e6d8b6f98be8a868a74b3e6bb89cb10e14043fe4cff65668975f9a2"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Statistics",
+   "min_score": 3,
+   "courses": [
+    "STOR 151"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Statistics | 3 | STOR 151 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "532b08c39ce08fc23517c971e005b7d8e00af58251b6dd0b413829ceb195d1cb"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "Statistics",
+   "min_score": 4,
+   "courses": [
+    "STOR 155"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "Statistics | 4 | STOR 155 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "2789b876cf358bb2a3a6cb8819ccb792b0cc1f01df7871e031c7c1cf2a3f3b6c"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "US Government and Politics",
+   "min_score": 3,
+   "courses": [],
+   "other_credit": [
+    "Political Science General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "US Government and Politics | 3 | Political Science General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "4b76948ea22f9648f69d8c41973b63f8fa633d18b149798865277b94819e6968"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "US Government and Politics",
+   "min_score": 4,
+   "courses": [
+    "POLI 100"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "US Government and Politics | 4 | POLI 100 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "c893e947f090343a69a6d2e4247ab663b7c72176bcace495cc235888dc31aa7b"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "US History",
+   "min_score": 3,
+   "courses": [
+    "HIST 102"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "US History | 3 | HIST 102 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "a99890abc53ea4a9fed011dc8934b02877b5a2bf4437d76d319e9e673fb49f1a"
+   }
+  },
+  {
+   "type": "AP",
+   "exam": "World History",
+   "min_score": 3,
+   "courses": [
+    "HIST 103"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "Advanced Placement Exam Scores",
+    "text": "World History | 3 | HIST 103 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "fae7e77817ca520a9188b225fff083daa70d1dd8c8115f9de16f5a56b909dea2"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Art Studio HL",
+   "min_score": 4,
+   "courses": [
+    "ARTS 104"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Art Studio HL | 4 | ARTS 104 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "3d810afcc63f3a41774d22ab506c123b05f2fee531e302eb6e5fda1d9f7298ce"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Art Studio SL",
+   "min_score": 5,
+   "courses": [
+    "ARTS 104"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Art Studio SL | 5 | ARTS 104 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "6001265535274a0272b8e17ba3326b91d504221903cf04a76f4bfaf9cd7d8a37"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Biology HL",
+   "min_score": 4,
+   "courses": [
+    "BIOL 101",
+    "BIOL 101L"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Biology HL | 4 | BIOL 101 , BIOL 101L | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "d53655f694c2c8f3cb88baa4bffe7ce9ffc4acf1ba562969ad27e2e1b6e02922"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Biology SL",
+   "min_score": 5,
+   "courses": [
+    "BIOL 101",
+    "BIOL 101L"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Biology SL | 5 | BIOL 101 , BIOL 101L | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "e555e6f483efdbd4e72e646e0980222a9d1baa6b7287b382463a27f12325426c"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Chemistry HL",
+   "min_score": 4,
+   "courses": [
+    "CHEM 101",
+    "CHEM 101L"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Chemistry HL | 4 | CHEM 101 , CHEM 101L | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "fbee87b8a91e2b6ff94aa22dde44fb2e83f573abd7c67e638c32215d799f496f"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Chemistry HL",
+   "min_score": 5,
+   "courses": [
+    "CHEM 101",
+    "CHEM 101L",
+    "CHEM 102",
+    "CHEM 102L"
+   ],
+   "other_credit": [],
+   "hours": 8.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Chemistry HL | 5 | CHEM 101 , CHEM 101L , CHEM 102 , CHEM 102L | 8",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "60692c98b9a9f67bfb729e904612ab188e26f00539b35bbcf242798aab51e5e5"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Chemistry SL",
+   "min_score": 5,
+   "courses": [
+    "CHEM 101",
+    "CHEM 101L"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Chemistry SL | 5 | CHEM 101 , CHEM 101L | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "539e9f65c030e511e67909382b261738808fe406175043c6464520d063a2ee36"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Chinese HL",
+   "min_score": 4,
+   "courses": [
+    "CHIN 203"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Chinese HL | 4 | CHIN 203 * | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "611f6871c43b2843b5c77061ed1c7d7a76cb65113bb91d0a49718670c684a594"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Chinese SL",
+   "min_score": 5,
+   "courses": [
+    "CHIN 203"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Chinese SL | 5 | CHIN 203 * | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "62b7d03774f90924e2a4bba74a4e48a90cd8c26af26b972c500943a7579e9863"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Economics HL",
+   "min_score": 4,
+   "courses": [
+    "ECON 101"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Economics HL | 4 | ECON 101 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "6baa1d10a4554105567dcb2d2d16d048af1ddb35d5fdf558265f6a9e2286edaf"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Economics SL",
+   "min_score": 5,
+   "courses": [
+    "ECON 101"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Economics SL | 5 | ECON 101 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "a08cda76b095527f6a372189340167e1e31c1bab86c0737165687d96025c6297"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "English A HL",
+   "min_score": 4,
+   "courses": [
+    "ENGL 191"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "English A HL | 4 | ENGL 191 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "c189e661131de9c377b8f8356c3bf2c7799897846e4cef4f3addc7a9cadf3576"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "English A SL",
+   "min_score": 5,
+   "courses": [
+    "ENGL 191"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "English A SL | 5 | ENGL 191 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "c529e985b09e9d8aa373e2757dab0c4c0f27617706a139cdb33f361ac99c689e"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "English Language & Literature HL",
+   "min_score": 4,
+   "courses": [
+    "ENGL 191"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "English Language & Literature HL | 4 | ENGL 191 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "f4d32ce0a954f654d045620783b49ea6ced503243778882c1f9aad0c866e9618"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "English Language & Literature SL",
+   "min_score": 5,
+   "courses": [
+    "ENGL 191"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "English Language & Literature SL | 5 | ENGL 191 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "3db19723175956e4be2ffd2e7149adef1b4176dc19ecded9e8c382028bd8f8c9"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "French A Language and Literature HL/SL",
+   "min_score": 5,
+   "courses": [
+    "FREN 203",
+    "FREN 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "French A Language and Literature HL/SL | 5 | FREN 203 , FREN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "d3e2e1b0314bf5cf3fa6381a88cb777910b762a2673579b196feb9630adacd65"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "French A Literature HL/SL",
+   "min_score": 5,
+   "courses": [
+    "FREN 203",
+    "FREN 204",
+    "FREN 260"
+   ],
+   "other_credit": [],
+   "hours": 9.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "French A Literature HL/SL | 5 | FREN 203 , FREN 204 , FREN 260 | 9",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "42eb9047b37fc4c48e5b5624e305e50320448546e1a9a4c0453cf7f3774395a8"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "French B HL",
+   "min_score": 4,
+   "courses": [
+    "FREN 203",
+    "FREN 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "French B HL | 4 | FREN 203 , FREN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "bce486342d7c1ce1c536d791ecc365abb305db8f3b8ac0ba1a7941930113e9f2"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "French B SL",
+   "min_score": 5,
+   "courses": [
+    "FREN 203",
+    "FREN 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "French B SL | 5 | FREN 203 , FREN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "bfdf65810ac2331c5273f4b874018e4f7caaa13fe2e58d5d0e36b55071264dc9"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "French ab initio SL",
+   "min_score": 5,
+   "courses": [],
+   "other_credit": [
+    "French General Elecitve; Placement by exam. (See languageplacement.unc.edu)"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "French ab initio SL | 5 | French General Elecitve; Placement by exam. (See languageplacement.unc.edu) | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "3fca110252bcc766627d787c57581a1857b60d610e29d87976b65e4775385c56"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "French ab initio SL",
+   "min_score": 6,
+   "courses": [
+    "FREN 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "French ab initio SL | 6 | French General Elective; Placement into FREN 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "0b0233ae26795ed36a1d5d233b6429389d090edd4c6c9d851a31522bd05753af"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Further Mathematics HL",
+   "min_score": 4,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P",
+    "MATH 231",
+    "MATH 232"
+   ],
+   "other_credit": [],
+   "hours": 8.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Further Mathematics HL | 4 | MATH 110P, MATH 129P , MATH 231 , MATH 232 | 8",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "747bfe656af830d51149940147c20f6543409c7b5cbe3ee2465cbbb51ffa5735"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "German HL",
+   "min_score": 4,
+   "courses": [],
+   "other_credit": [
+    "German General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "German HL | 4 | German General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "72927e1f12ddc26195a8e7bafc90daf7544ca0836773e62f4a7e45dec6757d99"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "German HL",
+   "min_score": 5,
+   "courses": [
+    "GERM 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "German HL | 5 | GERM 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "682a125c1e249e678c08977cc847fb2c1b42a5f707b945a3944c5ca2ec422c9e"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "German HL",
+   "min_score": 6,
+   "courses": [
+    "GERM 203",
+    "GERM 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "German HL | 6 | GERM 203 , GERM 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "f876514bd321114de88c261b215c8bcc98f2f698b21673773753c590308601ec"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "German SL",
+   "min_score": 5,
+   "courses": [],
+   "other_credit": [
+    "German General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "German SL | 5 | German General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "d55e2fdb0a8f89eb81103a084f8bfa6f8db73c8a5e7040af12774263ea2d3fb0"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "German SL",
+   "min_score": 6,
+   "courses": [
+    "GERM 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "German SL | 6 | GERM 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "e9c5f8607021fbb7cb23ce3111199e2217b43905295b35a4761fd61613a4ebbc"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "German SL",
+   "min_score": 7,
+   "courses": [
+    "GERM 203",
+    "GERM 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "German SL | 7 | GERM 203 , GERM 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "9b62e512d001d53a62a3dfc6a94c22d3a2f002a6599b6a2a542e164640232ab0"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "History of the Americas HL",
+   "min_score": 4,
+   "courses": [],
+   "other_credit": [
+    "HIST General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "History of the Americas HL | 4 | HIST General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "0582a41ce9ac5ce95bdf729b6eba506f0288a2c9c0d40bffa7988d1d18b7eb1a"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "History HL",
+   "min_score": 4,
+   "courses": [
+    "HIST 103"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "History HL | 4 | HIST 103 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "5387dff5c7944aefa30cc13050acbca6b747a0c473cc430c56a354a520bbdfe4"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Italian HL",
+   "min_score": 4,
+   "courses": [
+    "ITAL 203",
+    "ITAL 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Italian HL | 4 | ITAL 203 , ITAL 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "b6b3d7794b6dd31e8d5803d48bb2576023a51944c90d0fc81faf5d1f2f051182"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Italian SL",
+   "min_score": 5,
+   "courses": [
+    "ITAL 203",
+    "ITAL 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Italian SL | 5 | ITAL 203 , ITAL 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "210b1c8ab8fe63084fd096cb07c87ec3be8695cdc370a5d78ab34e0fa2218e43"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Japanese HL",
+   "min_score": 4,
+   "courses": [
+    "JAPN 203"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Japanese HL | 4 | JAPN 203 * | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "efc18eefcd91bd6d18d8adddf2f17ceb319f69681cdc0d18b51cd2c77566510d"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Japanese SL",
+   "min_score": 5,
+   "courses": [
+    "JAPN 203"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Japanese SL | 5 | JAPN 203 * | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "5ae78a2e0b7af7b19527ce104b5244c33c2a919e26deb3631653e17760a48f4b"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Latin HL",
+   "min_score": 4,
+   "courses": [],
+   "other_credit": [
+    "Latin General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Latin HL | 4 | Latin General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "3ce4b2c8077112f20b297b612e235a62e6caf7f7b0f91766a1ff3e84eb2083c5"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Latin HL",
+   "min_score": 5,
+   "courses": [
+    "LATN 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Latin HL | 5 | LATN 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "98fd83b7574736b80e5fdd0394026d708ccc2aff3ef862c6716c9557a1d5b2df"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Latin HL",
+   "min_score": 6,
+   "courses": [
+    "LATN 203",
+    "LATN 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Latin HL | 6 | LATN 203 , LATN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "acedc290cee631d38a2ffc4a82211803b37516fe72e13c03d647564b28713ee9"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Latin SL",
+   "min_score": 5,
+   "courses": [],
+   "other_credit": [
+    "Latin General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Latin SL | 5 | Latin General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "d1c5bc2ff14d902ad30956095c2700a83adf797c5eaa693fb32fde9cbfe3168a"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Latin SL",
+   "min_score": 6,
+   "courses": [
+    "LATN 203"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Latin SL | 6 | LATN 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "9711b220e8142aaf521beb1369dd1e7529cb41ad3eaea2bda630b82492185c52"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Latin SL",
+   "min_score": 7,
+   "courses": [
+    "LATN 203",
+    "LATN 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Latin SL | 7 | LATN 203 , LATN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "f4824fa17bb3e20b66ef789d80af3a328e0bb9e06e113dad42845d738714cd51"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Math HL",
+   "min_score": 4,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P",
+    "MATH 231",
+    "MATH 232"
+   ],
+   "other_credit": [],
+   "hours": 8.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Math HL | 4 | MATH 110P, MATH 129P , MATH 231 , MATH 232 | 8",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "a7baddb4703c34b7f3d55ab19079f8797e7cf0450e75be2a56cfc9041c156834"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Math SL",
+   "min_score": 5,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P"
+   ],
+   "other_credit": [],
+   "hours": 0.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Math SL | 5 | MATH 110P, MATH 129P | 0",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "90ecfd816f51bced24587ce0b40966dd852665a9b6a9981ef663a9130e0e411b"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Mathematics Analysis and Approaches HL",
+   "min_score": 4,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P",
+    "MATH 231",
+    "MATH 232"
+   ],
+   "other_credit": [],
+   "hours": 8.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Mathematics Analysis and Approaches HL | 4 | MATH 110P, MATH 129P , MATH 231 , MATH 232 | 8",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "78875c0885e2887396c3074e10f73386457adc06eeded95e630f0857e2139dc5"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Mathematics Analysis and Approaches SL",
+   "min_score": 5,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P",
+    "MATH 231"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Mathematics Analysis and Approaches SL | 5 | MATH 110P, MATH 129P , MATH 231 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "f1a4edf6d8f64fff3c81f52909fef6d0235a06e859f279db5f8516960b01f74f"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Mathematics Applications HL",
+   "min_score": 4,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P",
+    "MATH 231"
+   ],
+   "other_credit": [],
+   "hours": 4.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Mathematics Applications HL | 4 | MATH 110P, MATH 129P , MATH 231 | 4",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "82e9f2444f16df211b5d9d5db0d2ca1ef0211bdfa0334cfbc4c0eb168024784a"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Mathematics Applications SL",
+   "min_score": 5,
+   "courses": [
+    "MATH 110P",
+    "MATH 129P"
+   ],
+   "other_credit": [],
+   "hours": 0.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Mathematics Applications SL | 5 | MATH 110P, MATH 129P | 0",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "297a5d5bf3da18eafca02461ef8918281db2dcca3c408142c92546ed9bfa00ba"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Music Comp HL",
+   "min_score": 4,
+   "courses": [
+    "MUSC 141"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Music Comp HL | 4 | MUSC 141 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "74eae9fa56d9baf519389761e067137d9ccff82d6e5fc4dae3b6872e6d4e932a"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Music Comp SL",
+   "min_score": 5,
+   "courses": [
+    "MUSC 141"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Music Comp SL | 5 | MUSC 141 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "833bab769e503f2e347cab68e229c24b4115daf1db4e02a74696d8e92ac32fab"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Philosophy HL",
+   "min_score": 4,
+   "courses": [],
+   "other_credit": [
+    "Philosophy General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Philosophy HL | 4 | Philosophy General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "9889d43f887b196360f1fdfb9bb1a82513b86e1711021706cc236a93e29d47c3"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Philosophy HL",
+   "min_score": 5,
+   "courses": [
+    "PHIL 101"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Philosophy HL | 5 | PHIL 101 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "21fb26c16ff80311ab1c694463b09ee269d42a13e325e00e4d717ecf5d30a11d"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Philosophy SL",
+   "min_score": 5,
+   "courses": [],
+   "other_credit": [
+    "Philosophy General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Philosophy SL | 5 | Philosophy General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "0fdcccdfdb378bc555ae1b8f62fa7e9f7703eb6dfb2d5b21a780be68bbabfb9e"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Physics HL",
+   "min_score": 4,
+   "courses": [],
+   "other_credit": [
+    "Physics General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Physics HL | 4 | Physics General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "e2743f0dbb7ea58843af1eb59bf71cb1ce39b95727d80c7dee5b1f49ae88ba77"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Physics HL",
+   "min_score": 7,
+   "courses": [
+    "PHYS 114",
+    "PHYS 115"
+   ],
+   "other_credit": [],
+   "hours": 8.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Physics HL | 7 | PHYS 114 , PHYS 115 | 8",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "223aec5090333bfbf1287a82897ba0d20938596f2d17e8b01ed0afaa97718d71"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Physics SL",
+   "min_score": 5,
+   "courses": [],
+   "other_credit": [
+    "Physics General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Physics SL | 5 | Physics General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "70dee2a63a62937e4555f8282c6b19b3f23dca064b5e5a52683d53eddad8dc9a"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Psychology HL",
+   "min_score": 4,
+   "courses": [
+    "PSYC 101"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Psychology HL | 4 | PSYC 101 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "2445f822d8157f6f78951f2eab60e85762c0473d1e7099cb6c3c8dfe7d1d3576"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Psychology SL",
+   "min_score": 5,
+   "courses": [
+    "PSYC 101"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Psychology SL | 5 | PSYC 101 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "03abfbf15659e9b561364eda9574b65a0768fc75e1222b4e071083dd52ae66f1"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Spanish A Language and Literature HL/SL",
+   "min_score": 5,
+   "courses": [
+    "SPAN 203",
+    "SPAN 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Spanish A Language and Literature HL/SL | 5 | SPAN 203 , SPAN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "55dedf30cd6e522a617a6822858ffe618d73a4560caf40fe63c09409677b8a7d"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Spanish A Literature HL/SL",
+   "min_score": 5,
+   "courses": [
+    "SPAN 203",
+    "SPAN 204",
+    "SPAN 261"
+   ],
+   "other_credit": [],
+   "hours": 9.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Spanish A Literature HL/SL | 5 | SPAN 203 , SPAN 204 , SPAN 261 | 9",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "5c9ee242fcf34bc8a457ef92bb6fa0b3824f1435d5cc324d12c26f153088de1e"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Spanish ab initio SL",
+   "min_score": 5,
+   "courses": [],
+   "other_credit": [
+    "Spanish General Elective; Placement by exam. (See languageplacement.unc.edu)"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Spanish ab initio SL | 5 | Spanish General Elective; Placement by exam. (See languageplacement.unc.edu) | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "f74be7822c6248eb915299dd5f636651f8edf3ed6c09bec3226c238322c00f66"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Spanish ab initio SL",
+   "min_score": 6,
+   "courses": [
+    "SPAN 203"
+   ],
+   "other_credit": [
+    "Spanish General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Spanish ab initio SL | 6 | Spanish General Elective, Placement in SPAN 203 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "06c2cb9f42992ad21fdd878ef51b3cc46607d5274e6bd88760041ecae265b719"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Spanish B HL",
+   "min_score": 4,
+   "courses": [
+    "SPAN 203",
+    "SPAN 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Spanish B HL | 4 | SPAN 203 , SPAN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "2d66cfbd2d0c0fd11d764ceb7cb142e65bfc70ca6228ba35f3d6c55e920c6544"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Spanish B SL",
+   "min_score": 5,
+   "courses": [
+    "SPAN 203",
+    "SPAN 204"
+   ],
+   "other_credit": [],
+   "hours": 6.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Spanish B SL | 5 | SPAN 203 , SPAN 204 | 6",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "a037909aba34a3d6a6e78ad3d90246ac01e8445d1e1233020996117776147e7a"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Visual Arts HL",
+   "min_score": 4,
+   "courses": [
+    "ARTS 104"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Visual Arts HL | 4 | ARTS 104 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "cd1eb26f8e5e7c95e37c13995bc604a848203a6d48239192e3d5d9eef5f566f3"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "Visual Arts SL",
+   "min_score": 5,
+   "courses": [],
+   "other_credit": [
+    "Art Studio General Elective"
+   ],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "Visual Arts SL | 5 | Art Studio General Elective | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "41fe92a03077e717fefdc620f49b3da3bf7141e86f06eec72d2b88373e11962c"
+   }
+  },
+  {
+   "type": "IB",
+   "exam": "World Religion SL",
+   "min_score": 5,
+   "courses": [
+    "RELI 101"
+   ],
+   "other_credit": [],
+   "hours": 3.0,
+   "source": {
+    "url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+    "catalog_year": "2026-2027",
+    "section": "International Baccalaureate Scores",
+    "text": "World Religion SL | 5 | RELI 101 | 3",
+    "retrieved_at": "2026-10-18T01:42:58+00:00",
+    "sha256": "a055d419ef62ef51ddafb044b0efadd4a584d54f20cf489a73eecf1611a70b9d"
+   }
+  }
+ ]
+}

@@ -47,6 +47,33 @@ def requisite_holds(ctx: "Context", node: Optional[Requisite], t: int, schedule:
     return not in_any
 
 
+def satisfiers(ctx: "Context", node: Optional[Requisite], t: int, schedule: dict[str, int]) -> list[str]:
+    """The completed/earlier-planned courses (or placement tokens) that actually
+    meet `node` for a course in term `t`; for OR, the first alternative that holds."""
+    if node is None:
+        return []
+    if node.kind == "course":
+        for e in ctx.store.equivalents(node.code):
+            record = ctx.done.get(e)
+            if record is not None and e not in ctx.retakes and _grade_meets(record.grade, node.min_grade, True):
+                return [e]
+        for e in ctx.store.equivalents(node.code):
+            when = schedule.get(e)
+            if when is not None and (when < t or (node.concurrent_ok and when == t)):
+                return [e]
+        return []
+    if node.kind == "all":
+        return [s for i in node.items for s in satisfiers(ctx, i, t, schedule)]
+    if node.kind == "any":
+        for item in node.items:
+            if requisite_holds(ctx, item, t, schedule, allow_assumed=True, in_any=True):
+                return satisfiers(ctx, item, t, schedule)
+        return []
+    if node.kind in ("placement", "permission"):
+        return [node.token] if node.token in ctx.tokens else []
+    return []
+
+
 def assumed_grade_sources(ctx: "Context", node: Optional[Requisite]) -> list[tuple[str, str]]:
     """Completed courses in `node` whose minimum grade we can only assume (no grade entered)."""
     if node is None:

@@ -101,6 +101,16 @@ def course_detail(code: str, catalog_year: str = DEFAULT_YEAR):
             "corequisites_text": describe(course.corequisites) if course.corequisites else None}
 
 
+@app.get("/api/exams")
+def exams(catalog_year: str = DEFAULT_YEAR):
+    """AP/IB exams from the catalog credit table, with every award row for display."""
+    store = _store(catalog_year)
+    return {"source_url": "https://catalog.unc.edu/policies-procedures/credit-evaluation/",
+            "exams": store.exam_options(),
+            "awards": [{k: r[k] for k in ("type", "exam", "min_score", "courses", "other_credit", "hours")}
+                       | ({"note": r["note"]} if "note" in r else {}) for r in store.exam_awards]}
+
+
 @app.get("/api/policies")
 def policy_list(catalog_year: str = DEFAULT_YEAR):
     return {"catalog_year": catalog_year, "policies": policies(catalog_year)}

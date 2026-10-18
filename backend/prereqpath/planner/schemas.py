@@ -29,8 +29,22 @@ class CompletedCourse(BaseModel):
 
 
 class Lock(BaseModel):
-    code: str
-    term: str
+    code: str = Field(max_length=20)
+    term: str = Field(max_length=20)
+
+
+class ExamScore(BaseModel):
+    """An AP or IB exam result, resolved through the catalog's credit table."""
+    type: Literal["AP", "IB"]
+    exam: str = Field(max_length=120)
+    score: int = Field(ge=1, le=7)
+
+
+class OtherCredit(BaseModel):
+    """Credit hours that do not map to a specific UNC course (e.g. transfer electives)."""
+    label: str = Field("Transfer credit", max_length=80)
+    hours: float = Field(gt=0, le=90)
+    origin: Literal["transfer", "exam"] = "transfer"
 
 
 class PlanRequest(BaseModel):
@@ -43,8 +57,10 @@ class PlanRequest(BaseModel):
     min_credits: int = Field(12, ge=0, le=21)
     max_credits: int = Field(18, ge=1, le=21)
     summer_max_credits: int = Field(8, ge=0, le=14)
-    target_program_credits: int = Field(8, ge=3, le=18)   # soft target for program coursework per semester
+    target_program_credits: int = Field(8, ge=3, le=18)   # soft cap on program coursework per semester
     completed: list[CompletedCourse] = Field(default_factory=list, max_length=150)
+    exams: list[ExamScore] = Field(default_factory=list, max_length=40)
+    other_credit: list[OtherCredit] = Field(default_factory=list, max_length=20)
     tokens: list[str] = Field(default_factory=list, max_length=50)   # e.g. "PLACEMENT:MATH 231"
     locks: list[Lock] = Field(default_factory=list, max_length=30)
     exclude: list[str] = Field(default_factory=list, max_length=60)
@@ -70,6 +86,9 @@ class PlannedCourse(BaseModel):
     contingencies: list[str] = Field(default_factory=list)
     warnings: list[str] = Field(default_factory=list)
     requisites_status: str
+    requisites_raw: Optional[str] = None
+    prerequisites_text: str = "none"
+    satisfied_by: list[str] = Field(default_factory=list)   # courses/tokens that meet its requisites in this plan
     gen_ed: list[str] = Field(default_factory=list)
     source_url: str
 
@@ -107,6 +126,7 @@ class Infeasibility(BaseModel):
     summary: str
     causes: list[str]
     suggestions: list[str]
+    actions: list[dict] = Field(default_factory=list)   # {label, changes}: request edits that were re-solved as feasible
 
 
 class PlanResponse(BaseModel):
@@ -117,6 +137,7 @@ class PlanResponse(BaseModel):
                                "degree audit and does not certify graduation; confirm with your advisor and Tar Heel Tracker.")
     catalog_year: str
     programs: list[dict]
+    completed_courses: list[dict] = Field(default_factory=list)   # normalized credit the plan starts from
     plans: list[Plan] = Field(default_factory=list)
     infeasibility: Optional[Infeasibility] = None
     issues: list[Issue] = Field(default_factory=list)
