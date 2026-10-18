@@ -1,12 +1,16 @@
 # Render Blueprint: New > Blueprint > select this repository.
 services:
   - type: web
-    name: prereqpath
+    name: coursepilot
     runtime: docker
     dockerfilePath: ./Dockerfile
-    plan: starter            # "free" also works but sleeps when idle (first request then takes ~1 min)
+    plan: free               # sleeps when idle; the first request after a nap takes ~1 min. "starter" stays on.
     healthCheckPath: /api/health
     autoDeploy: true
     envVars:
       - key: PREREQPATH_MAX_CONCURRENT
         value: "2"
+      - key: PREREQPATH_SOLVER_WORKERS   # free tier has 0.1 CPU: single-threaded search is ~10x cheaper
+        value: "1"
+      - key: PREREQPATH_MAX_ALTERNATIVES   # one plan per request keeps responses fast on 0.1 CPU
+        value: "1"

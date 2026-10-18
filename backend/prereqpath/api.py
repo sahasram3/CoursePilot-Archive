@@ -6,6 +6,7 @@ Environment (all optional):
     PREREQPATH_DATA_DIR          catalog data directory (default: <repo>/data)
     PREREQPATH_MAX_CONCURRENT    simultaneous plan solves (default 2); extra requests get HTTP 503
     PREREQPATH_CORS_ORIGINS      comma-separated origins, only if the frontend is hosted elsewhere
+    PREREQPATH_MAX_ALTERNATIVES  cap on alternative plans per request (default 3; 1 on CPU-capped hosts)
 """
 from __future__ import annotations
 
@@ -33,6 +34,8 @@ DEFAULT_YEAR = "2026-2027"
 # Each solve uses several CPU-seconds; cap concurrency so a burst degrades to clear
 # "busy, retry" responses instead of a stalled server.
 SOLVE_SLOTS = threading.BoundedSemaphore(int(os.environ.get("PREREQPATH_MAX_CONCURRENT", "2")))
+# Each extra alternative is another solve; CPU-capped hosts can limit it.
+MAX_ALTERNATIVES = max(1, int(os.environ.get("PREREQPATH_MAX_ALTERNATIVES", "3")))
 
 
 @asynccontextmanager
@@ -157,6 +160,8 @@ def policy_list(catalog_year: str = DEFAULT_YEAR):
 def make_plan(request: PlanRequest):
     if request.catalog_year not in available_catalog_years():
         raise HTTPException(422, f"Catalog year {request.catalog_year} is not available")
+    if request.alternatives > MAX_ALTERNATIVES:
+        request = request.model_copy(update={"alternatives": MAX_ALTERNATIVES})
     if not SOLVE_SLOTS.acquire(timeout=15):
         raise HTTPException(503, "The planner is busy right now. Please try again in a few seconds.")
     try:

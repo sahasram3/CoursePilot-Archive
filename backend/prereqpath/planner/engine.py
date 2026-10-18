@@ -16,6 +16,7 @@ a planned course becomes an explicit contingency instead of blocking the plan.
 """
 from __future__ import annotations
 
+import os
 import re
 import time
 from dataclasses import dataclass, field
@@ -680,13 +681,22 @@ class PlanModel:
 # minimality is already proven in stage 1; benchmarks show stage 2 reaches
 # within ~1% of its best objective by 0.3 while staying reproducible.
 STAGE2_SECONDS = 0.4
+# Search threads per solve. 8 suits a multi-core machine; on CPU-capped hosts (e.g. a
+# 0.1-CPU free tier) use 1: measured within 1-4% of the 8-thread plan quality at
+# 5-14x less CPU. Both settings are deterministic.
+SOLVER_WORKERS = max(1, int(os.environ.get("PREREQPATH_SOLVER_WORKERS", "8")))
+
+
 def _solver(seconds: float = 10.0) -> cp_model.CpSolver:
-    """Deterministic parallel search: the same request gives the same plan."""
+    """Deterministic search: the same request gives the same plan."""
     solver = cp_model.CpSolver()
-    solver.parameters.max_time_in_seconds = max(15.0, seconds * 10)   # safety net only; never the binding limit
+    # Wall-clock safety net only. The deterministic budget is the real limit; the net must
+    # stay generous so a slow, CPU-capped host still completes the same search (a tight
+    # net there cut stage 2 off before it found any schedule).
+    solver.parameters.max_time_in_seconds = max(120.0, seconds * 150)
     solver.parameters.max_deterministic_time = seconds
-    solver.parameters.num_workers = 8
-    solver.parameters.interleave_search = True
+    solver.parameters.num_workers = SOLVER_WORKERS
+    solver.parameters.interleave_search = SOLVER_WORKERS > 1
     solver.parameters.random_seed = 7
     return solver
 
@@ -702,21 +712,27 @@ def _solve(ctx: Context, alternatives: int = 1):
     statuses.append("stage1:" + first.StatusName(status))
     if status not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
         return pm, solutions, statuses
-    # Stage 2: keep that coursework minimal; optimize schedule quality from a warm start.
+    # Stage 2: keep that coursework minimal; optimize schedule quality. No warm-start
+    # hint: benchmarks showed hinting the stage-1 schedule anchors the search in a poor
+    # region (a double major stalled at 6x the best objective with one thread).
     pm.m.Add(pm.primary <= round(first.ObjectiveValue()))
-    for xs in pm.x.values():
-        for v in xs:
-            pm.m.AddHint(v, first.Value(v))
     pm.m.Minimize(pm.secondary)
-    # Benchmarks: one program converges by 0.4; a double major needs ~1.0 to reach a
-    # good schedule. Extra alternatives only need to be distinct and sensible.
-    budget = STAGE2_SECONDS * (1 if len(ctx.programs) == 1 else 3)
+    # Benchmarks: with parallel search a double major needs ~1.0 to reach a good schedule;
+    # single-threaded search already gets there at the base budget. Extra alternatives
+    # only need to be distinct and sensible.
+    budget = STAGE2_SECONDS * (3 if len(ctx.programs) > 1 and SOLVER_WORKERS > 1 else 1)
     for i in range(alternatives):
         solver = _solver(budget if i == 0 else budget / 2)
         status = solver.Solve(pm.m)
         statuses.append(solver.StatusName(status))
         if status not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
-            break
+            if i == 0:
+                # Stage 1 already found a valid, coursework-minimal schedule: return it
+                # (unpolished) rather than ever reporting a feasible request as infeasible.
+                solver = first
+                statuses.append("fallback:stage1-schedule")
+            else:
+                break
         chosen = [(c, t) for c, xs in pm.x.items() for t, v in enumerate(xs) if solver.Value(v)]
         result = _extract(pm, solver, chosen)
         result.objective = solver.ObjectiveValue()

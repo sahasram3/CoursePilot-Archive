@@ -16,6 +16,11 @@ browser end-to-end suite and handled six concurrent double-major plan requests w
 The `starter` plan is recommended. The free plan works, but it sleeps when idle, so the first request after a nap
 takes about a minute.
 
+Measured under simulated free-tier limits (`docker run --cpus=0.1 --memory=512m` with the `render.yaml` settings):
+about 40–60 s cold start, 5–25 s per single-major plan, and about 25 s for a double major. On that CPU budget a
+double-major plan is returned unpolished: valid, but less evenly spread. The `starter` plan or a bigger host gives
+faster, fully balanced plans. All 15 browser checks pass under those limits.
+
 ## Option B: Fly.io
 
 ```bash
@@ -42,6 +47,8 @@ All settings are optional; see `.env.example`.
 |---|---|---|
 | `PORT` | `8000` | Listening port |
 | `PREREQPATH_MAX_CONCURRENT` | `2` | Simultaneous plan solves (each uses several CPU-seconds). Excess requests wait up to 15 s, then get HTTP 503 with a retry message. Raise it on bigger machines. |
+| `PREREQPATH_SOLVER_WORKERS` | `8` | CP-SAT search threads per plan. Set `1` on CPU-capped hosts (Render free = 0.1 CPU): measured within 1–4% of 8-thread plan quality at 5–14× less CPU. `render.yaml` sets 1. |
+| `PREREQPATH_MAX_ALTERNATIVES` | `3` | Cap on alternative plans per request; each is another solve. `render.yaml` sets 1 for the free tier. |
 | `PREREQPATH_DATA_DIR` | `<repo>/data` | Location of `catalog/` and `verified/` |
 | `PREREQPATH_CORS_ORIGINS` | unset | Only if the frontend is hosted on a different origin (comma-separated) |
 | `VITE_API_BASE` | unset | **Frontend build-time** API URL, used only for split hosting |

@@ -333,3 +333,15 @@ def test_random_transcripts_always_yield_valid_plans_or_explanations():
             check_consistent(req, r)
         else:
             assert r.infeasibility.causes and r.infeasibility.suggestions
+
+
+def test_feasible_request_is_never_reported_infeasible_when_polishing_finds_nothing(monkeypatch):
+    # Regression: on a CPU-starved host stage 2 can end with no solution; the valid
+    # stage-1 schedule must be returned instead of a false "no plan fits".
+    import prereqpath.planner.engine as eng
+    monkeypatch.setattr(eng, "STAGE2_SECONDS", 1e-9)
+    req = make(completed=[{"code": "MATH 231", "grade": "A"}])
+    r = plan(req)
+    assert r.status == "feasible"
+    assert r.solver["statuses"] == ["stage1:OPTIMAL", "UNKNOWN", "fallback:stage1-schedule"]
+    check_consistent(req, r)
