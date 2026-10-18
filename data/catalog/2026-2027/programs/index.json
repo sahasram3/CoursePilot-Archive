@@ -1,0 +1,1727 @@
+{
+ "catalog_year": "2026-2027",
+ "source_url": "https://catalog.unc.edu/undergraduate/programs-study/",
+ "retrieved_at": "2026-10-18T00:42:02+00:00",
+ "skipped_non_undergraduate": [
+  "doctor-of-dental-surgery-dds",
+  "pharmd"
+ ],
+ "programs": [
+  {
+   "id": "aerospace-studies-minor",
+   "name": "Aerospace Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/aerospace-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "african-american-diaspora-studies-minor",
+   "name": "African American and Diaspora Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/african-american-diaspora-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "african-studies-minor",
+   "name": "African Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/african-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "african-african-american-diaspora-studies-major-ba",
+   "name": "African, African American, and Diaspora Studies Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/african-african-american-diaspora-studies-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "american-indian-indigenous-studies-minor",
+   "name": "American Indian and Indigenous Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/american-indian-indigenous-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "american-studies-major-ba",
+   "name": "American Studies Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/american-studies-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "american-studies-major-baamerican-indian-indigenous-studies-concentration",
+   "name": "American Studies Major, B.A.–American Indian and Indigenous Studies Concentration",
+   "kind": "major",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/american-studies-major-baamerican-indian-indigenous-studies-concentration/",
+   "catalog_year": "2026-2027",
+   "concentration_of": "american-studies-major-ba",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "american-studies-minor",
+   "name": "American Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/american-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "general-anthropology-minor",
+   "name": "Anthropology (General) Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/general-anthropology-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "anthropology-major-ba",
+   "name": "Anthropology Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/anthropology-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "applied-sciences-engineering-minor",
+   "name": "Applied Sciences and Engineering Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/applied-sciences-engineering-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "applied-sciences-major-bs",
+   "name": "Applied Sciences, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/applied-sciences-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "arabic-minor",
+   "name": "Arabic Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/arabic-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "archaeology-major-ba",
+   "name": "Archaeology Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/archaeology-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "archaeology-minor",
+   "name": "Archaeology Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/archaeology-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "art-history-major-ba",
+   "name": "Art History Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/art-history-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "art-history-minor",
+   "name": "Art History Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/art-history-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "artificial-intelligence-minor",
+   "name": "Artificial Intelligence Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/artificial-intelligence-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "asian-studies-major-ba-arab-cultures-concentration",
+   "name": "Asian Studies Major, B.A.–Arab Cultures Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/asian-studies-major-ba-arab-cultures-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "asian-studies-major-ba-chinese-concentration",
+   "name": "Asian Studies Major, B.A.–Chinese Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/asian-studies-major-ba-chinese-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "asian-studies-major-ba-general-concentration",
+   "name": "Asian Studies Major, B.A.–Interdisciplinary Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/asian-studies-major-ba-general-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "asian-studies-major-ba-japanese-concentration",
+   "name": "Asian Studies Major, B.A.–Japanese Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/asian-studies-major-ba-japanese-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "asian-studies-major-ba-korean-concentration",
+   "name": "Asian Studies Major, B.A.–Korean Studies Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/asian-studies-major-ba-korean-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "asian-studies-major-ba-persian-concentration",
+   "name": "Asian Studies Major, B.A.–Persian Studies Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/asian-studies-major-ba-persian-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "asian-studies-major-ba-south-asian-studies-concentration",
+   "name": "Asian Studies Major, B.A.–South Asian Studies Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/asian-studies-major-ba-south-asian-studies-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "asian-studies-minor",
+   "name": "Asian Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/asian-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "astronomy-minor",
+   "name": "Astronomy Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/astronomy-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "best-minor",
+   "name": "Baccalaureate Education in Science and Teaching (BEST) Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/best-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "biology-major-ba",
+   "name": "Biology Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/biology-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "biology-major-bs",
+   "name": "Biology Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/biology-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "biology-major-bs-quantitative-biology-track",
+   "name": "Biology Major, B.S.–Quantitative Biology Track",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/biology-major-bs-quantitative-biology-track/",
+   "catalog_year": "2026-2027",
+   "concentration_of": "biology-major-bs",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "biology-minor",
+   "name": "Biology Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/biology-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "biomedical-engineering-major-bs",
+   "name": "Biomedical Engineering Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/biomedical-engineering-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "biostatistics-major-bsph",
+   "name": "Biostatistics Major, B.S.P.H.",
+   "kind": "major",
+   "degree": "BSPH",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/biostatistics-major-bsph/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "business-administration-major-bsba",
+   "name": "Business Administration Major, B.S.B.A.",
+   "kind": "major",
+   "degree": "BSBA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/business-administration-major-bsba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "business-administration-minor",
+   "name": "Business Administration Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/business-administration-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "business-health-minor",
+   "name": "Business of Health Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/business-health-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "chemistry-major-ba",
+   "name": "Chemistry Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/chemistry-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "chemistry-major-bs",
+   "name": "Chemistry Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/chemistry-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "chemistry-major-bs-biochemistry-track",
+   "name": "Chemistry Major, B.S.–Biochemistry Track",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/chemistry-major-bs-biochemistry-track/",
+   "catalog_year": "2026-2027",
+   "concentration_of": "chemistry-major-bs",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "chemistry-major-bs-polymer-track",
+   "name": "Chemistry Major, B.S.–Polymer Track",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/chemistry-major-bs-polymer-track/",
+   "catalog_year": "2026-2027",
+   "concentration_of": "chemistry-major-bs",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "chemistry-minor",
+   "name": "Chemistry Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/chemistry-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "chinese-minor",
+   "name": "Chinese Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/chinese-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "civic-life-leadership-minor",
+   "name": "Civic Life and Leadership Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/civic-life-leadership-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "classical-humanities-minor",
+   "name": "Classical Humanities Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/classical-humanities-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "classics-major-ba-classical-archaeology",
+   "name": "Classics Major, B.A.–Classical Archaeology",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/classics-major-ba-classical-archaeology/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "classics-major-ba-classical-civilization",
+   "name": "Classics Major, B.A.–Classical Civilization",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/classics-major-ba-classical-civilization/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "classics-major-ba-greek-latin",
+   "name": "Classics Major, B.A.–Greek, Latin, and Combined Greek and Latin",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/classics-major-ba-greek-latin/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "climate-change-minor",
+   "name": "Climate Change Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/climate-change-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "clinical-laboratory-science-major-bs",
+   "name": "Clinical Laboratory Science Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/clinical-laboratory-science-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "coaching-education-minor",
+   "name": "Coaching Education Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/coaching-education-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "communication-studies-major-ba",
+   "name": "Communication Studies Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/communication-studies-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "community-global-public-health-major-bsph",
+   "name": "Community and Global Public Health Major, B.S.P.H.",
+   "kind": "major",
+   "degree": "BSPH",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/community-global-public-health-major-bsph/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "comparative-literature-minor",
+   "name": "Comparative Literature Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/comparative-literature-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "computer-science-major-ba",
+   "name": "Computer Science Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "computer-science-major-bs",
+   "name": "Computer Science Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "computer-science-minor",
+   "name": "Computer Science Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "conflict-management-minor",
+   "name": "Conflict Management Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/conflict-management-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "contemporary-european-studies-major-ba",
+   "name": "Contemporary European Studies Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/contemporary-european-studies-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "creative-writing-minor",
+   "name": "Creative Writing Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/creative-writing-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "data-science-major-ba",
+   "name": "Data Science Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/data-science-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "data-science-major-bs",
+   "name": "Data Science Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/data-science-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "data-science-minor",
+   "name": "Data Science Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/data-science-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "dental-hygiene-major-bs",
+   "name": "Dental Hygiene Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/dental-hygiene-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "dramatic-art-major-ba",
+   "name": "Dramatic Art Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/dramatic-art-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "dramatic-art-minor",
+   "name": "Dramatic Art Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/dramatic-art-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "earth-marine-sciences-major-bs",
+   "name": "Earth and Marine Sciences Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/earth-marine-sciences-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "economics-major-ba",
+   "name": "Economics Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "economics-major-bs",
+   "name": "Economics Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "economics-minor",
+   "name": "Economics Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "education-minor",
+   "name": "Education Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/education-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "elementary-education-major-baed",
+   "name": "Elementary Education Major, B.A.Ed.",
+   "kind": "major",
+   "degree": "BAED",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/elementary-education-major-baed/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "engineering-environmental-change-climate-health-minor",
+   "name": "Engineering for Environmental Change, Climate, and Health Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/engineering-environmental-change-climate-health-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "english-minor",
+   "name": "English Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/english-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "english-comparative-major-ba",
+   "name": "English and Comparative Literature Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/english-comparative-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "entrepreneurship-minor",
+   "name": "Entrepreneurship Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/entrepreneurship-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "environmental-health-sciences-major-bsph",
+   "name": "Environmental Health Sciences Major, B.S.P.H.",
+   "kind": "major",
+   "degree": "BSPH",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/environmental-health-sciences-major-bsph/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "environmental-humanities-minor",
+   "name": "Environmental Humanities Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/environmental-humanities-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "environmental-justice-minor",
+   "name": "Environmental Justice Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/environmental-justice-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "environmental-microbiology-minor",
+   "name": "Environmental Microbiology Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/environmental-microbiology-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "environmental-science-bs",
+   "name": "Environmental Science Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/environmental-science-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "environmental-science-studies-minor",
+   "name": "Environmental Science and Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/environmental-science-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "environmental-studies-major-ba",
+   "name": "Environmental Studies Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/environmental-studies-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "exercise-sport-science-major-ba-fitness-professional",
+   "name": "Exercise and Sport Science Major, B.A.–Fitness Professional",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/exercise-sport-science-major-ba-fitness-professional/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "exercise-sport-science-major-ba-general",
+   "name": "Exercise and Sport Science Major, B.A.–General",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/exercise-sport-science-major-ba-general/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "exercise-sport-science-major-ba-sport-administration",
+   "name": "Exercise and Sport Science Major, B.A.–Sport Administration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/exercise-sport-science-major-ba-sport-administration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "exercise-sport-science-major-bs",
+   "name": "Exercise and Sport Science Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/exercise-sport-science-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "exercise-sport-science-minor",
+   "name": "Exercise and Sport Science Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/exercise-sport-science-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "food-studies-minor",
+   "name": "Food Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/food-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "french-minor",
+   "name": "French Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/french-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "gis-minor",
+   "name": "Geographic Information Sciences Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/gis-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "geography-minor",
+   "name": "Geography Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/geography-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "geography-major-ba",
+   "name": "Geography and Environment Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/geography-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "geological-sciences-major-ba-earth-science-concentration",
+   "name": "Geological Sciences Major, B.A.–Earth Science Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/geological-sciences-major-ba-earth-science-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "geological-sciences-minor",
+   "name": "Geological Sciences Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/geological-sciences-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "geospatial-data-science-major-bs",
+   "name": "Geospatial Data Science Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/geospatial-data-science-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "german-minor",
+   "name": "German Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/german-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "germanic-slavic-languages-literatures-major-ba-german-literature-culture-concentration",
+   "name": "Germanic and Slavic Languages and Literatures Major, B.A.–German Studies Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/germanic-slavic-languages-literatures-major-ba-german-literature-culture-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "germanic-slavic-languages-literatures-major-ba-russian-language-culture-concentration",
+   "name": "Germanic and Slavic Languages and Literatures Major, B.A.–Russian Language and Culture Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/germanic-slavic-languages-literatures-major-ba-russian-language-culture-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "germanic-slavic-languages-literatures-major-ba-central-european-studies-concentration",
+   "name": "Germanic and Slavic Languages and Literatures Major, B.A.–Slavic and East European Studies Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/germanic-slavic-languages-literatures-major-ba-central-european-studies-concentration/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "global-cinema-minor",
+   "name": "Global Cinema Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/global-cinema-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "global-studies-major-ba",
+   "name": "Global Studies Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/global-studies-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "greek-minor",
+   "name": "Greek Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/greek-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "health-policy-management-major-bsph",
+   "name": "Health Policy and Management Major, B.S.P.H.",
+   "kind": "major",
+   "degree": "BSPH",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/health-policy-management-major-bsph/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "health-society-minor",
+   "name": "Health and Society Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/health-society-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "heritage-global-engagement-minor",
+   "name": "Heritage and Global Engagement Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/heritage-global-engagement-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "hindi-urdu-minor",
+   "name": "Hindi-Urdu Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/hindi-urdu-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "hispanic-studies-minor",
+   "name": "Hispanic Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/hispanic-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "history-major-ba",
+   "name": "History Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/history-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "history-minor",
+   "name": "History Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/history-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "human-development-family-studies-baed",
+   "name": "Human Development and Family Science Major, B.A.Ed.",
+   "kind": "major",
+   "degree": "BAED",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/human-development-family-studies-baed/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "human-development-sustainability-rights-africa-african-diaspora-minor",
+   "name": "Human Development, Sustainability, and Rights in Africa and the African Diaspora Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/human-development-sustainability-rights-africa-african-diaspora-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "human-org-leadership-ba",
+   "name": "Human and Organizational Leadership Development Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/human-org-leadership-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "hydrology-minor",
+   "name": "Hydrology Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/hydrology-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "information-science-major-bs",
+   "name": "Information Science Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/information-science-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "information-systems-minor",
+   "name": "Information Systems Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/information-systems-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "interdisciplinary-studies-major-ba",
+   "name": "Interdisciplinary Studies Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/interdisciplinary-studies-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "islamic-middle-eastern-studies-minor",
+   "name": "Islamic and Middle Eastern Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/islamic-middle-eastern-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "italian-minor",
+   "name": "Italian Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/italian-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "japanese-minor",
+   "name": "Japanese Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/japanese-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "jewish-studies-minor",
+   "name": "Jewish Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/jewish-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "korean-minor",
+   "name": "Korean Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/korean-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "latin-american-studies-major-ba",
+   "name": "Latin American Studies Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/latin-american-studies-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "latin-minor",
+   "name": "Latin Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/latin-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "latina-latino-studies-minor",
+   "name": "Latina/o Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/latina-latino-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "law-government-public-service-minor",
+   "name": "Law, Government, and Public Service Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/law-government-public-service-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "linguistics-major-ba",
+   "name": "Linguistics Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/linguistics-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "linguistics-minor",
+   "name": "Linguistics Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/linguistics-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "management-society-major-ba",
+   "name": "Management and Society Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/management-society-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "marine-sciences-minor",
+   "name": "Marine Sciences Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/marine-sciences-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "mathematics-major-ba",
+   "name": "Mathematics Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "mathematics-major-bs",
+   "name": "Mathematics Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "mathematics-minor",
+   "name": "Mathematics Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "media-journalism-major-ba",
+   "name": "Media and Journalism Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/media-journalism-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "media-journalism-minor",
+   "name": "Media and Journalism Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/media-journalism-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "medical-anthropology-major-ba",
+   "name": "Medical Anthropology Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/medical-anthropology-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "medical-anthropology-minor",
+   "name": "Medical Anthropology Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/medical-anthropology-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "medicine-literature-culture-minor",
+   "name": "Medicine, Literature, and Culture Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/medicine-literature-culture-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "medieval-early-modern-studies-minor",
+   "name": "Medieval and Early Modern Studies (MEMS) Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/medieval-early-modern-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "middle-eastern-languages-minor",
+   "name": "Middle Eastern Languages Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/middle-eastern-languages-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "military-science-minor",
+   "name": "Military Science and Leadership Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/military-science-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "modern-hebrew-minor",
+   "name": "Modern Hebrew Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/modern-hebrew-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "music-major-ba",
+   "name": "Music Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/music-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "music-major-bmus",
+   "name": "Music Major, Bachelor of Music (B.Mus.)",
+   "kind": "major",
+   "degree": "BMUS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/music-major-bmus/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "music-minor",
+   "name": "Music Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/music-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "musical-theatre-performance-minor",
+   "name": "Musical Theatre Performance Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/musical-theatre-performance-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "naval-science-minor",
+   "name": "Naval Science Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/naval-science-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "neurodiagnostics-sleep-sciences-major-bs",
+   "name": "Neurodiagnostics and Sleep Science Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/neurodiagnostics-sleep-sciences-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "neurodiagnostics-sleep-sciences-minor",
+   "name": "Neurodiagnostics and Sleep Science Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/neurodiagnostics-sleep-sciences-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "neuroscience-major-bs",
+   "name": "Neuroscience Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/neuroscience-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "neuroscience-minor",
+   "name": "Neuroscience Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/neuroscience-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "nursing-major-bsn",
+   "name": "Nursing Major, B.S.N.",
+   "kind": "major",
+   "degree": "BSN",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/nursing-major-bsn/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "nutrition-major-bsph",
+   "name": "Nutrition Major, B.S.P.H.",
+   "kind": "major",
+   "degree": "BSPH",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/nutrition-major-bsph/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "peace-war-defense-major-ba",
+   "name": "Peace, War, and Defense Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/peace-war-defense-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "peace-war-defense-minor",
+   "name": "Peace, War, and Defense Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/peace-war-defense-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "persian-minor",
+   "name": "Persian Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/persian-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "pharmaceutical-sciences-minor",
+   "name": "Pharmaceutical Sciences Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/pharmaceutical-sciences-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "philosophy-major-ba",
+   "name": "Philosophy Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/philosophy-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "philosophy-minor",
+   "name": "Philosophy Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/philosophy-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "philosophy-politics-economics-minor",
+   "name": "Philosophy, Politics, and Economics (PPE) Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/philosophy-politics-economics-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "physics-major-ba",
+   "name": "Physics Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/physics-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "physics-major-bs",
+   "name": "Physics Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/physics-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "physics-minor",
+   "name": "Physics Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/physics-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "political-science-major-ba",
+   "name": "Political Science Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/political-science-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "portuguese-minor",
+   "name": "Portuguese Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/portuguese-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "psychology-major-ba",
+   "name": "Psychology Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "psychology-major-bs",
+   "name": "Psychology Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/psychology-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "public-policy-major-ba",
+   "name": "Public Policy Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/public-policy-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "public-policy-minor",
+   "name": "Public Policy Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/public-policy-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "radiologic-science-major-bs",
+   "name": "Radiologic Science Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/radiologic-science-major-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "real-estate-minor",
+   "name": "Real Estate Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/real-estate-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "religious-studies-major-ba",
+   "name": "Religious Studies Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/religious-studies-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "religious-studies-major-ba-jewish-studies-concentration",
+   "name": "Religious Studies Major, B.A.–Jewish Studies Concentration",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/religious-studies-major-ba-jewish-studies-concentration/",
+   "catalog_year": "2026-2027",
+   "concentration_of": "religious-studies-major-ba",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "religious-studies-minor",
+   "name": "Religious Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/religious-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "risk-management-minor",
+   "name": "Risk Management Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/risk-management-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "romance-languages-major-ba-french-francophone-studies",
+   "name": "Romance Languages Major, B.A.–French and Francophone Studies",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/romance-languages-major-ba-french-francophone-studies/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "romance-languages-major-ba-hispanic-linguistics",
+   "name": "Romance Languages Major, B.A.–Hispanic Linguistics",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/romance-languages-major-ba-hispanic-linguistics/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "romance-languages-major-ba-hispanic-literatures-cultures",
+   "name": "Romance Languages Major, B.A.–Hispanic Studies",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/romance-languages-major-ba-hispanic-literatures-cultures/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "romance-languages-major-ba-italian",
+   "name": "Romance Languages Major, B.A.–Italian",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/romance-languages-major-ba-italian/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "romance-languages-major-ba-portuguese",
+   "name": "Romance Languages Major, B.A.–Portuguese",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/romance-languages-major-ba-portuguese/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "russian-culture-minor",
+   "name": "Russian Culture Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/russian-culture-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "screenwriting-minor",
+   "name": "Screenwriting Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/screenwriting-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "sexuality-studies-minor",
+   "name": "Sexuality Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/sexuality-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "slavic-east-european-languages-cultures-minor",
+   "name": "Slavic and East European Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/slavic-east-european-languages-cultures-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "social-economic-justice-minor",
+   "name": "Social and Economic Justice Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/social-economic-justice-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "sociology-major-ba",
+   "name": "Sociology Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/sociology-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "southeast-asian-studies-minor",
+   "name": "Southeast Asian Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/southeast-asian-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "spanish-professions-minor",
+   "name": "Spanish Minor for the Professions",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/spanish-professions-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "speech-hearing-sciences-minor",
+   "name": "Speech and Hearing Sciences Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/speech-hearing-sciences-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "sports-medicine-minor",
+   "name": "Sports Medicine Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/sports-medicine-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "statistics-analytics-majors-bs",
+   "name": "Statistics and Analytics Major, B.S.",
+   "kind": "major",
+   "degree": "BS",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "statistics-and-analytics-minor",
+   "name": "Statistics and Analytics Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/statistics-and-analytics-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "studio-art-major-ba",
+   "name": "Studio Art Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/studio-art-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "studio-art-major-bfa",
+   "name": "Studio Art Major, Bachelor of Fine Arts (B.F.A)",
+   "kind": "major",
+   "degree": "BFA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/studio-art-major-bfa/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "studio-art-minor",
+   "name": "Studio Art Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/studio-art-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "study-christianity-culture-minor",
+   "name": "Study of Christianity and Culture Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/study-christianity-culture-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "sustainability-studies-minor",
+   "name": "Sustainability Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/sustainability-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "translation-minor",
+   "name": "Translation and Interpreting Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/translation-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "urban-studies-planning-minor",
+   "name": "Urban Studies and Planning Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/urban-studies-planning-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "womens-gender-studies-major-ba",
+   "name": "Women’s and Gender Studies Major, B.A.",
+   "kind": "major",
+   "degree": "BA",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/womens-gender-studies-major-ba/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "womens-gender-studies-minor",
+   "name": "Women’s and Gender Studies Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/womens-gender-studies-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  },
+  {
+   "id": "writing-editing-digital-publishing-minor",
+   "name": "Writing, Editing, and Digital Publishing Minor",
+   "kind": "minor",
+   "url": "https://catalog.unc.edu/undergraduate/programs-study/writing-editing-digital-publishing-minor/",
+   "catalog_year": "2026-2027",
+   "requirements_status": "not_parsed"
+  }
+ ]
+}

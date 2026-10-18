@@ -1,0 +1,247 @@
+{
+ "catalog_year": "2026-2027",
+ "verified_by": "PreReqPath review (AI-assisted, Claude) against catalog course descriptions",
+ "verified_on": "2026-10-17",
+ "scope": "Courses reachable by the Mathematics B.A. planner. Other courses keep their parser status.",
+ "courses": {
+  "COMP 283": {
+   "raw": "Prerequisite, MATH 231 or MATH 241; a grade of C or better is required.",
+   "confirm_parse": true
+  },
+  "MATH 130": {
+   "raw": "Prerequisite, MATH 110; a grade of C- or better is required.",
+   "confirm_parse": true
+  },
+  "MATH 210": {
+   "raw": "Prerequisite, MATH 110 or 110P.",
+   "confirm_parse": true
+  },
+  "MATH 231": {
+   "raw": "Prerequisites, MATH 110 and 130; Requires a grade of C- or better in MATH 130 or placement by the department.",
+   "confirm_parse": true,
+   "notes": [
+    "Interpretation: department placement substitutes for the whole MATH 110 + MATH 130 requirement."
+   ]
+  },
+  "MATH 232": {
+   "raw": "Prerequisite, A grade of C- or better in MATH 231 or placement by the department.",
+   "confirm_parse": true
+  },
+  "MATH 233": {
+   "raw": "Prerequisite, MATH 232.",
+   "confirm_parse": true
+  },
+  "MATH 235": {
+   "raw": "Prerequisites, MATH 231 and MATH 232.",
+   "confirm_parse": true
+  },
+  "MATH 347": {
+   "raw": "Prerequisites, MATH 232 or MATH 231 and MATH 210 or MATH 231 and MATH 381 or COMP 283 or STOR 315.",
+   "confirm_parse": true,
+   "notes": [
+    "Read as: MATH 232, or (MATH 231 and MATH 210), or (MATH 231 and MATH 381), or COMP 283, or STOR 315."
+   ]
+  },
+  "MATH 381": {
+   "raw": "Prerequisite, MATH 232 or a B or better in MATH 231 or MATH 210.",
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 232"
+     },
+     {
+      "kind": "course",
+      "code": "MATH 231",
+      "min_grade": "B"
+     },
+     {
+      "kind": "course",
+      "code": "MATH 210",
+      "min_grade": "B"
+     }
+    ]
+   },
+   "notes": [
+    "Interpretation: 'a B or better in MATH 231 or MATH 210' applies the B to both courses (the stricter reading)."
+   ]
+  },
+  "MATH 383": {
+   "raw": "Prerequisite, MATH 233 or MATH 235.",
+   "confirm_parse": true
+  },
+  "MATH 383L": {
+   "raw": "Prerequisite, MATH 233 or MATH 235; Pre- or corequisite, MATH 383.",
+   "confirm_parse": true
+  },
+  "MATH 521": {
+   "raw": "Prerequisites, MATH 233 or MATH 235, and MATH 381; A grade of A- or better in STOR 215 may substitute for MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 522": {
+   "raw": "Prerequisites, MATH 383 and 521.",
+   "confirm_parse": true
+  },
+  "MATH 523": {
+   "raw": "Prerequisite, MATH 383.",
+   "confirm_parse": true
+  },
+  "MATH 524": {
+   "raw": "Prerequisite, MATH 383.",
+   "confirm_parse": true
+  },
+  "MATH 525": {
+   "raw": "Prerequisites, MATH 233 or 235; and MATH 347, and MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 528": {
+   "raw": "Prerequisite, MATH 383.",
+   "confirm_parse": true
+  },
+  "MATH 528L": {
+   "raw": "Prerequisite, MATH 383; pre- or corequisite, MATH 528.",
+   "confirm_parse": true
+  },
+  "MATH 529": {
+   "raw": "Prerequisite, MATH 521, 524, or 528.",
+   "confirm_parse": true
+  },
+  "MATH 529L": {
+   "raw": "Prerequisite, MATH 383; pre- or corequisite, MATH 529.",
+   "confirm_parse": true
+  },
+  "MATH 533": {
+   "raw": "Prerequisite, MATH 381; A grade of A- or better in STOR 215 may substitute for MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 534": {
+   "raw": "Prerequisite, MATH 381; A grade of A- or better in STOR 215 may substitute for MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 535": {
+   "raw": "Prerequisites, MATH/ STOR 235 or MATH 233; and STOR 215 or STOR 315 or MATH 381 or COMP 283.",
+   "confirm_parse": true
+  },
+  "MATH 548": {
+   "raw": "Prerequisite, MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 549": {
+   "raw": "Prerequisites, MATH 347 and MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 550": {
+   "raw": "Prerequisites, MATH 233 or MATH 235, and MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 551": {
+   "raw": "Prerequisite, MATH 381; A grade of A- or better in STOR 215 may substitute for MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 552": {
+   "raw": "Prerequisites, MATH 233 or MATH 235, and MATH 347, and MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 555": {
+   "raw": "Prerequisite, MATH 383.",
+   "confirm_parse": true
+  },
+  "MATH 560": {
+   "raw": "Prerequisites, MATH 233 or MATH 235, MATH 347 or MATH 577, and COMP 110 or COMP 116.",
+   "confirm_parse": true
+  },
+  "MATH 561": {
+   "raw": "Prerequisites, COMP 116 and one of MATH 347 or MATH 577.",
+   "confirm_parse": true
+  },
+  "MATH 563": {
+   "raw": "Prerequisite, MATH 528.",
+   "confirm_parse": true
+  },
+  "MATH 564": {
+   "raw": "Prerequisites, MATH 383 and MATH 347 or MATH 577.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 383"
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 347"
+       },
+       {
+        "kind": "course",
+        "code": "MATH 577"
+       }
+      ]
+     }
+    ]
+   },
+   "notes": [
+    "Interpretation: MATH 383 and (MATH 347 or MATH 577)."
+   ]
+  },
+  "MATH 566": {
+   "raw": "Prerequisites, MATH 383 and either MATH 577 or MATH 347.",
+   "confirm_parse": true
+  },
+  "MATH 577": {
+   "raw": "Prerequisites, MATH 381 and 383; A grade of A- or better in STOR 215 may substitute for MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 578": {
+   "raw": "Prerequisites, MATH 347 or 577 and MATH 381.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 347"
+       },
+       {
+        "kind": "course",
+        "code": "MATH 577"
+       }
+      ]
+     },
+     {
+      "kind": "course",
+      "code": "MATH 381"
+     }
+    ]
+   },
+   "notes": [
+    "Interpretation: (MATH 347 or MATH 577) and MATH 381."
+   ]
+  },
+  "MATH 579": {
+   "raw": "Prerequisites, MATH 233 or MATH 235, and MATH 347, and MATH 381.",
+   "confirm_parse": true
+  },
+  "MATH 594": {
+   "raw": "Prerequisite, MATH 383; permission of the instructor for students lacking the prerequisite.",
+   "confirm_parse": true
+  },
+  "STOR 215": {
+   "raw": "Prerequisite, MATH 110.",
+   "confirm_parse": true
+  },
+  "STOR 235": {
+   "raw": "Prerequisites, MATH 231 and MATH 232.",
+   "confirm_parse": true
+  },
+  "STOR 315": {
+   "raw": "Prerequisite, MATH 232.",
+   "confirm_parse": true
+  }
+ }
+}

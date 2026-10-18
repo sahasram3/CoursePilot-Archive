@@ -1,0 +1,120 @@
+{
+  "program_id": "mathematics-major-ba",
+  "name": "Mathematics Major, B.A.",
+  "kind": "major",
+  "degree": "BA",
+  "catalog_year": "2026-2027",
+  "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+  "total_hours": 33,
+  "verified_by": "PreReqPath review (AI-assisted, Claude) against the live catalog page; not an official UNC review",
+  "verified_on": "2026-10-17",
+  "verified_requirements_sha256": "1099809313bbe4a839c4d8a63e472647355f47ba44636bd138992afe4771f13a",
+  "notes": [
+    "Program total: 33 hours (Core Requirements 21 + Additional Requirements 12).",
+    "Page also states: final cumulative GPA 2.000; 45 UNC hours; at least half of major core (courses and hours) at UNC; major-core GPA 2.000.",
+    "Footnote H: an honors version fulfills the same requirement as the non-honors course.",
+    "Sample plan footnote 4: MATH 381 is a key preparation course for MATH 521.",
+    "Three other course lists on the Requirements tab (graduate-school preparation, economics, teaching) are recommendations, not requirements, and are not modeled."
+  ],
+  "requirements": [
+    {
+      "id": "core",
+      "label": "Core Requirements",
+      "kind": "all",
+      "core": true,
+      "source_text": "Core Requirements",
+      "children": [
+        {
+          "id": "core.linear_algebra",
+          "label": "Linear algebra: MATH 347 or MATH 577",
+          "kind": "choose",
+          "count": 1,
+          "source_text": "MATH 347 Linear Algebra for Applications (previously offered as MATH 547) F 3 | or MATH 577 Linear Algebra",
+          "children": [
+            {"id": "core.linear_algebra.347", "label": "MATH 347", "kind": "course", "course": "MATH 347",
+             "source_text": "MATH 347 Linear Algebra for Applications (previously offered as MATH 547) F 3"},
+            {"id": "core.linear_algebra.577", "label": "MATH 577", "kind": "course", "course": "MATH 577",
+             "source_text": "or MATH 577 Linear Algebra"}
+          ]
+        },
+        {
+          "id": "core.discrete",
+          "label": "MATH 381 Discrete Mathematics",
+          "kind": "course",
+          "course": "MATH 381",
+          "source_text": "MATH 381 Discrete Mathematics 1, H 3 || 1 A current or former major in statistics and analytics may substitute STOR 215 for MATH 381.",
+          "conditional_options": [
+            {"course": "STOR 215", "requires_program": "statistics-analytics-majors-bs",
+             "text": "A current or former major in statistics and analytics may substitute STOR 215 for MATH 381."}
+          ],
+          "notes": ["The STOR 215 substitution is applied only when Statistics and Analytics is also selected; former majors should confirm it with an advisor."]
+        },
+        {
+          "id": "core.diffeq",
+          "label": "MATH 383 First Course in Differential Equations",
+          "kind": "course",
+          "course": "MATH 383",
+          "source_text": "MATH 383 First Course in Differential Equations H 3"
+        },
+        {
+          "id": "core.advanced_calculus",
+          "label": "MATH 521 Advanced Calculus I",
+          "kind": "course",
+          "course": "MATH 521",
+          "source_text": "MATH 521 Advanced Calculus I H 3"
+        },
+        {
+          "id": "core.upper_electives",
+          "label": "Three more MATH courses numbered above 500 (9 hours)",
+          "kind": "filter",
+          "count": 3,
+          "min_hours": 9,
+          "filter": {
+            "subjects": ["MATH"],
+            "number_above": 500,
+            "number_below": 700,
+            "exclude_suffixes": ["L"],
+            "suggest_below": 600
+          },
+          "bundles": [["MATH 383L", "MATH 528L", "MATH 529L"]],
+          "source_text": "At least three more MATH courses numbered above 500. 2 | 9 || 2 For this requirement, taking the three lab courses MATH 383L + MATH 528L + MATH 529L counts as one 500-level course.",
+          "notes": [
+            "Interpretation: 'above 500' means 501 and higher; MATH 500 itself does not count.",
+            "Interpretation: courses numbered 700+ are graduate courses under UNC's numbering and are excluded.",
+            "Courses already used for another Math B.A. requirement (e.g. MATH 521, or MATH 577 when it fills linear algebra) cannot count again.",
+            "Individual 1-credit labs do not count; the three labs MATH 383L + 528L + 529L together count as one course (footnote 2).",
+            "600-level MATH courses count when completed or locked, but the planner only suggests 500-level electives.",
+            "Variable-credit, topics, and honors-research courses count when completed but are not auto-selected."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "label": "Additional Requirements",
+      "kind": "all",
+      "core": false,
+      "source_text": "Additional Requirements",
+      "notes": ["Additional Requirements are outside the major core, so they do not enter the core GPA, core residency, or double-counting calculations."],
+      "children": [
+        {"id": "additional.calc1", "label": "MATH 231 Calculus of Functions of One Variable I", "kind": "course",
+         "course": "MATH 231", "source_text": "MATH 231 Calculus of Functions of One Variable I H, F 4"},
+        {"id": "additional.calc2", "label": "MATH 232 Calculus of Functions of One Variable II", "kind": "course",
+         "course": "MATH 232", "source_text": "MATH 232 Calculus of Functions of One Variable II H, F 4"},
+        {
+          "id": "additional.calc3",
+          "label": "MATH 233 or MATH 235",
+          "kind": "choose",
+          "count": 1,
+          "source_text": "MATH 233 Calculus of Functions of Several Variables H 4 | or MATH 235 Mathematics for Data Science",
+          "children": [
+            {"id": "additional.calc3.233", "label": "MATH 233", "kind": "course", "course": "MATH 233",
+             "source_text": "MATH 233 Calculus of Functions of Several Variables H 4"},
+            {"id": "additional.calc3.235", "label": "MATH 235", "kind": "course", "course": "MATH 235",
+             "source_text": "or MATH 235 Mathematics for Data Science"}
+          ]
+        }
+      ]
+    }
+  ]
+}

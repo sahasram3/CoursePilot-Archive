@@ -1,0 +1,347 @@
+{
+ "id": "mathematics-major-ba",
+ "name": "Mathematics Major, B.A.",
+ "kind": "major",
+ "degree": "BA",
+ "catalog_year": "2026-2027",
+ "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+ "total_hours": 33,
+ "requirements": [
+  {
+   "id": "section2",
+   "label": "Core Requirements",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row3",
+     "label": "One of MATH 347, MATH 577",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row3",
+       "label": "MATH 347",
+       "kind": "course",
+       "course": "MATH 347",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "MATH 347 | Linear Algebra for Applications (previously offered as MATH 547) F | 3 || or MATH 577 | Linear Algebra",
+        "retrieved_at": "2026-10-18T00:42:04+00:00",
+        "sha256": "2ceeae718fd2eac467a822930edcd2f6b19e00c90c9dde18711ebcf79caf0646"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row4",
+       "label": "MATH 577",
+       "kind": "course",
+       "course": "MATH 577",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or MATH 577 | Linear Algebra",
+        "retrieved_at": "2026-10-18T00:42:04+00:00",
+        "sha256": "3721c90d91dfb6011f1948c8af831847f478ec6bd74b1f9e374b99e436b309a2"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 347 | Linear Algebra for Applications (previously offered as MATH 547) F | 3 || or MATH 577 | Linear Algebra",
+      "retrieved_at": "2026-10-18T00:42:04+00:00",
+      "sha256": "2ceeae718fd2eac467a822930edcd2f6b19e00c90c9dde18711ebcf79caf0646"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row5",
+     "label": "MATH 381",
+     "kind": "course",
+     "course": "MATH 381",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 381 | Discrete Mathematics 1, H | 3",
+      "retrieved_at": "2026-10-18T00:42:04+00:00",
+      "sha256": "f3a684b726c393d1ba605555291d6df186cbfb9eabf7c42d3771848dfaa5f5fa"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row6",
+     "label": "MATH 383",
+     "kind": "course",
+     "course": "MATH 383",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 383 | First Course in Differential Equations H | 3",
+      "retrieved_at": "2026-10-18T00:42:04+00:00",
+      "sha256": "9326cba4433346cb26c6b4ba9aa70ef0cde863ae2d918bd97821c25b49de4952"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row7",
+     "label": "MATH 521",
+     "kind": "course",
+     "course": "MATH 521",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 521 | Advanced Calculus I H | 3",
+      "retrieved_at": "2026-10-18T00:42:04+00:00",
+      "sha256": "9fdabd082e8dbadccfa45e2f69b8a2aaf1e8dde133d0850406ac4c9106987c84"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row8",
+     "label": "At least three more MATH courses numbered above 500. 2",
+     "kind": "filter",
+     "children": [],
+     "count": 3,
+     "min_hours": 9,
+     "filter": {
+      "subjects": [
+       "MATH"
+      ],
+      "number_above": 500,
+      "exclude_codes": [],
+      "exclude_suffixes": []
+     },
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "At least three more MATH courses numbered above 500. 2 | 9",
+      "retrieved_at": "2026-10-18T00:42:04+00:00",
+      "sha256": "4f181e6c94e1ccd63919241f60cfa99be54a774bec268e9d76d521b66993912c"
+     },
+     "verification": {
+      "status": "uncertain",
+      "notes": [
+       "pattern-matched course filter; footnotes and exclusions not applied"
+      ]
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Core Requirements",
+    "text": "Core Requirements",
+    "retrieved_at": "2026-10-18T00:42:04+00:00",
+    "sha256": "94d9eb31516876b4f1f61b30515aa87c075247b7357cecdb66b5bcc6455cb664"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  },
+  {
+   "id": "section9",
+   "label": "Additional Requirements",
+   "kind": "all",
+   "children": [
+    {
+     "id": "row10",
+     "label": "MATH 231",
+     "kind": "course",
+     "course": "MATH 231",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 231 | Calculus of Functions of One Variable I H, F | 4",
+      "retrieved_at": "2026-10-18T00:42:04+00:00",
+      "sha256": "d1b14debb9713a234776a6dd5578870eec9ae88a19fe0859d2a9fe27a3c7c17b"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row11",
+     "label": "MATH 232",
+     "kind": "course",
+     "course": "MATH 232",
+     "children": [],
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 232 | Calculus of Functions of One Variable II H, F | 4",
+      "retrieved_at": "2026-10-18T00:42:04+00:00",
+      "sha256": "ef566c8015873a7c04574b35f37c2a2cd309ef64b413c336d0ce21789d5f7bf3"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    },
+    {
+     "id": "row12",
+     "label": "One of MATH 233, MATH 235",
+     "kind": "choose",
+     "children": [
+      {
+       "id": "row12",
+       "label": "MATH 233",
+       "kind": "course",
+       "course": "MATH 233",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "MATH 233 | Calculus of Functions of Several Variables H | 4 || or MATH 235 | Mathematics for Data Science",
+        "retrieved_at": "2026-10-18T00:42:04+00:00",
+        "sha256": "c0bb32be9be1f772bd0f10843e460e51f0c2d5495ba9c712f926cb107a78dd3a"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      },
+      {
+       "id": "row13",
+       "label": "MATH 235",
+       "kind": "course",
+       "course": "MATH 235",
+       "children": [],
+       "bundles": [],
+       "conditional_options": [],
+       "core": true,
+       "source": {
+        "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+        "catalog_year": "2026-2027",
+        "section": "row",
+        "text": "or MATH 235 | Mathematics for Data Science",
+        "retrieved_at": "2026-10-18T00:42:04+00:00",
+        "sha256": "e01de6808cef048ec4923eee1e03308fd60a8f7fdc7bd718b14472dcc382e003"
+       },
+       "verification": {
+        "status": "parsed",
+        "notes": []
+       }
+      }
+     ],
+     "count": 1,
+     "bundles": [],
+     "conditional_options": [],
+     "core": true,
+     "source": {
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+      "catalog_year": "2026-2027",
+      "section": "row",
+      "text": "MATH 233 | Calculus of Functions of Several Variables H | 4 || or MATH 235 | Mathematics for Data Science",
+      "retrieved_at": "2026-10-18T00:42:04+00:00",
+      "sha256": "c0bb32be9be1f772bd0f10843e460e51f0c2d5495ba9c712f926cb107a78dd3a"
+     },
+     "verification": {
+      "status": "parsed",
+      "notes": []
+     }
+    }
+   ],
+   "bundles": [],
+   "conditional_options": [],
+   "core": true,
+   "source": {
+    "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+    "catalog_year": "2026-2027",
+    "section": "Additional Requirements",
+    "text": "Additional Requirements",
+    "retrieved_at": "2026-10-18T00:42:04+00:00",
+    "sha256": "93ac1ed80e2c58c909f29d9e622241b721c5da818a54cb212fcb1bf8a4f1a66c"
+   },
+   "verification": {
+    "status": "parsed",
+    "notes": []
+   }
+  }
+ ],
+ "notes": [
+  "3 additional course list(s) on the requirements tab were treated as advisory, not requirements"
+ ],
+ "verification": {
+  "status": "uncertain",
+  "notes": []
+ },
+ "source": {
+  "url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+  "catalog_year": "2026-2027",
+  "section": "Requirements",
+  "text": "Course List Code Title Hours Core Requirements MATH 347 Linear Algebra for Applications (previously offered as MATH 547) F 3 or MATH 577 Linear Algebra MATH 381 Discrete Mathematics 1, H 3 MATH 383 First Course in Differential Equations H 3 MATH 521 Advanced Calculus I H 3 At least three more MATH courses numbered above 500. 2 9 Additional Requirements MATH 231 Calculus of Functions of One Variable I H, F 4 MATH 232 Calculus of Functions of One Variable II H, F 4 MATH 233 Calculus of Functions of Several Variables H 4 or MATH 235 Mathematics for Data Science Total Hours 33 || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || F FY-Launch class sections may be available. A FY-Launch section fulfills the same requirements as a standard section of that course, but also fulfills the FY-SEMINAR/FY-LAUNCH First-Year Foundations requirement. Students can search for FY-Launch sections in ConnectCarolina using the FY-LAUNCH attribute. || 1 A current or former major in statistics and analytics may substitute STOR 215 for MATH 381 . 2 For this requirement, taking the three lab courses MATH 383L + MATH 528L + MATH 529L counts as one 500-level course. || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || F FY-Launch class sections may be available. A FY-Launch section fulfills the same requirements as a standard section of that course, but also fulfills the FY-SEMINAR/FY-LAUNCH First-Year Foundations requirement. Students can search for FY-Launch sections in ConnectCarolina using the FY-LAUNCH attribute. || H Honors version available. An honors course fulfills the same requirements as the nonhonors version of that course. Enrollment and GPA restrictions may apply. || F FY-Launch class sections may be available. A FY-Launch section fulfills the same requirements as a standard section of that course, but also fulfills the FY-SEMINAR/FY-LAUNCH First-Year Foundations requirement. Students can search for FY-Launch sections in ConnectCarolina using the FY-LAUNCH attribute.",
+  "retrieved_at": "2026-10-18T00:42:04+00:00",
+  "sha256": "1099809313bbe4a839c4d8a63e472647355f47ba44636bd138992afe4771f13a"
+ }
+}
