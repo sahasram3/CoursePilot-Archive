@@ -1,0 +1,10 @@
+{
+  "requested_catalog_year": "2026-2027",
+  "edition_confirmed": false,
+  "programs": [
+    {"name":"Mathematics Major, B.A.","source_url":"https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/","verification":"pending_year_and_rule_review"},
+    {"name":"Statistics and Analytics Major, B.S.","source_url":"https://catalog.unc.edu/undergraduate/programs-study/statistics-analytics-majors-bs/","verification":"pending_year_and_rule_review"},
+    {"name":"Neuroscience Minor","source_url":"https://catalog.unc.edu/undergraduate/programs-study/neuroscience-minor/","verification":"pending_year_and_rule_review"}
+  ],
+  "policy":"Source discovery is not rule verification. Do not claim schedules are UNC compliant until all relevant rules have been reviewed."
+}

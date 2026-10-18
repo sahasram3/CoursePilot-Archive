@@ -1,0 +1,90 @@
+{
+  "catalog_year": "2026-2027",
+  "record_type": "source_transcribed_official_catalog_facts",
+  "approval_status": "not_independently_reviewed",
+  "reviewed_by_unc": false,
+  "planning_authorized": false,
+  "sources": [
+    {
+      "url": "https://catalog.unc.edu/undergraduate/degree-requirements/",
+      "catalog_year_banner": "2026-2027",
+      "verified_sections": [
+        "Requirements for Undergraduate Degree Programs",
+        "Requirements for Majors",
+        "Requirements for Minors",
+        "Combining Majors and Minors"
+      ]
+    },
+    {
+      "url": "https://catalog.unc.edu/undergraduate/ideas-in-action/",
+      "catalog_year_banner": "2026-2027",
+      "caveat": "IDEAs requirements on this page apply to students starting Fall 2026; earlier entrants must use their entering-cohort catalog"
+    }
+  ],
+  "facts": {
+    "min_graduation_credits": {
+      "value": 120,
+      "source": "https://catalog.unc.edu/undergraduate/degree-requirements/",
+      "section": "Requirements for Undergraduate Degree Programs",
+      "qualification": "Some B.S. programs require more"
+    },
+    "min_unc_credits": {
+      "value": 45,
+      "source": "https://catalog.unc.edu/undergraduate/degree-requirements/",
+      "section": "Requirements for Undergraduate Degree Programs",
+      "qualification": "Qualifying UNC credit; transfer-credit study abroad excluded"
+    },
+    "min_unc_gpa": {
+      "value": 2.0,
+      "source": "https://catalog.unc.edu/undergraduate/degree-requirements/",
+      "section": "Requirements for Undergraduate Degree Programs",
+      "qualification": "Final cumulative GPA on UNC attempted coursework"
+    },
+    "min_major_core_unc_fraction": {
+      "value": 0.5,
+      "source": "https://catalog.unc.edu/undergraduate/degree-requirements/",
+      "section": "Requirements for Majors",
+      "qualification": "At least half of major core courses AND core credit hours at UNC"
+    },
+    "min_minor_core_unc_credits": {
+      "value": 9,
+      "source": "https://catalog.unc.edu/undergraduate/degree-requirements/",
+      "section": "Requirements for Minors",
+      "qualification": "Some minors require more"
+    },
+    "min_exclusive_core_fraction": {
+      "value": 0.5,
+      "source": "https://catalog.unc.edu/undergraduate/degree-requirements/",
+      "section": "Combining Majors and Minors",
+      "qualification": "STRICTLY greater than half of both courses and credits must be exclusive for EACH program"
+    },
+    "max_ba_subject_credits": {
+      "value": 45,
+      "source": "https://catalog.unc.edu/undergraduate/degree-requirements/",
+      "section": "Requirements for Undergraduate Degree Programs",
+      "qualification": "College of Arts and Sciences B.A.; excludes ENGL 100, 105, 105I"
+    },
+    "min_minor_core_unc_gpa": {
+      "value": 2.0,
+      "source": "https://catalog.unc.edu/undergraduate/degree-requirements/",
+      "section": "Requirements for Minors",
+      "qualification": "UNC minor-core GPA, program may require higher"
+    },
+    "min_major_core_unc_gpa": {
+      "value": 2.0,
+      "source": "https://catalog.unc.edu/undergraduate/degree-requirements/",
+      "section": "Requirements for Majors",
+      "qualification": "UNC major-core GPA, program may require higher"
+    }
+  },
+  "unresolved": [
+    "Cohort-specific IDEAs in Action detailed rules",
+    "BA supplemental general education and program exceptions",
+    "Program-specific minimum credits and admissions",
+    "Core GPA calculation and repeated courses",
+    "Last-30-hours rule discrepancy between older PDF and current HTML",
+    "Credit origin and study abroad equivalencies",
+    "Department-specific overlap restrictions",
+    "No second independent academic review"
+  ]
+}

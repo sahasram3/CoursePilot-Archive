@@ -1,0 +1,15 @@
+{
+  "program": "Mathematics Major, B.A.",
+  "catalog_year": "2026-2027",
+  "source_url": "https://catalog.unc.edu/undergraduate/programs-study/mathematics-major-ba/",
+  "source_checked_date": "2026-10-17",
+  "source_section": "Requirements / Core Requirements / Additional Requirements / notes 1-2",
+  "source_status": "live 2026-2027 page reviewed",
+  "program_core_table_status": "transcribed; not full degree certified",
+  "total_program_hours": 33,
+  "fixed_courses": {"MATH 231":4,"MATH 232":4,"MATH 381":3,"MATH 383":3,"MATH 521":3},
+  "choose_one": [{"courses":["MATH 233","MATH 235"],"hours":4},{"courses":["MATH 347","MATH 577"],"hours":3}],
+  "upper_level": {"additional_courses":3,"subject":"MATH","number_above":500,"hours":9,"special_lab_exception":"MATH 383L + MATH 528L + MATH 529L counts as one 500-level course"},
+  "conditional_substitution":"Current or former statistics and analytics major may substitute STOR 215 for MATH 381",
+  "not_verified": ["Individual course prerequisites", "Upper-level elective eligibility", "All university degree requirements", "Term offerings", "Grade/GPA requirements", "Program overlap rules"]
+}
