@@ -61,7 +61,10 @@ select, input { font: inherit; color: inherit; }
 main { flex: 1; display: grid; grid-template-columns: minmax(330px, 420px) minmax(0, 1fr); gap: 24px;
        padding: 24px 28px; align-items: start; max-width: 1600px; width: 100%; margin: 0 auto; }
 main.single { grid-template-columns: 1fr; max-width: 640px; }
-@media (max-width: 960px) { main { grid-template-columns: 1fr; padding: 16px; gap: 16px; } .top { padding: 12px 16px; } }
+@media (max-width: 960px) {
+  main { grid-template-columns: 1fr; padding: 16px; gap: 16px; }
+  .top { padding: 12px 16px; position: static; }   /* don't cover results after scrolling to them */
+}
 footer { padding: 18px 28px; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--line); text-align: center; }
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
 .panel h2 { margin: 0 0 12px; font-size: 1.05rem; }

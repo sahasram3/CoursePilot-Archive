@@ -259,6 +259,13 @@ def prepare(request: PlanRequest, store: Optional[CatalogStore] = None) -> Conte
             raise PlanningError(f"Locked term {lock.term} is not one of the planning terms")
         locks[code] = labels.index(lock.term)
 
+    for program in programs:
+        for group in program.exclusive_groups:
+            both = [c for c in group if c in done]
+            if len(both) > 1:
+                issues.append(Issue(severity="warning", code="exclusive_courses", source_url=program.url,
+                                    message=f"{program.name}: credit is not allowed for both {' and '.join(both)}."))
+
     ctx = Context(store, request, programs, terms, entry, done, extra, tokens, locks, issues=issues,
                   credit_sources=sources)
     _select_candidates(ctx)
@@ -302,7 +309,7 @@ def _select_candidates(ctx: Context) -> None:
         for node in _iter_nodes(program.requirements):
             if node.min_grade and node.course:
                 thresholds[node.course] = node.min_grade
-    ctx.candidates = {c: store.courses[c] for c in seen}
+    ctx.candidates = {c: store.courses[c] for c in sorted(seen)}   # sorted: stable model across processes
     for code, course in ctx.candidates.items():
         record = ctx.done.get(code)
         if record is not None:
@@ -404,7 +411,7 @@ class PlanModel:
 
     def _atom(self, code: str, minimum: Optional[str], t: int, inclusive: bool) -> Lit:
         lits: list[Lit] = []
-        for e in self.ctx.store.equivalents(code):
+        for e in sorted(self.ctx.store.equivalents(code)):
             record = self.ctx.done.get(e)
             if record is not None and e not in self.ctx.retakes and grade_ok(record.grade, minimum)[0]:
                 return True
@@ -528,6 +535,39 @@ class PlanModel:
                 distinct = {u.Index(): u for _, u in uses}
                 if len(distinct) > 1:
                     self.m.Add(sum(distinct.values()) <= 1)
+            # "Students may not receive credit for both ECON 470 and ECON 570."
+            for group in program.exclusive_groups:
+                done = [c for c in group if c in self.ctx.done]
+                planned = [self.planned[c] for c in group if c in self.planned and c not in self.ctx.done]
+                if planned and len(done) <= 1:   # both already completed is reported in prepare()
+                    self.m.Add(sum(planned) + len(done) <= 1)
+        self._cross_program_exclusivity()
+
+    def _cross_program_exclusivity(self) -> None:
+        """UNC: more than half (not merely half) of the courses AND credit hours used for
+        each major/minor core must be exclusive to it (not used by another program)."""
+        if len(self.ctx.programs) < 2:
+            return
+        for program in self.ctx.programs:
+            core_ids = {n.id for n in _iter_nodes(program.requirements) if n.core and n.kind != "all"}
+            used_core, shared, units = [], [], []
+            for code, uses in self.usage.get(program.id, {}).items():
+                core_uses = [u for nid, u in uses if nid in core_ids]
+                if not core_uses:
+                    continue
+                in_core = self._or(core_uses)
+                elsewhere = self._or([u for other in self.ctx.programs if other.id != program.id
+                                      for _, u in self.usage.get(other.id, {}).get(code, [])])
+                both = self._and([in_core, elsewhere])
+                used_core.append(in_core)
+                shared.append(both)
+                units.append(self.ctx.units(code))
+            if not used_core:
+                continue
+            lit = lambda v: (1 if v is True else 0) if isinstance(v, bool) else v  # noqa: E731
+            self.m.Add(2 * sum(lit(s) for s in shared) <= sum(lit(u) for u in used_core) - 1)
+            self.m.Add(2 * sum(lit(s) * w for s, w in zip(shared, units))
+                       <= sum(lit(u) * w for u, w in zip(used_core, units)) - 1)
 
     def _credits(self) -> None:
         ctx, m = self.ctx, self.m
@@ -615,8 +655,11 @@ class PlanModel:
         # Final tie-break among interchangeable electives: lower-numbered (more
         # introductory) first, which also makes the chosen plan reproducible.
         tie_break = sum((ctx.store.courses[c].number_int % 100) * sum(xs) for c, xs in self.x.items() if c in elective_only)
-        self.secondary = (20_000 * sum(excess) + 5_000 * summer + 300 * sum(deviation) + 200 * indirect
-                          + 10 * earliness + tie_break)
+        # Among equal-cost choices, prefer courses whose prerequisites were fully understood.
+        unclear = sum(sum(xs) for c, xs in self.x.items()
+                      if ctx.store.courses[c].requisites_status in ("partial", "unparsed", "needs_reverification"))
+        self.secondary = (50_000 * unclear + 20_000 * sum(excess) + 5_000 * summer + 300 * sum(deviation)
+                          + 200 * indirect + 10 * earliness + tie_break)
 
     def _elective_only_codes(self) -> set[str]:
         filtered, named = set(), set()
@@ -665,8 +708,11 @@ def _solve(ctx: Context, alternatives: int = 1):
         for v in xs:
             pm.m.AddHint(v, first.Value(v))
     pm.m.Minimize(pm.secondary)
-    for _ in range(alternatives):
-        solver = _solver(STAGE2_SECONDS)
+    # Benchmarks: one program converges by 0.4; a double major needs ~1.0 to reach a
+    # good schedule. Extra alternatives only need to be distinct and sensible.
+    budget = STAGE2_SECONDS * (1 if len(ctx.programs) == 1 else 3)
+    for i in range(alternatives):
+        solver = _solver(budget if i == 0 else budget / 2)
         status = solver.Solve(pm.m)
         statuses.append(solver.StatusName(status))
         if status not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
@@ -762,7 +808,10 @@ def _extract(pm: PlanModel, solver: cp_model.CpSolver, chosen: list[tuple[str, i
                 reasons.append("You locked this course into this term")
             courses.append(PlannedCourse(
                 code=code, title=course.title, credits=hours(ctx.units(code)), reasons=reasons or ["Supports another planned course"],
-                requirement_ids=req_ids, contingencies=_contingencies(ctx, code, t, planned_term),
+                requirement_ids=req_ids,
+                contingencies=_contingencies(ctx, code, t, planned_term) + [
+                    f"Needs a grade of {nodes[(pid, nid)][1].min_grade} or better to count for {nodes[(pid, nid)][0].name}"
+                    for pid, nid in used_by.get(code, []) if nodes[(pid, nid)][1].min_grade],
                 warnings=_course_warnings(ctx, pm, course, term, planned_term), requisites_status=course.requisites_status,
                 requisites_raw=course.requisites_raw, prerequisites_text=_requisite_text(course),
                 satisfied_by=sorted(set(satisfiers(ctx, course.prerequisites, t, planned_term)
@@ -980,7 +1029,7 @@ def _not_modeled(ctx: Context) -> list[str]:
     if any(p.degree == "BA" for p in ctx.programs):
         items.append("B.A. Supplemental General Education")
     if len(ctx.programs) > 1:
-        items.append("Cross-program core exclusivity (more than half of each core exclusive)")
+        items.append("Program-specific limits on sharing a course between a major/minor and General Education")
     return items
 
 

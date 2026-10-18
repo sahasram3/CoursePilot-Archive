@@ -13,7 +13,7 @@ function defaultForm(): FormState {
   const entry = "Fall 2026";
   const next = nextRegularTerm();
   return {
-    program: "mathematics-major-ba", entryTerm: entry,
+    program: "mathematics-major-ba", secondMajor: "", entryTerm: entry,
     firstTerm: termKey(next) < termKey(entry) ? entry : next,
     graduationTerm: addRegularTerms(entry, 7), includeSummer: false, maxCredits: 18,
     targetProgramCredits: 8, completed: [], exams: [], otherCredit: [], tokens: [], locks: [], exclude: [],
@@ -31,7 +31,7 @@ function loadForm(): FormState {
 
 function toRequest(f: FormState): PlanRequest {
   return {
-    catalog_year: YEAR, programs: [f.program], entry_term: f.entryTerm, first_term: f.firstTerm,
+    catalog_year: YEAR, programs: [f.program, f.secondMajor].filter(Boolean), entry_term: f.entryTerm, first_term: f.firstTerm,
     graduation_term: f.graduationTerm, include_summer: f.includeSummer, min_credits: 12,
     max_credits: f.maxCredits, target_program_credits: f.targetProgramCredits,
     completed: f.completed.map(({ code, grade, origin, in_progress }) => ({ code, grade, origin, in_progress })),
@@ -70,8 +70,12 @@ export default function App() {
         setPrograms(p.programs);
         setExamCatalog(e);
         // A saved program that is no longer plannable falls back to the first plannable one.
-        const plannable = p.programs.filter((x) => x.plannable);
-        setForm((f) => (plannable.some((x) => x.id === f.program) ? f : { ...f, program: plannable[0]?.id ?? "" }));
+        const plannable = new Set(p.programs.filter((x) => x.plannable).map((x) => x.id));
+        setForm((f) => ({
+          ...f,
+          program: plannable.has(f.program) ? f.program : [...plannable][0] ?? "",
+          secondMajor: plannable.has(f.secondMajor) && f.secondMajor !== f.program ? f.secondMajor : "",
+        }));
       })
       .catch((e: Error) => setLoadError(e.message || "The planner service is unreachable."));
   }, []);
@@ -205,7 +209,8 @@ function Hero() {
         <li><b>Constraint-optimized</b><span>Google OR-Tools CP-SAT finds the minimum coursework, then balances your semesters.</span></li>
         <li><b>Honest about uncertainty</b><span>Verified vs. uncertain rules are labeled. Nothing is ever "certified".</span></li>
       </ul>
-      <p className="hint">Start with step 1 on the left. The Mathematics B.A. is fully reviewed; more majors are coming.</p>
+      <p className="hint">Start with step 1 on the left. The Mathematics B.A. and Economics B.A. are fully reviewed, alone or as a
+        double major; more majors are coming.</p>
     </div>
   );
 }

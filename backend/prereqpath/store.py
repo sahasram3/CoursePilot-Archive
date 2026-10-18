@@ -180,6 +180,8 @@ class CatalogStore:
             catalog_year=spec["catalog_year"], url=spec["url"], total_hours=spec.get("total_hours"),
             requirements=[build(n, n.get("core", True)) for n in spec["requirements"]],
             notes=spec.get("notes", []),
+            exclusive_groups=spec.get("exclusive_groups", []),
+            concentration_of=spec.get("concentration_of"),
             verification=Verification(status=status, by=spec["verified_by"], on=spec["verified_on"], notes=base_notes),
             source=Source(url=spec["url"], catalog_year=spec["catalog_year"], section="Requirements",
                           sha256=spec["verified_requirements_sha256"]))

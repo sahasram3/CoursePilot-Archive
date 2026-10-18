@@ -155,6 +155,8 @@ class Program(BaseModel):
     total_hours: Optional[int] = None
     requirements: list[Requirement]
     notes: list[str] = Field(default_factory=list)
+    # Courses a student cannot both receive credit for, e.g. [["ECON 470", "ECON 570"]].
+    exclusive_groups: list[list[str]] = Field(default_factory=list)
     concentration_of: Optional[str] = None
     verification: Verification
     source: Source

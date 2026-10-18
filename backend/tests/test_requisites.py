@@ -105,6 +105,29 @@ def test_recognized_condition_kept():
     assert r.prerequisites.items[1].kind == "condition" and r.prerequisites.items[1].recognized
 
 
+def test_grade_clause_for_listed_courses():
+    r = parse("Prerequisites, ECON 400, 410, and 420; a grade of C or better in ECON 400 and 410 is required.")
+    assert describe(r.prerequisites) == "(ECON 400 (≥C) AND ECON 410 (≥C) AND ECON 420)"
+    assert r.status == "parsed"
+    r = parse("Prerequisites, ECON 400, 410 and 470; a grade of C- or better in ECON 470 and a grade of C or better in ECON 400 and 410 is required.")
+    assert describe(r.prerequisites) == "(ECON 400 (≥C) AND ECON 410 (≥C) AND ECON 470 (≥C-))"
+
+
+def test_trailing_grade_covers_the_whole_list_but_mid_clause_grade_does_not():
+    r = parse("Prerequisites, ECON 101 with a grade of C or better; MATH 152, 231, STOR 112, or 113 with a grade of C- or better.")
+    assert describe(r.prerequisites) == \
+        "(ECON 101 (≥C) AND (MATH 152 (≥C-) OR MATH 231 (≥C-) OR STOR 112 (≥C-) OR STOR 113 (≥C-)))"
+    r = parse("Prerequisite, ECON 410 with a grade of C or better, or COMP 550, POLI 287, or POLI 288.")
+    assert describe(r.prerequisites) == "(ECON 410 (≥C) OR COMP 550 OR POLI 287 OR POLI 288)"
+
+
+def test_at_least_one_of_the_following_and_both_with_grade():
+    r = parse("Prerequisites, ECON 400, ECON 410, and at least one of the following: ECON 420, ECON 425; a grade of C or better in ECON 400 and 410 is required.")
+    assert describe(r.prerequisites) == "(ECON 400 (≥C) AND ECON 410 (≥C) AND (ECON 420 OR ECON 425))"
+    r = parse("Prerequisites, ECON 400 and 410; both with a grade of C or better.")
+    assert describe(r.prerequisites) == "(ECON 400 (≥C) AND ECON 410 (≥C))"
+
+
 def test_no_requisites():
     assert parse(None).status == "none"
     assert parse("   ").status == "none"

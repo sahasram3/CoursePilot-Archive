@@ -7,6 +7,7 @@ import { ExamInput } from "./ExamInput";
 
 export interface FormState {
   program: string;
+  secondMajor: string;
   entryTerm: string;
   firstTerm: string;
   graduationTerm: string;
@@ -44,9 +45,14 @@ export function PlanForm({ year, programs, examCatalog, form, setForm, onSubmit,
   const minors = programs.filter((p) => p.kind === "minor").length;
 
   useEffect(() => {
-    if (!form.program) return;
-    api.placements(form.program, year).then((r) => setPlacements(r.placements)).catch(() => setPlacements([]));
-  }, [form.program, year]);
+    const ids = [form.program, form.secondMajor].filter(Boolean);
+    if (ids.length === 0) return;
+    Promise.all(ids.map((id) => api.placements(id, year).then((r) => r.placements).catch(() => [])))
+      .then((lists) => {
+        const merged = new Map(lists.flat().map((p) => [p.token, p]));
+        setPlacements([...merged.values()].sort((a, b) => a.course.localeCompare(b.course)));
+      });
+  }, [form.program, form.secondMajor, year]);
 
   const firstOptions = regularTerms(form.entryTerm, addRegularTerms(form.entryTerm, 9));
   const gradOptions = regularTerms(form.firstTerm, addRegularTerms(form.firstTerm, 10));
@@ -57,7 +63,9 @@ export function PlanForm({ year, programs, examCatalog, form, setForm, onSubmit,
       <section>
         <h2><span className="step">1</span> Program</h2>
         <label htmlFor="program">Major</label>
-        <select id="program" value={form.program} onChange={(e) => set({ program: e.target.value, locks: [], exclude: [] })}>
+        <select id="program" value={form.program} onChange={(e) => set({
+          program: e.target.value, secondMajor: form.secondMajor === e.target.value ? "" : form.secondMajor, locks: [], exclude: [],
+        })}>
           {programs.length === 0 && <option value="">Loading programs…</option>}
           <optgroup label="Reviewed: ready to plan">
             {ready.map((p) => <option key={p.id} value={p.id}>{p.name}</option>)}
@@ -66,6 +74,15 @@ export function PlanForm({ year, programs, examCatalog, form, setForm, onSubmit,
             {pending.map((p) => <option key={p.id} value={p.id} disabled>{p.name}</option>)}
           </optgroup>
         </select>
+        {ready.length > 1 && (
+          <>
+            <label htmlFor="major2" className="spaced">Second major (optional)</label>
+            <select id="major2" value={form.secondMajor} onChange={(e) => set({ secondMajor: e.target.value, locks: [], exclude: [] })}>
+              <option value="">None</option>
+              {ready.filter((p) => p.id !== form.program).map((p) => <option key={p.id} value={p.id}>{p.name}</option>)}
+            </select>
+          </>
+        )}
         {programs.length > 0 && (
           <p className="hint">
             {ready.length} of {majors.length} majors reviewed · {minors} minors indexed. More programs unlock as each

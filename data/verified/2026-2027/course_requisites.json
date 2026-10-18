@@ -2,42 +2,1091 @@
  "catalog_year": "2026-2027",
  "verified_by": "PreReqPath review (AI-assisted, Claude) against catalog course descriptions",
  "verified_on": "2026-10-17",
- "scope": "Courses reachable by the Mathematics B.A. planner. Other courses keep their parser status.",
+ "scope": "Courses the Mathematics B.A. and Economics B.A. planners can reach; each entry stores the reviewed tree. Other courses keep their parser status.",
  "courses": {
   "COMP 283": {
    "raw": "Prerequisite, MATH 231 or MATH 241; a grade of C or better is required.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 231",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 241",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 400": {
+   "raw": "Prerequisites, ECON 101 with a grade of C or better; MATH 152, 231, STOR 112, or 113 with a grade of C- or better.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 101",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 152",
+        "min_grade": "C-",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 231",
+        "min_grade": "C-",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "STOR 112",
+        "min_grade": "C-",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "STOR 113",
+        "min_grade": "C-",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 410": {
+   "raw": "Prerequisite, ECON 101 with a grade of C or better; MATH 152, 231, STOR 112, or 113 with a grade of C- or better.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 101",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 152",
+        "min_grade": "C-",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 231",
+        "min_grade": "C-",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "STOR 112",
+        "min_grade": "C-",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "STOR 113",
+        "min_grade": "C-",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 411": {
+   "raw": "Prerequisite, ECON 410 with a grade of C or better, or COMP 550, POLI 287, or POLI 288; permission of the instructor for students lacking the prerequisite.",
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "COMP 550",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "POLI 287",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "POLI 288",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "permission",
+      "token": "PERMISSION:ECON 411",
+      "text": "permission of the instructor for students lacking the prerequisite"
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 413": {
+   "raw": "Prerequisite, ECON 410.",
+   "prerequisites": {
+    "kind": "course",
+    "code": "ECON 410",
+    "concurrent_ok": false
+   },
+   "corequisites": null
+  },
+  "ECON 415": {
+   "raw": "Prerequisite, ECON 410 with a grade of C or better.",
+   "prerequisites": {
+    "kind": "course",
+    "code": "ECON 410",
+    "min_grade": "C",
+    "concurrent_ok": false
+   },
+   "corequisites": null
+  },
+  "ECON 416": {
+   "raw": "Prerequisite, ECON 410 with a grade of C or better.",
+   "prerequisites": {
+    "kind": "course",
+    "code": "ECON 410",
+    "min_grade": "C",
+    "concurrent_ok": false
+   },
+   "corequisites": null
+  },
+  "ECON 420": {
+   "raw": "Prerequisite, ECON 410 with a grade of C or better.",
+   "prerequisites": {
+    "kind": "course",
+    "code": "ECON 410",
+    "min_grade": "C",
+    "concurrent_ok": false
+   },
+   "corequisites": null
+  },
+  "ECON 423": {
+   "raw": "Prerequisites, ECON 400, 410, and 420; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 420",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 425": {
+   "raw": "Prerequisites, ECON 400, 410, and 420; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 420",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 434": {
+   "raw": "Prerequisites, ECON 101, 400, and 410; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 101",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 436": {
+   "raw": "Prerequisites, ECON 400 and 410; both with a grade of C or better.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 440": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 445": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 450": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required; permission of the instructor for students lacking the prerequisites.",
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "all",
+      "items": [
+       {
+        "kind": "course",
+        "code": "ECON 400",
+        "min_grade": "C",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 410",
+        "min_grade": "C",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "permission",
+      "token": "PERMISSION:ECON 450",
+      "text": "permission of the instructor for students lacking the prerequisites"
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 455": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 460": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 465": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required; permission of the instructor for students lacking the prerequisites.",
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "all",
+      "items": [
+       {
+        "kind": "course",
+        "code": "ECON 400",
+        "min_grade": "C",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 410",
+        "min_grade": "C",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "permission",
+      "token": "PERMISSION:ECON 465",
+      "text": "permission of the instructor for students lacking the prerequisites"
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 470": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 480": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 482": {
+   "raw": "Prerequisites, ECON 400 and 410 with a grade of C or better.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 485": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 486": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 487": {
+   "raw": "Prerequisite, ECON 410.",
+   "prerequisites": {
+    "kind": "course",
+    "code": "ECON 410",
+    "concurrent_ok": false
+   },
+   "corequisites": null
+  },
+  "ECON 510": {
+   "raw": "Prerequisites, ECON 400 and 410; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 520": {
+   "raw": "Prerequisites, ECON 400, 410, and 420; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 420",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 522": {
+   "raw": "Prerequisites, ECON 400, 410, and 420 with a grade of C or better.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 420",
+      "min_grade": "C",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 523": {
+   "raw": "Prerequisites, ECON 400, ECON 410, and at least one of the following: ECON 420, ECON 425; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "ECON 420",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 425",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 540": {
+   "raw": "Prerequisites, ECON 400, 410, and 340 or 440; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "ECON 340",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 440",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 545": {
+   "raw": "Prerequisites, ECON 400, 410, and ECON 445 OR ECON 411; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "ECON 445",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 411",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 551": {
+   "raw": "Prerequisites, ECON 400, 410, and 470.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 470",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 552": {
+   "raw": "Prerequisites, ECON 400, 410, and at least one of the following: ECON 445, ECON 450, ECON 482; all with a grade of C or better.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "ECON 445",
+        "min_grade": "C",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 450",
+        "min_grade": "C",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 482",
+        "min_grade": "C",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 560": {
+   "raw": "Prerequisites, ECON 400, 410, and at least one of the following: ECON 420, 425, ECON 460, or ECON 470; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "ECON 420",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 425",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 460",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 470",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 565": {
+   "raw": "Prerequisites, ECON 400 and 410 with a grade of C or better; Pre- or corequisite, ECON 470 or 570.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "ECON 470",
+        "concurrent_ok": true
+       },
+       {
+        "kind": "course",
+        "code": "ECON 570",
+        "concurrent_ok": true
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "ECON 571": {
+   "raw": "Prerequisites, ECON 400, 410, and ECON 470 or 570; a grade of C- or better in ECON 470 is required; a grade of C or better in ECON 400 and 410 is required.",
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "ECON 400",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "ECON 410",
+      "min_grade": "C",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "ECON 470",
+        "min_grade": "C-",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "ECON 570",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 130": {
    "raw": "Prerequisite, MATH 110; a grade of C- or better is required.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 110",
+    "min_grade": "C-",
+    "concurrent_ok": false
+   },
+   "corequisites": null
+  },
+  "MATH 152": {
+   "raw": "Prerequisite, MATH 110.",
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 110",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   },
   "MATH 210": {
    "raw": "Prerequisite, MATH 110 or 110P.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 110",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 110P",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 231": {
    "raw": "Prerequisites, MATH 110 and 130; Requires a grade of C- or better in MATH 130 or placement by the department.",
-   "confirm_parse": true,
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "all",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 110",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 130",
+        "min_grade": "C-",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "placement",
+      "token": "PLACEMENT:MATH 231",
+      "text": "placement by the department"
+     }
+    ]
+   },
+   "corequisites": null,
    "notes": [
     "Interpretation: department placement substitutes for the whole MATH 110 + MATH 130 requirement."
    ]
   },
   "MATH 232": {
    "raw": "Prerequisite, A grade of C- or better in MATH 231 or placement by the department.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 231",
+      "min_grade": "C-",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "placement",
+      "token": "PLACEMENT:MATH 232",
+      "text": "placement by the department"
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 233": {
    "raw": "Prerequisite, MATH 232.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 232",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   },
   "MATH 235": {
    "raw": "Prerequisites, MATH 231 and MATH 232.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 231",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 232",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 347": {
    "raw": "Prerequisites, MATH 232 or MATH 231 and MATH 210 or MATH 231 and MATH 381 or COMP 283 or STOR 315.",
-   "confirm_parse": true,
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 232",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "all",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 231",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 210",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "all",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 231",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 381",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "course",
+      "code": "COMP 283",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "STOR 315",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null,
    "notes": [
     "Read as: MATH 232, or (MATH 231 and MATH 210), or (MATH 231 and MATH 381), or COMP 283, or STOR 315."
    ]
@@ -69,95 +1118,539 @@
   },
   "MATH 383": {
    "raw": "Prerequisite, MATH 233 or MATH 235.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 233",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 235",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 383L": {
    "raw": "Prerequisite, MATH 233 or MATH 235; Pre- or corequisite, MATH 383.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 233",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 235",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "course",
+      "code": "MATH 383",
+      "concurrent_ok": true
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 521": {
    "raw": "Prerequisites, MATH 233 or MATH 235, and MATH 381; A grade of A- or better in STOR 215 may substitute for MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 233",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 235",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 381",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "STOR 215",
+        "min_grade": "A-",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 522": {
    "raw": "Prerequisites, MATH 383 and 521.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 383",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 521",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 523": {
    "raw": "Prerequisite, MATH 383.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 383",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   },
   "MATH 524": {
    "raw": "Prerequisite, MATH 383.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 383",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   },
   "MATH 525": {
    "raw": "Prerequisites, MATH 233 or 235; and MATH 347, and MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 233",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 235",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "course",
+      "code": "MATH 347",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 381",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 528": {
    "raw": "Prerequisite, MATH 383.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 383",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   },
   "MATH 528L": {
    "raw": "Prerequisite, MATH 383; pre- or corequisite, MATH 528.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 383",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 528",
+      "concurrent_ok": true
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 529": {
    "raw": "Prerequisite, MATH 521, 524, or 528.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 521",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 524",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 528",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 529L": {
    "raw": "Prerequisite, MATH 383; pre- or corequisite, MATH 529.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 383",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 529",
+      "concurrent_ok": true
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 533": {
    "raw": "Prerequisite, MATH 381; A grade of A- or better in STOR 215 may substitute for MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 381",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "STOR 215",
+      "min_grade": "A-",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 534": {
    "raw": "Prerequisite, MATH 381; A grade of A- or better in STOR 215 may substitute for MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 381",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "STOR 215",
+      "min_grade": "A-",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 535": {
    "raw": "Prerequisites, MATH/ STOR 235 or MATH 233; and STOR 215 or STOR 315 or MATH 381 or COMP 283.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 235",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "STOR 235",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 233",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "STOR 215",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "STOR 315",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 381",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "COMP 283",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 548": {
    "raw": "Prerequisite, MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 381",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   },
   "MATH 549": {
    "raw": "Prerequisites, MATH 347 and MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 347",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 381",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 550": {
    "raw": "Prerequisites, MATH 233 or MATH 235, and MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 233",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 235",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "course",
+      "code": "MATH 381",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 551": {
    "raw": "Prerequisite, MATH 381; A grade of A- or better in STOR 215 may substitute for MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 381",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "STOR 215",
+      "min_grade": "A-",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 552": {
    "raw": "Prerequisites, MATH 233 or MATH 235, and MATH 347, and MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 233",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 235",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "course",
+      "code": "MATH 347",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 381",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 555": {
    "raw": "Prerequisite, MATH 383.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 383",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   },
   "MATH 560": {
    "raw": "Prerequisites, MATH 233 or MATH 235, MATH 347 or MATH 577, and COMP 110 or COMP 116.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 233",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 235",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 347",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 577",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "COMP 110",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "COMP 116",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 561": {
    "raw": "Prerequisites, COMP 116 and one of MATH 347 or MATH 577.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "COMP 116",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 347",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 577",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 563": {
    "raw": "Prerequisite, MATH 528.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 528",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   },
   "MATH 564": {
    "raw": "Prerequisites, MATH 383 and MATH 347 or MATH 577.",
@@ -189,11 +1682,62 @@
   },
   "MATH 566": {
    "raw": "Prerequisites, MATH 383 and either MATH 577 or MATH 347.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 383",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 577",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 347",
+        "concurrent_ok": false
+       }
+      ]
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 577": {
    "raw": "Prerequisites, MATH 381 and 383; A grade of A- or better in STOR 215 may substitute for MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 381",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "STOR 215",
+        "min_grade": "A-",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "course",
+      "code": "MATH 383",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 578": {
    "raw": "Prerequisites, MATH 347 or 577 and MATH 381.",
@@ -225,23 +1769,102 @@
   },
   "MATH 579": {
    "raw": "Prerequisites, MATH 233 or MATH 235, and MATH 347, and MATH 381.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "any",
+      "items": [
+       {
+        "kind": "course",
+        "code": "MATH 233",
+        "concurrent_ok": false
+       },
+       {
+        "kind": "course",
+        "code": "MATH 235",
+        "concurrent_ok": false
+       }
+      ]
+     },
+     {
+      "kind": "course",
+      "code": "MATH 347",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 381",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "MATH 594": {
    "raw": "Prerequisite, MATH 383; permission of the instructor for students lacking the prerequisite.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "any",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 383",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "permission",
+      "token": "PERMISSION:MATH 594",
+      "text": "permission of the instructor for students lacking the prerequisite"
+     }
+    ]
+   },
+   "corequisites": null
+  },
+  "STOR 113": {
+   "raw": "Prerequisite, MATH 110.",
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 110",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   },
   "STOR 215": {
    "raw": "Prerequisite, MATH 110.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 110",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   },
   "STOR 235": {
    "raw": "Prerequisites, MATH 231 and MATH 232.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "all",
+    "items": [
+     {
+      "kind": "course",
+      "code": "MATH 231",
+      "concurrent_ok": false
+     },
+     {
+      "kind": "course",
+      "code": "MATH 232",
+      "concurrent_ok": false
+     }
+    ]
+   },
+   "corequisites": null
   },
   "STOR 315": {
    "raw": "Prerequisite, MATH 232.",
-   "confirm_parse": true
+   "prerequisites": {
+    "kind": "course",
+    "code": "MATH 232",
+    "concurrent_ok": false
+   },
+   "corequisites": null
   }
  }
 }

@@ -1,0 +1,105 @@
+{
+  "program_id": "economics-major-ba",
+  "name": "Economics Major, B.A.",
+  "kind": "major",
+  "degree": "BA",
+  "catalog_year": "2026-2027",
+  "url": "https://catalog.unc.edu/undergraduate/programs-study/economics-major-ba/",
+  "total_hours": 31,
+  "verified_by": "PreReqPath review (AI-assisted, Claude) against the live catalog page; not an official UNC review",
+  "verified_on": "2026-10-17",
+  "verified_requirements_sha256": "68af82a9fda16c698a2043986511b865e89a11922a70122f4aa9e617abbefc20",
+  "notes": [
+    "Program total: 30-31 hours, depending on the calculus course chosen.",
+    "Page also states: final cumulative GPA 2.000; 45 UNC hours; at least half of major core (courses and hours) at UNC; major-core GPA 2.000.",
+    "An economics major may apply as many as 15 economics courses, or 45 hours, toward the B.A. degree (the B.A. 45-hour subject cap, applied by the planner).",
+    "MATH 231 is recommended for students who plan to take the calculus sequence; MATH 116 is not acceptable.",
+    "Footnote 2: the calculus course is a prerequisite for both ECON 400 and ECON 410; ECON 400 and 410 are prerequisites for economics courses numbered above 420."
+  ],
+  "exclusive_groups": [["ECON 470", "ECON 570"]],
+  "requirements": [
+    {
+      "id": "gateway",
+      "label": "Gateway Course",
+      "kind": "all",
+      "core": false,
+      "source_text": "Gateway Course",
+      "notes": ["Interpretation: the page lists the gateway course separately from the Core Requirements, so it is treated as outside the major core for core GPA, residency, and overlap calculations."],
+      "children": [
+        {"id": "gateway.econ101", "label": "ECON 101 Introduction to Economics (C or better)", "kind": "course",
+         "course": "ECON 101", "min_grade": "C",
+         "source_text": "ECON 101 Introduction to Economics (with a grade of C or better) H, F 4"}
+      ]
+    },
+    {
+      "id": "core",
+      "label": "Core Requirements",
+      "kind": "all",
+      "core": true,
+      "source_text": "Core Requirements",
+      "children": [
+        {"id": "core.econ400", "label": "ECON 400 Introduction to Data Science and Econometrics (C or better)", "kind": "course",
+         "course": "ECON 400", "min_grade": "C",
+         "source_text": "ECON 400 Introduction to Data Science and Econometrics (with a grade of C or better) H 4"},
+        {"id": "core.econ410", "label": "ECON 410 Intermediate Microeconomics (C or better)", "kind": "course",
+         "course": "ECON 410", "min_grade": "C",
+         "source_text": "ECON 410 Intermediate Microeconomics (with a grade of C or better) H 4"},
+        {"id": "core.econ420", "label": "ECON 420 Intermediate Macroeconomics", "kind": "course",
+         "course": "ECON 420", "source_text": "ECON 420 Intermediate Macroeconomics H 3"},
+        {
+          "id": "core.electives",
+          "label": "Four ECON courses at the 400, 500, or 600 level, at least one numbered 500 or higher",
+          "kind": "all",
+          "source_text": "Four ECON courses at the 400, 500, or 600 level, with at least one course numbered ECON 500 or higher. 1,3 | 12 || 1 Note that 200- and 300-level courses do not count toward the major. ECON 493 does not count for 400-level credit. ECON 698 will count for 400-level credit only if ECON 384 has been taken; ECON 698 alone will not count toward the major in economics. || 3 Students may not receive credit for both ECON 470 and ECON 570.",
+          "notes": [
+            "Encoded as one ECON course numbered 500-699 plus three more ECON courses numbered 400-699; a course can fill only one slot, so this is exactly four courses with at least one at 500+.",
+            "ECON 400, 410 and 420 fill the core slots above and cannot also count here (no double counting within the major).",
+            "Footnote 1: ECON 493 is excluded. ECON 698 counts only if ECON 384 has been taken; the planner does not evaluate that condition, so it conservatively excludes ECON 698.",
+            "Footnote 3: the planner never schedules both ECON 470 and ECON 570. (ECON 570 is not in the 2026-2027 course listings, so this matters only if it was taken earlier.)",
+            "Variable-credit research/independent study and honors courses count when completed but are not auto-selected."
+          ],
+          "children": [
+            {
+              "id": "core.electives.500",
+              "label": "One ECON course numbered 500 or higher",
+              "kind": "filter", "count": 1, "min_hours": 3,
+              "filter": {"subjects": ["ECON"], "number_at_least": 500, "number_below": 700, "exclude_codes": ["ECON 698"]},
+              "source_text": "with at least one course numbered ECON 500 or higher"
+            },
+            {
+              "id": "core.electives.400",
+              "label": "Three more ECON courses at the 400, 500, or 600 level",
+              "kind": "filter", "count": 3, "min_hours": 9,
+              "filter": {"subjects": ["ECON"], "number_at_least": 400, "number_below": 700, "exclude_codes": ["ECON 493", "ECON 698"]},
+              "source_text": "Four ECON courses at the 400, 500, or 600 level"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "label": "Additional Requirements",
+      "kind": "all",
+      "core": false,
+      "source_text": "Additional Requirements",
+      "children": [
+        {
+          "id": "additional.calculus",
+          "label": "One calculus course: MATH 152, MATH 231, or STOR 113",
+          "kind": "choose", "count": 1,
+          "source_text": "One calculus course chosen from: 2 | 3-4 | MATH 152 Calculus for Business and Social Sciences F | MATH 231 Calculus of Functions of One Variable I H, F | STOR 113 Decision Models for Business and Economics",
+          "notes": ["MATH 231 is recommended for students who plan to take the calculus sequence (and is required by the Mathematics major)."],
+          "children": [
+            {"id": "additional.calculus.152", "label": "MATH 152", "kind": "course", "course": "MATH 152",
+             "source_text": "MATH 152 Calculus for Business and Social Sciences F"},
+            {"id": "additional.calculus.231", "label": "MATH 231", "kind": "course", "course": "MATH 231",
+             "source_text": "MATH 231 Calculus of Functions of One Variable I H, F"},
+            {"id": "additional.calculus.113", "label": "STOR 113", "kind": "course", "course": "STOR 113",
+             "source_text": "STOR 113 Decision Models for Business and Economics"}
+          ]
+        }
+      ]
+    }
+  ]
+}

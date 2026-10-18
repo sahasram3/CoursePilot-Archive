@@ -29,7 +29,7 @@ def requisite_holds(ctx: "Context", node: Optional[Requisite], t: int, schedule:
     if node is None:
         return True
     if node.kind == "course":
-        for e in ctx.store.equivalents(node.code):
+        for e in sorted(ctx.store.equivalents(node.code)):
             record = ctx.done.get(e)
             if record is not None and e not in ctx.retakes and \
                     _grade_meets(record.grade, node.min_grade, allow_assumed or record.origin == "exam"):
@@ -53,11 +53,11 @@ def satisfiers(ctx: "Context", node: Optional[Requisite], t: int, schedule: dict
     if node is None:
         return []
     if node.kind == "course":
-        for e in ctx.store.equivalents(node.code):
+        for e in sorted(ctx.store.equivalents(node.code)):
             record = ctx.done.get(e)
             if record is not None and e not in ctx.retakes and _grade_meets(record.grade, node.min_grade, True):
                 return [e]
-        for e in ctx.store.equivalents(node.code):
+        for e in sorted(ctx.store.equivalents(node.code)):
             when = schedule.get(e)
             if when is not None and (when < t or (node.concurrent_ok and when == t)):
                 return [e]
@@ -80,7 +80,7 @@ def assumed_grade_sources(ctx: "Context", node: Optional[Requisite]) -> list[tup
         return []
     if node.kind == "course":
         out = []
-        for e in ctx.store.equivalents(node.code):
+        for e in sorted(ctx.store.equivalents(node.code)):
             record = ctx.done.get(e)
             if node.min_grade and record is not None and record.origin != "exam" and \
                     (record.grade is None or record.grade not in GRADE_POINTS):

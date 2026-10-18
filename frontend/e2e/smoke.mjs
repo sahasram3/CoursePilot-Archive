@@ -129,6 +129,22 @@ await step("an impossible graduation date is explained, then fixed in one click"
   assert.equal(p2.errors.length, 0);
 });
 
+// 2b ─ double major
+const p4 = await freshPage();
+await step("Math + Economics double major plans both programs", async () => {
+  await p4.selectOption("#major2", "economics-major-ba");
+  await p4.selectOption('select[aria-label="Exam"]', "Calculus BC");
+  await p4.click(".exam-row button.secondary");
+  await build(p4);
+  assert.match(await p4.textContent(".eyebrow"), /Mathematics Major, B\.A\. \+ Economics Major, B\.A\./);
+  const codes = await courseCodes(p4);
+  for (const c of ["ECON 101", "ECON 410", "MATH 521"]) assert.ok(codes.includes(c), `${c} missing`);
+  await shot(p4, "09-double-major", { fullPage: true });
+  await p4.click('button[role="tab"]:has-text("Requirements")');
+  assert.equal((await p4.$$(".program-name")).length, 2);
+  assert.equal(p4.errors.length, 0);
+});
+
 // 3 ─ API unavailable -> clear error with retry
 const p3 = await browser.newContext().then((c) => c.newPage());
 await step("service outage shows a retryable error state", async () => {

@@ -102,7 +102,7 @@ def _tokenize(body: str) -> list[Tok]:
         m = re.match(r"and/or\b", rest, re.I)
         if m:
             toks.append(Tok("OR")); i += m.end(); continue
-        m = re.match(r"(?:any\s+)?one\s+of(?:\s+the\s+following)?(?:\s+courses)?:?\s+|any\s+of\s+", rest, re.I)
+        m = re.match(r"(?:at\s+least\s+|any\s+)?one\s+of(?:\s+the\s+following)?(?:\s+courses)?:?\s+|any\s+of\s+", rest, re.I)
         if m:
             toks.append(Tok("EITHER")); i += m.end(); continue
         m = re.match(r"(and|or|either|both)\b", rest, re.I)
@@ -271,9 +271,18 @@ def _combine(kind: str, items: list[Requisite]) -> Requisite:
 
 
 def _parse_body(body: str, course_code: str, concurrent_ok: bool, notes: list[str]) -> Requisite:
-    parser = _Parser(_tokenize(body), course_code, concurrent_ok)
+    toks = _tokenize(body)
+    # "MATH 152, 231, STOR 112, or 113 with a grade of C- or better": a grade phrase
+    # that ENDS the clause covers every course listed in it. Mid-clause ("ECON 410
+    # with a grade of C or better, or COMP 550") it covers only the preceding course.
+    trailing = None
+    if len(toks) > 2 and toks[-1].kind == "POSTGRADE" and sum(t.kind == "COURSE" for t in toks) > 1:
+        trailing = toks.pop().value
+    parser = _Parser(toks, course_code, concurrent_ok)
     node = parser.parse()
     notes.extend(parser.notes)
+    if trailing:
+        node = _map_courses(node, lambda n: n.model_copy(update={"min_grade": n.min_grade or trailing}))
     return node
 
 
@@ -296,9 +305,28 @@ SUBSTITUTE_RE = re.compile(
     re.I)
 REQUIRES_GRADE_RE = re.compile(r"^requires?\s+(?P<body>(?:an?\s+)?(?:minimum\s+)?grade\s+of\s+.*)$", re.I)
 GRADE_FOR_ALL_RE = re.compile(
-    rf"^(?:an?\s+)?(?:minimum\s+)?grade\s+of\s+(?P<grade>{GRADE})(?:\s+or\s+(?:better|higher))?\s+(?:is\s+)?required"
-    rf"(?:\s+in\s+(?:all|each|both|the|these)(?:\s+(?:of\s+the\s+)?(?:prerequisite|prerequisites|courses?|prerequisite courses))?)?$",
+    rf"^(?:(?:both|all|each)\s+)?(?:with\s+)?(?:an?\s+)?(?:minimum\s+)?grade\s+(?:of\s+)?(?P<grade>{GRADE})(?:\s+or\s+(?:better|higher))?"
+    rf"(?:\s+(?:is\s+)?required)?(?:\s+in\s+(?:all|each|both|the|these)(?:\s+(?:of\s+the\s+)?(?:prerequisite|prerequisites|courses?|prerequisite courses))?)?$",
     re.I)
+# "a grade of C or better in ECON 400 and 410 is required" (possibly several, joined by
+# "and a grade of ..."): minimum grades for the listed courses only.
+GRADE_LIST_RE = re.compile(
+    rf"^(?:an?\s+)?(?:minimum\s+)?grade\s+of\s+(?P<grade>{GRADE})\s+or\s+(?:better|higher)\s+(?:is\s+required\s+)?in\s+"
+    rf"(?P<list>.+?)(?:\s+(?:is|are)\s+required)?$", re.I)
+
+
+def _listed_codes(text: str) -> Optional[list[str]]:
+    """Course codes in "ECON 400, 410 and 470" / "ECON 470 or ECON 450"; None if anything else appears."""
+    codes, subject = [], None
+    for piece in re.split(r"\s*(?:,|\band\b|\bor\b)\s*", text.strip()):
+        if not piece:
+            continue
+        m = re.fullmatch(r"(?:([A-Z]{2,4})\s+)?(\d{2,3}[A-Z]{0,2})", piece)
+        if not m or not (m.group(1) or subject):
+            return None
+        subject = m.group(1) or subject
+        codes.append(f"{subject} {m.group(2)}")
+    return codes or None
 LACKING_RE = re.compile(r"permission of the (?:instructor|department)[^.;]*lacking the (?:pre|co)?requisites?", re.I)
 
 
@@ -335,6 +363,17 @@ def parse_requisites(raw: Optional[str], course_code: str) -> ParsedRequisites:
             all_grade = GRADE_FOR_ALL_RE.match(clause)
             if all_grade:
                 modifiers.append(("grade_all", all_grade.group("grade").upper()))
+                continue
+            listed = {}
+            for part in re.split(r"\s+and\s+(?=an?\s+(?:minimum\s+)?grade\s+of)", clause, flags=re.I):
+                m = GRADE_LIST_RE.match(part.strip())
+                codes = _listed_codes(m.group("list")) if m else None
+                if not codes:
+                    listed = {}
+                    break
+                listed.update({code: m.group("grade").upper() for code in codes})
+            if listed:
+                modifiers.append(("grade_list", listed))
                 continue
             lead_and = re.match(r"^and\s+(.*)$", clause, re.I)
             if lead_and:
@@ -398,6 +437,14 @@ def parse_requisites(raw: Optional[str], course_code: str) -> ParsedRequisites:
                 prereq = _combine("all", ([prereq] if prereq else []) + extra)
             if tokens:
                 prereq = _combine("any", ([prereq] if prereq else []) + tokens)
+        elif kind == "grade_list":
+            present = _course_codes(prereq)
+            missing = set(payload) - present
+            if missing:
+                notes.append(f"grade requirement names {', '.join(sorted(missing))}, which is not among the listed prerequisites")
+                unknown += 1
+            if prereq is not None:
+                prereq = _map_courses(prereq, lambda n, g=payload: n.model_copy(update={"min_grade": g.get(n.code, n.min_grade)}))
         elif kind == "grade_all":
             if prereq is None:
                 notes.append("grade requirement with no listed prerequisite courses")
