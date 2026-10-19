@@ -26,6 +26,12 @@ fixes it has already verified.
 | **Honest about infeasibility** | "Graduate in 3 semesters" returns the binding reasons (hour capacity, the exact prerequisite chain) and **one-click fixes** that were re-solved and confirmed to work. |
 | **Editable** | Pin a course to a term or avoid it, and the solver re-plans around your choice. Two alternative plans, CSV export, print. |
 
+### Product Documentation
+
+**[Read the Product Requirements Document (PRD) →](PRD.md)**
+
+The PRD outlines the problem, target users, MVP scope, functional requirements, product decisions, success metrics, and development roadmap.
+
 ### 60-second demo
 
 1. Open the app. **Mathematics B.A.** is preselected.
